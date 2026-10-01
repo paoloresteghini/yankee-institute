@@ -30,3 +30,7 @@ Use `design/` for future review concepts. Serve only the intended public preview
 [Stage 1 research and creative brief](research.md) contains the live-site study, eight references, proposed navigation, ten headlines and three creative directions. [Shared content](content/content.json) contains 22 verified Yankee pieces. Stage 2 vanilla prototypes are built for local review. Open index.html through the public preview to compare the current Connecticut Edition (version-2) with Connecticut Together (version-1) and Connecticut Possibilities (version-3), two welcoming, mission-led alternatives using the same fonts. The earlier rejected concepts are retired. Review evidence is retained privately; client visual approval is pending. These review concepts precede the separately approved WordPress implementation.
 
 Contained comparisons: version-4 retains Version 1 inside a centered page shell; version-5 does the same for Version 3. Both reuse their source CSS/JS and preserve source content. The comparison overview links all five options.
+
+## Public concept review
+
+[View the homepage concepts](https://paoloresteghini.github.io/yankee-institute/). Published from the gh-pages branch using only index.html, assets, content and version-1 through version-5. Private project records and review notes are excluded. Publication is a design review demo, not a WordPress release. Future edits on main require a deliberate preview refresh.
