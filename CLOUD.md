@@ -1,6 +1,6 @@
 # Cloud development handoff
 
-Use repository paoloresteghini/yankee-institute. Version 2 (Connecticut Edition) is the active prototype. Version 1 (Connecticut Together) is the new welcoming alternative. Version 3 is retired. Continue Version 2 from its current implementation, preserving the mission, four core commitments, global Issues navigation, larger Latest supporting stories, compact sticky work stack and email-only signup.
+Use repository paoloresteghini/yankee-institute. Version 2 (Connecticut Edition) is the active prototype. Version 1 (Connecticut Together) is the new welcoming alternative. Version 3 (Connecticut Possibilities) is a third welcoming alternative with a centered photo collage, commitment mosaic and offset research feature. The earlier rejected Version 3 is retired. Continue Version 2 from its current implementation, preserving the mission, four core commitments, global Issues navigation, larger Latest supporting stories, compact sticky work stack and email-only signup.
 
 ## Runtime and checks
 

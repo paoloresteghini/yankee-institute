@@ -18,7 +18,7 @@ class Links(HTMLParser):
 
 root = Path(__file__).resolve().parent.parent
 source = json.loads((root / 'design/navigation-source.json').read_text())
-for version in ['version-1', 'version-2']:
+for version in ['version-1', 'version-2', 'version-3']:
     parser = Links()
     html = (root / version / 'index.html').read_text()
     parser.feed(html)
@@ -30,4 +30,4 @@ for version in ['version-1', 'version-2']:
     assert 'action="https://www.yankeeinstitute.org/" method="get"' in html
     assert 'name="s"' in html
     assert 'aria-controls="policy-mega">Issues <svg' in html
-print(f'Pass: both active concepts retain all {len(source)} destinations and full-site search.')
+print(f'Pass: all three active concepts retain all {len(source)} destinations and full-site search.')
