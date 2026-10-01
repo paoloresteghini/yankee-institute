@@ -127,3 +127,7 @@ Version 3 is a new third option, not the retired Connecticut Forward. It retains
 The photo band gathers through a staggered 950ms mask, transform and opacity entrance, using the existing ease. Reduced motion presents all photographs fully visible and static, with normal focus and direct links intact. No scroll hijacking, layout animation or additional dependency. Phone uses a centered family photograph with place/coast glimpses, single-column commitments and full-width form controls. Tablet uses alternating photographic and text panels.
 
 Version 3 hero refinement: warm cream-to-blue gradient with faint static contour lines adds texture to the approved composition. No external asset or animation added. Header, hero geometry, copy and photographs are retained.
+
+## Contained comparisons, October 1
+
+Versions 4 and 5 preserve Versions 1 and 3 as direct comparisons. Above 1280px, the page shell is centered at a maximum 1320px, with 40px minimum outside space, 48px internal gutters and calmer 48px column gaps. Neutral outer canvas frames the complete page. Header and footer align to the same shell, with square boundaries. At smaller widths the existing original responsive system applies. No new content, fonts, color roles, motion or JS behavior.
