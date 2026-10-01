@@ -26,9 +26,9 @@ Validate the page/template inventory, navigation, CTA priorities and retain/rebu
 
 ## Environments and release
 
-Current authorized work is local repository and documentation setup. No remote WordPress write target has been verified. Before remote changes, record the exact staging host, SSH destination, filesystem root and database identity, and verify the target. Never reuse another client's aliases or credentials.
+The user authorized access setup on October 1, 2026 at https://yankeev2.wpenginepowered.com/wp-login.php. Authenticated WordPress and WP Engine portal access are verified. WP Engine labels yankeev2 as Production, not Staging; do not assume the default wpenginepowered.com domain guarantees isolation. Exact SSH, filesystem, database and domain identities are recorded in private local memory/access.md. Retrieve and verify that record before any remote changes. Current work includes access setup and read-only environment verification. Before remote changes, record the exact staging host, SSH destination, filesystem root and database identity, and verify the target. Never reuse another client's aliases or credentials.
 
-Build and test on confirmed staging with recovery evidence. Isolate copied mail, payments, donations, CRM, scheduled jobs and analytics before exercising integrations. Keep a recoverable, integrity-checked backup before migrations or destructive changes. A successful export command alone is not a verified backup.
+Build and test on the confirmed redesign environment. Paolo confirmed on October 1 that the staging copy is a backup of production and explicitly waived an additional backup before beginning; do not create one or block bootstrap on it. Isolate copied mail, payments, donations, CRM, scheduled jobs and analytics before exercising integrations. For later migrations or destructive changes, assess recovery needs for that specific operation; the bootstrap backup waiver does not establish a tested restore. A successful export command alone is not a verified backup.
 
 Production changes and launch require explicit user authorization for that environment. Design approval and review-demo publication do not authorize production deployment. Record release steps, rollback and verification before launch. Do not configure deployment automation as part of project bootstrap.
 
