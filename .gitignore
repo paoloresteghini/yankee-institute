@@ -1,0 +1,40 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+sources/
+memory/
+TASKS.md
+skill-observations/
+tmp/
+
+# Local client context and sensitive exports
+/MEMORY.md
+*.sql
+*.sql.gz
+*.sql.zip
+*.pem
+*.key
+/id_rsa*
+/id_ed25519*
+/wp-config.php
+/backups/
+/exports/
+
+# Local dependencies and generated files
+node_modules/
+vendor/
+
+# Private audit exports and client working notes
+/audits/
+
+# Python helper bytecode
+__pycache__/
+*.pyc
+
+# WordPress runtime and private configuration
+/wp-admin/
+/wp-includes/
+/wp-content/uploads/
+/wp-content/cache/
+*.log
