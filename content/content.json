@@ -1,0 +1,416 @@
+{
+  "schema_version": 1,
+  "collected_at": "2026-10-01",
+  "source": "https://www.yankeeinstitute.org/",
+  "selection_note": "22 real 2026 pieces: 17 analyses, two research report landing pages, two testimonies and one policy toolkit. September stream plus selected current-year context, not the 22 newest posts site-wide. Dates and authors are page bylines; report landing-page author is distinct from underlying report authors. Source em dashes in two titles are normalized to colons; wording is unchanged. Topics and type labels are proposed editorial metadata. Declarations in summaries describe Yankee’s arguments, not independently verified policy outcomes.",
+  "homepage_selection": {
+    "lead": "yi-001",
+    "latest": [
+      "yi-002",
+      "yi-003",
+      "yi-004",
+      "yi-005"
+    ],
+    "major_research": [
+      "yi-018",
+      "yi-022"
+    ],
+    "toolkit": [
+      "yi-015"
+    ],
+    "current_issue_topics": [
+      "Taxes & state finances",
+      "Education & opportunity",
+      "Government & labor"
+    ]
+  },
+  "items": [
+    {
+      "title": "Connecticut’s Labor Market Is Sending Two Very Different Signals",
+      "author": "Meghan Portfolio",
+      "date": "2026-09-29",
+      "topic": "Economy & jobs",
+      "topics": [
+        "Economy & jobs"
+      ],
+      "source_categories": "Economy",
+      "type": "analysis",
+      "url": "https://www.yankeeinstitute.org/2026/09/29/connecticuts-labor-market-is-sending-two-very-different-signals/",
+      "dek": "Connecticut’s payroll job count and estimates of employed residents are moving in different directions. Portfolio explains the surveys’ differences and the warning signs obscured by the record payroll figure.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-001"
+    },
+    {
+      "title": "Connecticut Has a Shot at a Credit Upgrade: If Lawmakers Don’t Blow It",
+      "author": "Meghan Portfolio",
+      "date": "2026-09-25",
+      "topic": "Taxes & state finances",
+      "topics": [
+        "Taxes & state finances"
+      ],
+      "source_categories": "Hartford Portfolio",
+      "type": "analysis",
+      "url": "https://www.yankeeinstitute.org/2026/09/25/connecticut-has-a-shot-at-a-credit-upgrade-if-lawmakers-dont-blow-it/",
+      "dek": "Meghan Portfolio examines the conditions behind S&P’s positive outlook and argues that preserving budget limits and pension debt payments is essential to a possible credit upgrade.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-002"
+    },
+    {
+      "title": "Nation’s Largest Teachers Union Wants Connecticut Shut Out of Federal Scholarship Program",
+      "author": "Meghan Portfolio",
+      "date": "2026-09-23",
+      "topic": "Education & opportunity",
+      "topics": [
+        "Education & opportunity",
+        "Government & labor"
+      ],
+      "source_categories": "Government",
+      "type": "analysis",
+      "url": "https://www.yankeeinstitute.org/2026/09/23/nations-largest-teachers-union-wants-connecticut-shut-out-of-federal-scholarship-program/",
+      "dek": "Portfolio challenges the NEA’s campaign against Connecticut’s participation in a federal scholarship tax credit and argues that opting out would deny local students an opportunity without adding school funding.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-003"
+    },
+    {
+      "title": "In Connecticut, Betraying the Public Doesn’t Always Cost You Your Pension",
+      "author": "Meghan Portfolio",
+      "date": "2026-09-18",
+      "topic": "Taxes & state finances",
+      "topics": [
+        "Taxes & state finances",
+        "Government & labor"
+      ],
+      "source_categories": "Government, Hartford Portfolio",
+      "type": "analysis",
+      "url": "https://www.yankeeinstitute.org/2026/09/18/in-connecticut-betraying-the-public-doesnt-always-cost-you-your-pension/",
+      "dek": "Using corruption and abuse cases, Portfolio examines gaps in Connecticut’s pension forfeiture law and argues for broader, mandatory consequences for qualifying convictions.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-004"
+    },
+    {
+      "title": "The AFL-CIO Has Big Plans for a ‘Third-Term Ned’",
+      "author": "Meghan Portfolio",
+      "date": "2026-09-11",
+      "topic": "Government & labor",
+      "topics": [
+        "Government & labor",
+        "Taxes & state finances"
+      ],
+      "source_categories": "Hartford Portfolio",
+      "type": "analysis",
+      "url": "https://www.yankeeinstitute.org/2026/09/11/the-afl-cio-has-big-plans-for-a-third-term-ned/",
+      "dek": "Portfolio examines the labor federation’s priorities following its Lamont endorsement, including omnibus labor legislation, changes to fiscal guardrails and the next state employee agreement.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-005"
+    },
+    {
+      "title": "UConn Union Gets a Seat on Telework Appeals Panel",
+      "author": "Meghan Portfolio",
+      "date": "2026-09-09",
+      "topic": "Government & labor",
+      "topics": [
+        "Government & labor",
+        "Education & opportunity"
+      ],
+      "source_categories": "Labor",
+      "type": "analysis",
+      "url": "https://www.yankeeinstitute.org/2026/09/09/uconn-union-gets-a-seat-on-telework-appeals-panel/",
+      "dek": "The article explains UConn’s union-involved appeal process for telework decisions and argues that management should prioritize operational needs and access for students.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-006"
+    },
+    {
+      "title": "Court Victory Vindicates Union Members and Exposes Years of Government Neglect",
+      "author": "Frank Ricci",
+      "date": "2026-09-08",
+      "topic": "Government & labor",
+      "topics": [
+        "Government & labor"
+      ],
+      "source_categories": "Labor",
+      "type": "analysis",
+      "url": "https://www.yankeeinstitute.org/2026/09/08/court-victory-vindicates-union-members-and-exposes-years-of-government-neglect/",
+      "dek": "Frank Ricci describes a court victory involving union financial disclosures and argues that Connecticut must enforce transparency obligations already established in state law.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-007"
+    },
+    {
+      "title": "Labor Day Look: Connecticut Added Just 716 Full-Time State Workers Since 2019: Yet Monthly Payroll Jumped 34%",
+      "author": "Meghan Portfolio",
+      "date": "2026-09-07",
+      "topic": "Government & labor",
+      "topics": [
+        "Government & labor",
+        "Taxes & state finances"
+      ],
+      "source_categories": "Government, Labor",
+      "type": "analysis",
+      "url": "https://www.yankeeinstitute.org/2026/09/07/labor-day-look-connecticut-added-just-716-full-time-state-workers-since-2019-yet-monthly-payroll-jumped-34/",
+      "dek": "Portfolio compares state workforce size with payroll growth using Census data, distinguishing salary and overtime costs from the benefits excluded by the survey.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-008"
+    },
+    {
+      "title": "A Record Jobs Number Masks a Weaker Labor Market",
+      "author": "Meghan Portfolio",
+      "date": "2026-08-24",
+      "topic": "Economy & jobs",
+      "topics": [
+        "Economy & jobs"
+      ],
+      "source_categories": "Labor",
+      "type": "analysis",
+      "url": "https://www.yankeeinstitute.org/2026/08/24/a-record-jobs-number-hides-a-weaker-labor-market/",
+      "dek": "Portfolio contrasts a record payroll count with weaker household employment estimates and explains why the two surveys can tell different stories about Connecticut’s economy.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-009"
+    },
+    {
+      "title": "The Credits Keep Rolling: Connecticut Expands Hollywood Subsidy While Audit Problems Persist",
+      "author": "Meghan Portfolio",
+      "date": "2026-08-12",
+      "topic": "Taxes & state finances",
+      "topics": [
+        "Taxes & state finances"
+      ],
+      "source_categories": "Taxes & Regulations",
+      "type": "analysis",
+      "url": "https://www.yankeeinstitute.org/2026/08/12/the-credits-keep-rolling-connecticuts-hollywood-subsidy-survives-another-bad-audit/",
+      "dek": "Portfolio examines unresolved audit safeguards in Connecticut’s film tax credit program and questions the continued expansion of subsidies.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-010"
+    },
+    {
+      "title": "Lamont Touts Minimum Wage Hike Days Before Democratic Primary",
+      "author": "Meghan Portfolio",
+      "date": "2026-08-05",
+      "topic": "Economy & jobs",
+      "topics": [
+        "Economy & jobs",
+        "Government & labor"
+      ],
+      "source_categories": "Labor",
+      "type": "analysis",
+      "url": "https://www.yankeeinstitute.org/2026/08/05/lamont-touts-minimum-wage-hike-days-before-democratic-primary/",
+      "dek": "The article explains the automatic minimum wage adjustment and examines the timing of the administration’s announcement ahead of the Democratic primary.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-011"
+    },
+    {
+      "title": "Beyond the Classroom: What Connecticut’s Teachers Union Focused on in Denver",
+      "author": "Meghan Portfolio",
+      "date": "2026-07-21",
+      "topic": "Education & opportunity",
+      "topics": [
+        "Education & opportunity",
+        "Government & labor"
+      ],
+      "source_categories": "Education, Labor",
+      "type": "analysis",
+      "url": "https://www.yankeeinstitute.org/2026/07/21/beyond-the-classroom-what-connecticuts-teachers-union-focused-on-in-denver/",
+      "dek": "Portfolio examines Connecticut delegates’ participation in the NEA convention and how the national union’s agenda could influence advocacy back in Hartford.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-012"
+    },
+    {
+      "title": "The Endorsement Is Done. The Next SEBAC Fight Has Already Started",
+      "author": "Meghan Portfolio",
+      "date": "2026-07-20",
+      "topic": "Government & labor",
+      "topics": [
+        "Government & labor",
+        "Taxes & state finances"
+      ],
+      "source_categories": "Labor",
+      "type": "analysis",
+      "url": "https://www.yankeeinstitute.org/2026/07/20/the-endorsement-is-done-the-next-sebac-fight-has-already-started/",
+      "dek": "Portfolio examines union organizing ahead of the next SEBAC negotiations, with attention to pension tiers, healthcare, telework and potential taxpayer costs.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-013"
+    },
+    {
+      "title": "From Closed Doors to Door to Door: How Connecticut Labor Turns Endorsements into Political Power",
+      "author": "Meghan Portfolio",
+      "date": "2026-07-16",
+      "topic": "Government & labor",
+      "topics": [
+        "Government & labor"
+      ],
+      "source_categories": "Labor",
+      "type": "analysis",
+      "url": "https://www.yankeeinstitute.org/2026/07/16/38842/",
+      "dek": "The article follows how Connecticut labor endorsements become canvassing operations and asks what commitments candidates make before taking office.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-014"
+    },
+    {
+      "title": "Yankee Institute’s 2026 Public Policy Toolkit",
+      "author": "Yankee Staff",
+      "date": "2026-06-29",
+      "topic": "Taxes & state finances",
+      "topics": [
+        "Taxes & state finances",
+        "Local communities",
+        "Energy & affordability",
+        "Education & opportunity",
+        "Government & labor"
+      ],
+      "source_categories": "Yankee Institute",
+      "type": "policy-toolkit",
+      "url": "https://www.yankeeinstitute.org/2026/06/29/yankee-institutes-2026-public-policy-toolkit/",
+      "dek": "The toolkit organizes Yankee’s agenda around fiscal stability, home rule, reliable energy, educational opportunity and sustainable public-sector labor agreements.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-015"
+    },
+    {
+      "title": "Government Payrolls Kept Connecticut’s May Job Numbers Positive",
+      "author": "Meghan Portfolio",
+      "date": "2026-06-25",
+      "topic": "Economy & jobs",
+      "topics": [
+        "Economy & jobs"
+      ],
+      "source_categories": "Economy, Government",
+      "type": "analysis",
+      "url": "https://www.yankeeinstitute.org/2026/06/25/government-payrolls-kept-connecticuts-may-job-numbers-positive/",
+      "dek": "The article separates public-sector job gains from private-sector weakness in Connecticut’s May employment report and examines unemployment, earnings and the shrinking labor force.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-016"
+    },
+    {
+      "title": "Connecticut Students Would Lose Scholarships. Public Schools Would Gain Nothing",
+      "author": "Meghan Portfolio",
+      "date": "2026-06-24",
+      "topic": "Education & opportunity",
+      "topics": [
+        "Education & opportunity"
+      ],
+      "source_categories": "Education",
+      "type": "analysis",
+      "url": "https://www.yankeeinstitute.org/2026/06/24/connecticut-students-would-lose-scholarships-public-schools-would-gain-nothing/",
+      "dek": "Portfolio argues for Connecticut’s participation in the federal education scholarship tax credit, paired with transparency requirements and financial safeguards.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-017"
+    },
+    {
+      "title": "Connecticut Endowment Proposal Raises Pension Costs and Undermines Fiscal Guardrails",
+      "author": "Yankee Staff",
+      "date": "2026-05-08",
+      "topic": "Taxes & state finances",
+      "topics": [
+        "Taxes & state finances"
+      ],
+      "source_categories": "Policy Reports",
+      "type": "research-report",
+      "url": "https://www.yankeeinstitute.org/2026/05/08/connecticut-endowment-proposal-raises-pension-costs-and-undermines-fiscal-guardrails/",
+      "dek": "Yankee and Reason Foundation examine how diverting surplus revenue to an early childhood endowment could slow pension debt reduction and weaken Connecticut’s fiscal guardrails.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-018"
+    },
+    {
+      "title": "New Rankings Reinforce Connecticut’s Decades-Long Affordability Problem",
+      "author": "Andrew Fowler",
+      "date": "2026-04-22",
+      "topic": "Economy & jobs",
+      "topics": [
+        "Economy & jobs"
+      ],
+      "source_categories": "Economy, Government",
+      "type": "analysis",
+      "url": "https://www.yankeeinstitute.org/2026/04/22/new-rankings-reinforce-connecticuts-decades-long-affordability-problem/",
+      "dek": "Andrew Fowler examines national competitiveness rankings alongside Connecticut’s longer-term economic record and argues that new policy costs could deepen its affordability problems.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-019"
+    },
+    {
+      "title": "Testimony in Opposition to SB 101",
+      "author": "Jack DeOliveira",
+      "date": "2026-03-10",
+      "topic": "Taxes & state finances",
+      "topics": [
+        "Taxes & state finances",
+        "Local communities"
+      ],
+      "source_categories": "Public Testimony",
+      "type": "testimony",
+      "url": "https://www.yankeeinstitute.org/2026/03/10/testimony-in-opposition-to-sb-101/",
+      "dek": "Jack DeOliveira opposes a proposed statewide tax on high-value homes, citing affordability, fiscal discipline and the precedent for overriding local property tax authority.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-020"
+    },
+    {
+      "title": "Testimony in Opposition to SB 151",
+      "author": "Jack DeOliveira",
+      "date": "2026-02-17",
+      "topic": "Local communities",
+      "topics": [
+        "Local communities"
+      ],
+      "source_categories": "Public Testimony",
+      "type": "testimony",
+      "url": "https://www.yankeeinstitute.org/2026/02/17/testimony-in-opposition-to-sb-151/",
+      "dek": "Jack DeOliveira raises local governance, funding and implementation concerns about proposed statewide zoning restrictions and recommends that the bill not advance in its current form.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-021"
+    },
+    {
+      "title": "Alternatives to New England’s Energy Affordability Crisis",
+      "author": "Yankee Staff",
+      "date": "2026-01-13",
+      "topic": "Energy & affordability",
+      "topics": [
+        "Energy & affordability"
+      ],
+      "source_categories": "Energy, Policy Reports",
+      "type": "research-report",
+      "url": "https://www.yankeeinstitute.org/2026/01/13/alternatives-to-new-englands-energy-affordability-crisis/",
+      "dek": "A coalition study compares nuclear, natural gas and combined generation pathways with renewable mandates, arguing for more affordable and dependable regional energy policy.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-022"
+    }
+  ]
+}
