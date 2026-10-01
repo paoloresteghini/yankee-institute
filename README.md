@@ -24,3 +24,7 @@ Keep custom themes, plugins and reviewed helper scripts in Git when introduced. 
 Following the Policy Circle setup, `MEMORY.md`, `TASKS.md`, `memory/`, `sources/`, `audits/`, `backups/` and `skill-observations/` are ignored. They will not exist in a fresh clone. Recover them from the original workspace or authorized source records; never infer historical completion. The September 30 proposal, agreement and audit evidence are retained locally with a checksum manifest.
 
 Use `design/` for future review concepts. Serve only the intended public preview directory, never the repository root. A review demo, staging build and production release are distinct deliverables.
+
+## Homepage concept research
+
+[Stage 1 research and creative brief](research.md) contains the live-site study, eight references, proposed navigation, ten headlines and three creative directions. [Shared content](content/content.json) contains 22 verified Yankee pieces. Stage 2 vanilla prototypes are built for local review. Open index.html through the public preview to compare Open Connecticut, Connecticut Edition and Connecticut Forward. Concepts 1 and 3 were recalibrated against the reviewer’s Empower Mississippi reference. See each version’s self-review.md; visual approval is pending. These review concepts precede the separately approved WordPress implementation.
