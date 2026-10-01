@@ -10,7 +10,11 @@
 .possibility-link{display:inline-flex;align-items:center;justify-content:space-between;gap:24px;min-height:44px;border-bottom:1px solid currentColor;font-size:15px;font-weight:650}
 .possibility-button>span,.possibility-link>span{font-size:24px;transition:transform 240ms var(--ease)}.possibility-link:hover>span{transform:translate(3px,-3px)}
 /* A broad, sunny opening with three different photographic rhythms. */
-.possibility-opening{padding:48px var(--pad) 64px;overflow:hidden}
+.possibility-opening{padding:48px var(--pad) 64px;overflow:hidden;
+  background-color:#f8faf7;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 960' fill='none' stroke='%23305d55' stroke-opacity='.10'%3E%3Cpath d='M-180 630C140 270 250 950 760 690S1120 110 1610 350M-180 666C140 306 250 986 760 726S1120 146 1610 386M-180 702C140 342 250 1022 760 762S1120 182 1610 422M-180 738C140 378 250 1058 760 798S1120 218 1610 458'/%3E%3C/svg%3E"),radial-gradient(ellipse at 8% 4%,#f2e2c9 0,transparent 54%),radial-gradient(ellipse at 96% 82%,#d6e8ec 0,transparent 64%),linear-gradient(145deg,#fbfaf5,#edf4f1);
+  background-size:cover;background-repeat:no-repeat;
+}
 .possibility-opening-copy{text-align:center;max-width:920px;margin:auto}.possibility-opening-copy h1{font-size:clamp(48px,5.3vw,76px);line-height:1.05;max-width:24ch;margin:auto}.possibility-opening-copy h1 span{color:var(--possibility-green)}
 .possibility-opening-copy>p:not(.possibility-label){font-size:18px;line-height:1.65;max-width:53ch;margin:24px auto}.possibility-opening-copy .possibility-button{margin-top:0}
 .possibility-photo-band{display:grid;grid-template-columns:.85fr 1.4fr 1fr;gap:24px;margin-top:48px;align-items:start}.possibility-photo-band figure{position:relative;border-radius:16px;overflow:hidden;background:var(--ink)}.possibility-photo-band img{width:100%;height:100%;object-fit:cover;display:block}
