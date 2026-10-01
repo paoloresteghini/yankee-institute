@@ -37,3 +37,12 @@ for asset in page.assets:
     assert not asset.startswith('http'), asset
     assert (root / 'version-1' / asset).exists(), asset
 print('Pass: 22 real pieces, article destinations, page anchors, image metadata and local assets.')
+
+assert len([key for key in page.ids if key.startswith('commitment-panel-')]) == 4
+assert len([key for key in page.ids if key.startswith('commitment-') and not key.startswith('commitment-panel-')]) == 4
+html = (root / 'version-1/index.html').read_text()
+assert html.count('aria-expanded="true"') == 1
+assert 'name="EMAIL"' in html and 'type="email"' in html
+assert 'FNAME' not in html and 'LNAME' not in html and 'name="ZIP"' not in html
+assert '../version-2/styles.css' in html
+print('Pass: four linked commitment controls, one active panel and email-only signup.')

@@ -17,16 +17,17 @@ class Links(HTMLParser):
             self.in_header = False
 
 root = Path(__file__).resolve().parent.parent
-parser = Links()
-parser.feed((root / 'version-2/index.html').read_text())
 source = json.loads((root / 'design/navigation-source.json').read_text())
-missing = [item['label'] for item in source if item['url'] not in parser.urls]
-assert not missing, f'Missing original navigation destinations: {missing}'
-assert not [url for url in parser.urls if url and url.startswith('#')], 'Header must not contain homepage jump links'
-assert 'https://www.yankeeinstitute.org/news/' in parser.urls
-assert 'https://www.yankeeinstitute.org/about/' in parser.urls
-html = (root / 'version-2/index.html').read_text()
-assert 'action="https://www.yankeeinstitute.org/" method="get"' in html
-assert 'name="s"' in html
-assert 'aria-controls="policy-mega">Issues <svg' in html
-print(f'Pass: all {len(source)} original destinations retained, no local header jumps, full-site search form.')
+for version in ['version-1', 'version-2']:
+    parser = Links()
+    html = (root / version / 'index.html').read_text()
+    parser.feed(html)
+    missing = [item['label'] for item in source if item['url'] not in parser.urls]
+    assert not missing, f'{version}: missing original destinations: {missing}'
+    assert not [url for url in parser.urls if url and url.startswith('#')], 'Header must not contain homepage jumps'
+    assert 'https://www.yankeeinstitute.org/news/' in parser.urls
+    assert 'https://www.yankeeinstitute.org/about/' in parser.urls
+    assert 'action="https://www.yankeeinstitute.org/" method="get"' in html
+    assert 'name="s"' in html
+    assert 'aria-controls="policy-mega">Issues <svg' in html
+print(f'Pass: both active concepts retain all {len(source)} destinations and full-site search.')

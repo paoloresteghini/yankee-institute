@@ -113,3 +113,9 @@ Shared CSS roles: body 16px, metadata 14px, form/control values 16px; section he
 Palette roles: navy #102d43, cool paper #f3f5f5, muted #4b626f, gold #e6c682, work surface #e6eef1 and white cards. Form boundary uses muted, rather than the light decorative separator. Focus color #b47b14 retains verified solid-background contrast. Shared field/photo/pill radius roles are 8px, 14-16px and 30px. Main page sections, header and hero retain straight edges. Prototype has no dark-mode switch.
 
 Shared reading/interaction block at the end of Version 2 CSS is authoritative for these roles. Retired editorial spread CSS remains pending a separate cleanup; avoid claiming the entire file is consolidated.
+
+## Connecticut Together alternative, October 1
+
+Paolo delegated a second welcoming homepage and retired the earlier rejected concepts. Version 2 remains the first option. Version 1 now uses the same Manrope/Source Serif 4 pairing with a people-and-place opening, mission statement, single interactive commitment feature, photographic research landscape, three updates, policy toolkit and direct newsletter form. Existing global navigation and footer are retained. Green accent #305d55 has 6.33:1 contrast on the pale blue background and 7.44:1 on white. No new font or library.
+
+The new opening is intentionally institutional rather than journalistic. Latest is lower in the page, reflecting the revised mission-first brief. The hero photographs join through a bounded mask/transform entrance; contextual research photography has native CSS view-timeline drift where supported. Reduced motion restores static complete images and keeps commitment selection visible. Header and page sections remain square; imagery and buttons retain restrained rounding.
