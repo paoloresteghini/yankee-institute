@@ -37,4 +37,3 @@ for asset in page.assets:
     assert not asset.startswith('http'), asset
     assert (root / 'version-3' / asset).exists(), asset
 print('Pass: 22 real pieces, article destinations, page anchors, image metadata and local assets.')
-
