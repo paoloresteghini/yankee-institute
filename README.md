@@ -29,6 +29,8 @@ Use `design/` for future review concepts. Serve only the intended public preview
 
 Connecticut Edition (version-2) is the selected design style. The homepage and About prototype share Source Serif 4, Manrope, photography, navy and restrained gold. The root preview opens the selected homepage; About links to version-2/about/index.html. A continuous illustrated-story About alternative is available at version-2/about-alternative/index.html for comparison, preserving the original. Other homepage variants have been retired at Paolo’s request. Their tracked source remains recoverable from Git history.
 
+Two Research discovery options are available at version-2/research/index.html (publication library) and version-2/research-alternative/index.html (topic guide). They use the same seven selected publications in content/research.json, with native search/topic controls and original publication destinations. Run node version-2/check-research.js to check source parity and filtering.
+
 Research and content/content.json preserve the original public-source research. Private screenshots and review notes remain excluded. These vanilla prototypes precede Elementor implementation and are not a WordPress deployment.
 
 ## Public review demo

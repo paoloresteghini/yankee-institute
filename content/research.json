@@ -1,0 +1,129 @@
+{
+  "scope": "Seven selected publications. Publication-page bylines, not underlying study authors.",
+  "items": [
+    {
+      "title": "Yankee Institute’s 2026 Public Policy Toolkit",
+      "author": "Yankee Staff",
+      "date": "2026-06-29",
+      "topic": "Taxes & state finances",
+      "topics": [
+        "Taxes & spending",
+        "Energy",
+        "Education",
+        "Labor"
+      ],
+      "source_categories": "Yankee Institute",
+      "type": "policy-toolkit",
+      "url": "https://www.yankeeinstitute.org/2026/06/29/yankee-institutes-2026-public-policy-toolkit/",
+      "dek": "The toolkit organizes Yankee’s agenda around fiscal stability, home rule, reliable energy, educational opportunity and sustainable public-sector labor agreements.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-015",
+      "image": "new-london"
+    },
+    {
+      "title": "Connecticut Endowment Proposal Raises Pension Costs and Undermines Fiscal Guardrails",
+      "author": "Yankee Staff",
+      "date": "2026-05-08",
+      "topic": "Taxes & state finances",
+      "topics": [
+        "Taxes & spending",
+        "Pensions"
+      ],
+      "source_categories": "Policy Reports",
+      "type": "research-report",
+      "url": "https://www.yankeeinstitute.org/2026/05/08/connecticut-endowment-proposal-raises-pension-costs-and-undermines-fiscal-guardrails/",
+      "dek": "Yankee and Reason Foundation examine how diverting surplus revenue to an early childhood endowment could slow pension debt reduction and weaken Connecticut’s fiscal guardrails.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-018",
+      "image": "hartford"
+    },
+    {
+      "title": "Alternatives to New England’s Energy Affordability Crisis",
+      "author": "Yankee Staff",
+      "date": "2026-01-13",
+      "topic": "Energy & affordability",
+      "topics": [
+        "Energy"
+      ],
+      "source_categories": "Energy, Policy Reports",
+      "type": "research-report",
+      "url": "https://www.yankeeinstitute.org/2026/01/13/alternatives-to-new-englands-energy-affordability-crisis/",
+      "dek": "A coalition study compares nuclear, natural gas and combined generation pathways with renewable mandates, arguing for more affordable and dependable regional energy policy.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-022",
+      "image": "new-london"
+    },
+    {
+      "id": "research-0",
+      "title": "Overtime Spiking in the State Police",
+      "author": "Yankee Staff",
+      "date": "2025-09-30",
+      "url": "https://www.yankeeinstitute.org/2025/09/30/overtime-spiking-in-the-state-police/",
+      "dek": "A study of overtime practices within the Connecticut State Police and their effect on pension obligations.",
+      "type": "research-report",
+      "placeholder": false,
+      "verified_at": "2026-10-02",
+      "verification": "Individual publication page and policy reports archive.",
+      "topics": [
+        "Labor",
+        "Pensions"
+      ],
+      "image": "norwalk"
+    },
+    {
+      "id": "research-1",
+      "title": "The Green Monster: A Review of Connecticut’s Climate Protection Act of 2025",
+      "author": "Yankee Staff",
+      "date": "2025-05-01",
+      "url": "https://www.yankeeinstitute.org/2025/05/01/the-green-monster-a-review-of-connecticuts-climate-protection-act-of-2025/",
+      "dek": "An examination of proposed climate legislation, its economic implications and risks to energy reliability.",
+      "type": "research-report",
+      "placeholder": false,
+      "verified_at": "2026-10-02",
+      "verification": "Individual publication page and policy reports archive.",
+      "topics": [
+        "Energy"
+      ],
+      "image": "new-london"
+    },
+    {
+      "id": "research-2",
+      "title": "Overtime Spiking in Connecticut",
+      "author": "Yankee Staff",
+      "date": "2025-03-04",
+      "url": "https://www.yankeeinstitute.org/2025/03/04/overtime-spiking-in-connecticut/",
+      "dek": "Research into how overtime contributes to state employee compensation and future pension costs.",
+      "type": "research-report",
+      "placeholder": false,
+      "verified_at": "2026-10-02",
+      "verification": "Individual publication page and policy reports archive.",
+      "topics": [
+        "Labor",
+        "Pensions"
+      ],
+      "image": "norwalk"
+    },
+    {
+      "id": "research-3",
+      "title": "Tax-Credit Scholarships Across the US: A Roadmap for Connecticut to Follow",
+      "author": "Yankee Staff",
+      "date": "2025-01-23",
+      "url": "https://www.yankeeinstitute.org/2025/01/23/tax-credit-scholarships-across-the-us-a-roadmap-for-connecticut-to-follow/",
+      "dek": "A review of tax-credit scholarship programs and what their experience could mean for Connecticut families.",
+      "type": "research-report",
+      "placeholder": false,
+      "verified_at": "2026-10-02",
+      "verification": "Individual publication page and policy reports archive.",
+      "topics": [
+        "Education"
+      ],
+      "image": "new-haven"
+    }
+  ]
+}
