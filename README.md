@@ -25,12 +25,12 @@ Following the Policy Circle setup, `MEMORY.md`, `TASKS.md`, `memory/`, `sources/
 
 Use `design/` for future review concepts. Serve only the intended public preview directory, never the repository root. A review demo, staging build and production release are distinct deliverables.
 
-## Homepage concept research
+## Approved design and prototypes
 
-[Stage 1 research and creative brief](research.md) contains the live-site study, eight references, proposed navigation, ten headlines and three creative directions. [Shared content](content/content.json) contains 22 verified Yankee pieces. Stage 2 vanilla prototypes are built for local review. Open index.html through the public preview to compare the current Connecticut Edition (version-2) with Connecticut Together (version-1) and Connecticut Possibilities (version-3), two welcoming, mission-led alternatives using the same fonts. The earlier rejected concepts are retired. Review evidence is retained privately; client visual approval is pending. These review concepts precede the separately approved WordPress implementation.
+Connecticut Edition (version-2) is the selected design style. The homepage and About prototype share Source Serif 4, Manrope, photography, navy and restrained gold. The root preview opens the selected homepage; About links to version-2/about/index.html. Other homepage variants have been retired at Paolo’s request. Their tracked source remains recoverable from Git history.
 
-Contained comparisons: version-4 constrains Version 1’s post-banner content to a centered column; version-5 does the same for Version 3. Banners and backgrounds remain full width. Both reuse their source CSS/JS and preserve source content. The comparison overview links all five options.
+Research and content/content.json preserve the original public-source research. Private screenshots and review notes remain excluded. These vanilla prototypes precede Elementor implementation and are not a WordPress deployment.
 
-## Public concept review
+## Public review demo
 
-[View the homepage concepts](https://paoloresteghini.github.io/yankee-institute/). Published from the gh-pages branch using only index.html, assets, content and version-1 through version-5. Private project records and review notes are excluded. Publication is a design review demo, not a WordPress release. Future edits on main require a deliberate preview refresh.
+The existing GitHub Pages demo remains at https://paoloresteghini.github.io/yankee-institute/. Local changes require a deliberate publication refresh; files deleted locally may still exist in the previously published demo. Publish only the intended public files, never private records or backups.

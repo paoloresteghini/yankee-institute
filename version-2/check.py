@@ -35,5 +35,5 @@ for target in page.links:
         assert target in urls, target
 for asset in page.assets:
     assert not asset.startswith('http'), asset
-    assert (root / 'version-2' / asset).exists(), asset
+    assert (root / 'version-2' / asset.split('?', 1)[0]).exists(), asset
 print('Pass: 22 real pieces, article destinations, page anchors, image metadata and local assets.')

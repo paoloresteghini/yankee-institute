@@ -1,0 +1,34 @@
+{
+  "verified": "2026-10-02",
+  "origin": "https://www.yankeeinstitute.org/yankee-institute-staff/",
+  "images": [
+    {
+      "file": "carol.avif",
+      "source": "https://www.yankeeinstitute.org/wp-content/uploads/2020/11/Carol-Platt-Liebau-Yankee-Institute-President-HQ.avif"
+    },
+    {
+      "file": "matthew.jpg",
+      "source": "https://www.yankeeinstitute.org/wp-content/uploads/2026/09/Matthew-Fox-Yankee-Institute-Director-of-Operations-HQ.jpg"
+    },
+    {
+      "file": "tim.webp",
+      "source": "https://www.yankeeinstitute.org/wp-content/uploads/2023/08/Tim-Anop--989x1024.webp"
+    },
+    {
+      "file": "meghan.avif",
+      "source": "https://www.yankeeinstitute.org/wp-content/uploads/2026/09/Meghan-Portfolio-Yankee-Institute-Development-Manager-HQ-300x300.avif"
+    },
+    {
+      "file": "frank.avif",
+      "source": "https://www.yankeeinstitute.org/wp-content/uploads/2026/09/Frank-Ricci-Yankee-Institute-Senior-Strategist-HQ-300x300.avif"
+    },
+    {
+      "file": "terrie.avif",
+      "source": "https://www.yankeeinstitute.org/wp-content/uploads/2026/09/Terrie-Wood-282x300.avif"
+    },
+    {
+      "file": "gail.avif",
+      "source": "https://www.yankeeinstitute.org/wp-content/uploads/2026/09/Gail-Lavielle-Yankee-Institute-Fellow-HQ-300x300.avif"
+    }
+  ]
+}

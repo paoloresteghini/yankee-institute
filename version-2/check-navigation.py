@@ -18,11 +18,18 @@ class Links(HTMLParser):
 
 root = Path(__file__).resolve().parent.parent
 source = json.loads((root / 'design/navigation-source.json').read_text())
-for version in ['version-1', 'version-2', 'version-3', 'version-4', 'version-5']:
+for version in ['version-2']:
     parser = Links()
     html = (root / version / 'index.html').read_text()
     parser.feed(html)
-    missing = [item['label'] for item in source if item['url'] not in parser.urls]
+    if "about/index.html" in parser.urls:
+        parser.urls.remove("about/index.html")
+        parser.urls.add("https://www.yankeeinstitute.org/about/")
+    retired_promotions = {'https://www.yankeeinstitute.org/events/', 'https://www.yankeeinstitute.org/y-ct-matters/'} if version == 'version-2' else set()
+    missing = [item['label'] for item in source if item['url'] not in parser.urls and item['url'] not in retired_promotions]
+    if version == 'version-2':
+        assert not parser.urls.intersection(retired_promotions), 'Retired promotions must leave the header'
+        assert 'https://www.yankeeinstitute.org/take-action/' in parser.urls
     assert not missing, f'{version}: missing original destinations: {missing}'
     assert not [url for url in parser.urls if url and url.startswith('#')], 'Header must not contain homepage jumps'
     assert 'https://www.yankeeinstitute.org/news/' in parser.urls
@@ -30,10 +37,4 @@ for version in ['version-1', 'version-2', 'version-3', 'version-4', 'version-5']
     assert 'action="https://www.yankeeinstitute.org/" method="get"' in html
     assert 'name="s"' in html
     assert 'aria-controls="policy-mega">Issues <svg' in html
-for contained, original in [('version-4', 'version-1'), ('version-5', 'version-3')]:
-    variant = (root / contained / 'index.html').read_text()
-    source_page = (root / original / 'index.html').read_text()
-    assert variant.split('<main', 1)[1].split('</main>', 1)[0] == source_page.split('<main', 1)[1].split('</main>', 1)[0], f'{contained}: source content changed'
-    assert f'src="../{original}/script.js"' in variant
-    assert f'href="../{original}/styles.css"' in variant
-print(f'Pass: all five active concepts retain all {len(source)} destinations and full-site search.')
+print('Pass: Edition global navigation retained, local About mapped, only approved promotions retired.')

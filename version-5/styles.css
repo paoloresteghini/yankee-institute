@@ -1,2 +1,0 @@
-/* Constrain content after the banner, keeping all backgrounds full width. */
-.possibility-wrap,.footer{padding-inline:max(var(--pad),calc((100% - 1200px)/2))}
