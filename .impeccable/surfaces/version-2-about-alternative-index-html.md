@@ -5,20 +5,20 @@ primary_target: "version-2/about-alternative/index.html"
 related_targets: ["version-2/about-alternative/styles.css"]
 ---
 
-# About alternative
+# About story revision
 
-Mode: Persuade. Paolo requests one additional creative version, preserving the approved Edition world and current About for comparison. This is a code-led alternative, with direct authorization to choose and build the composition.
+Mode: Persuade and Read. User rejects the prior alternate as too similar to the homepage, too sectional. Preserve Edition identity and factual material; replace composition directly within authorized scope.
 
 ## Direction contract
 
-THESIS: The place comes first, then the people who work for its future. Replace the inset split opening and repeated portrait grid with a cinematic Connecticut panorama and an intimate people directory.
+THESIS: Read Yankee's purpose as a continuous illustrated story, rather than another homepage. No full-bleed photographic hero, colored chapter bands or section index strip.
 
-OWN-WORLD: Approved Source Serif 4 and Manrope, navy, gold, white and pale blue. Full-width background bands; rounded photography and controls only.
+OWN-WORLD: Edition serif display and Manrope reading, navy ink on continuous white, rounded real photographs. Gold remains a control accent in the inherited navigation.
 
-STORY: Understand the mission, discover its practical purpose, meet all seven staff and eight board members, then contact or support. Preserve all verified copy and destinations.
+STORY: Connecticut is the starting point. The opening promise flows into mission and independence, practical aims, the real team, board stewardship and contact. No invented history or quotes.
 
-FIRST VIEWPORT: Full-width Norwalk photograph beneath the inherited header. White mission headline sits low on the left; readable purpose paragraph and gold Meet our team action sit on the right. A straight white section index grounds the banner.
+FIRST VIEWPORT: Quiet breadcrumb, a large left-aligned mission headline with a short introduction at its lower right, then offset Norwalk and coastal photographs at different heights. The title and images form one composition on white rather than separate banner and body.
 
-FORM: A landscape opening; asymmetrical mission reading; pale-blue purpose chapter; president on the left beside six horizontal portrait/disclosure rows; open board directory; coastal contact. Signature panorama aperture entrance, 900ms exponential ease-out with static reduced motion. Directly chosen alternate inside the accepted world; no seed or concept tournament needed.
+FORM: An illustrated long-form reading spine, margin independence note, offset Hartford photo alongside practical aims, an open people directory and quiet stewardship/contact ending. Existing verified content retained. One 900ms photograph aperture with static reduced-motion fallback. User-directed code-led replacement, no additional decision round.
 
-FINISH: Independent review SHIP for local comparison at 375/768/1440. Existing sourced assets retain provenance. Documentation comparison records the alternate without replacing the approved Edition system. Page selection and deployment remain pending.
+FINISH: Fresh independent review SHIP for local design review at 375/768/1440. DESIGN.md records the continuous story revision; existing source photography retains provenance. Client selection and publication remain pending.

@@ -148,6 +148,8 @@ The tall opening photograph reveals through a CSS aperture (900ms, cubic-bezier(
 
 ## About alternative composition, October 2
 
+Historical composition, superseded by the continuous illustrated story below after Paolo rejected its similarity to the homepage and repeated section treatment.
+
 The additional About at `version-2/about-alternative/` is a comparison inside the selected Edition style. The original About remains available. It inherits Edition typography, colors, global navigation, search and footer, then overrides the original About layout. This records a page composition, not a new brand system or approval to replace the original.
 
 A full-width Norwalk photograph opens the page with a navy gradient behind white copy. On desktop the mission headline sits low on the left, while the introduction and gold team action occupy the right. The banner retains straight edges; the white section index follows it. The mission uses an asymmetrical two-column reading layout with a larger serif lead. The practical-purpose chapter uses the existing pale-blue work surface and Hartford photography. Inner content keeps the inherited fluid gutters and 1440px cap.
@@ -157,3 +159,15 @@ The president occupies the left column beside six horizontal portrait and biogra
 Below 600px the opening copy, mission, president, board and contact stack with 22px gutters. Staff rows retain compact portraits beside copy; purpose copy precedes its photograph. The hero heading is 48px on phones and scales to 76px on desktop; the mission lead scales from 28px to 38px. Existing Source Serif 4 and Manrope roles remain authoritative. The panorama reveals through a 900ms aperture and slight scale entrance using the existing easing. Reduced motion removes clipping, animation and scaling, and makes the president static.
 
 Local comparison review recorded SHIP after complete hero and full-page captures at 375px, 768px and 1440px, with copy parity, keyboard disclosures/search and no horizontal overflow checked. Browser coverage and performance limits are in `audits/about-alternative-2026-10-02/review.md`. Client selection, review-demo publication, Elementor implementation and production release remain separate outcomes. The legacy frontmatter and design sidecar are not refreshed by this composition note.
+
+## About continuous illustrated story, October 2
+
+The current `version-2/about-alternative/` presents one continuous reading composition on white. Edition identity and shared interactions carry consistency; the About page's narrative determines its rhythm. The original About remains a separate comparison. This follows the recorded feedback and OPEN observation 7, rather than establishing a new global layout rule.
+
+A quiet breadcrumb leads into a left-aligned serif mission headline and lower-right introduction, followed by staggered Norwalk and New London coastal photographs. There is no full-bleed photo banner, colored chapter band or section index strip. A bounded reading spine (65ch) carries mission copy with the independence statement in a quieter margin note. Hartford photography sits inline beside practical aims, leading directly into the people directory. Shared fluid gutters and the 1440px content cap remain.
+
+The president stays beside six horizontal portrait and native biography rows, with a sticky offset (120px) on larger screens. The quiet board area uses a two-column text directory beside its introduction, separated by a fine line on white. Contact follows on white with coastal photography. Source Serif 4 and Manrope retain their Edition roles; navy remains the reading ink. Supporting photographs keep rounded corners (16px), staff portraits use 14px, and the story body adds no shadow. Shared navigation keeps its existing overlay treatment.
+
+Below 600px the title and introduction stack, while the opening photographs retain their staggered two-column arrangement. Mission, independence note, practical aims, president, board and contact become one reading column with 22px gutters. Staff rows retain portraits beside their text. The heading is 48px on phones and scales to 76px on desktop. The Norwalk photograph uses a 900ms aperture and slight vertical entrance; reduced motion restores the complete static photograph and makes the president static.
+
+This replaces the earlier alternative's composition while retaining its factual content, seven staff, eight board members and existing destinations. Removing the section index also removes its four navigation labels. Review evidence and limits are recorded in `audits/about-story-2026-10-02/`. Historical token and inherited-navigation detector warnings are advisory, not a clean design-system certification. Prototype review, client selection, demo publication, Elementor implementation and production release remain separate outcomes; this note preserves the historical frontmatter and sidecar.

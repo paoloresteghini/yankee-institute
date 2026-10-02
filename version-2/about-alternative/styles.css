@@ -1,52 +1,56 @@
-/* A second composition inside the selected Edition visual world. */
-.about-opening{position:relative;isolation:isolate;min-height:650px;display:flex;align-items:end;padding:210px var(--pad) 66px;overflow:hidden;background:var(--ink);color:white}
-.about-opening-images{position:absolute;inset:0;z-index:-1;padding:0}
-.about-tall-photo{height:100%;border-radius:0;animation:panorama-reveal .9s cubic-bezier(.16,1,.3,1) both}
-.about-tall-photo img{object-position:center 48%;border-radius:0}
-.about-opening-images::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#102d4310 0%,#102d4399 45%,#102d43f2 100%)}
-.about-opening-copy{display:grid;grid-template-columns:1.35fr 1fr;gap:0 8vw;align-items:end;width:100%;max-width:1440px;margin-inline:auto}
-.breadcrumb{grid-column:1/-1;margin-bottom:30px;color:white}
-.about-opening h1{font-size:clamp(52px,5.3vw,76px);max-width:16ch;grid-row:2/4}
-.about-opening-copy>p{margin:0;max-width:40ch;font-size:19px;line-height:1.7}
-.about-button{justify-self:start;align-self:start;margin-top:24px;background:var(--gold);color:var(--ink)}
-.about-button:hover{background:#f0d599}
-.about-local{justify-content:space-between;gap:16px;padding-inline:var(--pad)}
-.about-local a{font-size:16px}
-.about-mission{grid-template-columns:1fr 1.1fr;padding-block:100px;gap:10vw}
-.about-mission h2{max-width:10ch;font-size:clamp(44px,4.4vw,64px)}
-.about-mission .about-lead{font-family:SourceSerif,Georgia,serif;font-size:clamp(28px,2.6vw,38px);line-height:1.35}
-.about-purpose{background:#e6eef1;color:var(--ink);padding-block:64px}
-.purpose-layout{grid-template-columns:1.1fr 1fr;gap:6vw}
-.purpose-layout>img{height:520px}
-.purpose-layout .text-link{color:var(--ink);border-color:var(--ink)}
-.purpose-layout li{border-color:var(--line);font-size:18px}
-.about-team{padding-block:96px}
-.about-section-intro{margin-bottom:52px}
+/* Continuous illustrated About story, within the Edition identity. */
+.story-page{background:white}
+.story-page h1{font-family:SourceSerif,Georgia,serif;font-size:clamp(50px,5.3vw,76px);line-height:1.06;max-width:17ch}
+.story-opening{padding-top:44px}
+.breadcrumb{margin-bottom:34px;color:var(--ink)}
+.story-title{display:grid;grid-template-columns:1.25fr 1fr;gap:8vw;align-items:end}
+.story-title>div{padding-bottom:8px}
+.story-title p{font-size:18px;max-width:42ch;line-height:1.75}
+.story-title .text-link{margin-top:24px}
+.story-photographs{display:grid;grid-template-columns:1.5fr 1fr;gap:36px;align-items:start;margin-top:52px;padding-bottom:10px}
+.story-photographs img{width:100%;object-fit:cover;border-radius:16px}
+.story-town{height:390px;animation:story-aperture .9s cubic-bezier(.16,1,.3,1) both}
+.story-coast{height:330px;margin-top:90px;object-position:75% center}
+.story-reading{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);column-gap:9vw;padding-top:72px;padding-bottom:30px}
+.story-essay{max-width:65ch;padding-left:6vw}
+.story-essay h2{font-size:clamp(38px,3.7vw,52px);margin-bottom:28px}
+.story-essay .story-lead{font-size:24px;line-height:1.55;margin-bottom:24px}
+.story-essay .text-link{margin-top:24px}
+.story-margin{max-width:28ch;align-self:center;border-top:1px solid var(--line);padding-top:20px}
+.story-margin p{font-size:16px;line-height:1.7;color:var(--muted)}
+.story-place{grid-column:1/-1;display:grid;grid-template-columns:.9fr 1.1fr;gap:8vw;align-items:center;margin-top:90px}
+.story-place>img{width:100%;height:530px;object-fit:cover;border-radius:16px}
+.story-place>div{max-width:55ch}
+.story-place h2{font-size:44px;margin-bottom:22px}
+.story-place ul{padding-left:20px;margin:24px 0;font-size:18px;line-height:1.7}
+.story-place li{padding:8px 0}
+.about-team{padding-top:64px;padding-bottom:60px}
+.about-section-intro{align-items:start;margin-bottom:40px}
+.about-section-intro h2{font-size:46px}
 .team-layout{display:grid;grid-template-columns:.85fr 1.15fr;gap:7vw;align-items:start}
-.president{display:block;position:sticky;top:120px;background:none;padding:0;border-radius:0;margin:0}
-.president>img{height:auto;aspect-ratio:1.12;object-position:center 30%;border-radius:16px}
+.president{display:block;background:none;padding:0;border-radius:0;margin:0;position:sticky;top:120px}
+.president>img{width:100%;height:auto;aspect-ratio:1.12;object-position:center 30%;border-radius:16px}
 .president>div{padding-top:20px}
-.president h3{font-size:36px;margin:10px 0 18px}
+.president h3{font-size:34px;margin:10px 0 18px}
 .president .text-link{display:flex;width:max-content;max-width:100%;margin-top:18px}
 .people-grid{display:block}
-.person{display:grid;grid-template-columns:136px minmax(0,1fr);gap:28px;padding-block:28px;border-top:1px solid var(--line)}
+.person{display:grid;grid-template-columns:130px minmax(0,1fr);gap:28px;padding-block:26px;border-top:1px solid var(--line)}
 .person:first-child{padding-top:0;border:0}
-.person>img{aspect-ratio:1;height:auto;border-radius:14px}
+.person>img{height:auto;aspect-ratio:1;border-radius:14px}
 .person-copy{padding-top:0}
-.person h3{font-size:28px;font-family:SourceSerif,Georgia,serif}
+.person h3{font-size:27px;font-family:SourceSerif,Georgia,serif}
 .person details{border:0;margin:0}
 .person summary{padding-block:10px}
-.about-board{background:#f3f5f5;padding-block:80px}
-.board-layout{display:block}
-.board-intro{display:grid;grid-template-columns:1fr 1fr;gap:0 7vw;margin-bottom:40px;align-items:start}
-.board-intro h2{grid-row:1/3}
-.board-intro p{margin:0 0 16px;max-width:40ch}
-.board-intro .text-link{justify-self:start}
-.board-directory{grid-template-columns:repeat(3,minmax(0,1fr));gap:0 36px}
-.about-contact{padding-block:80px;grid-template-columns:1fr 1fr;align-items:center;gap:7vw}
-.contact-photo{margin-top:32px;width:100%;height:220px;object-fit:cover;border-radius:16px}
+.about-board{background:white;padding-block:30px}
+.board-layout{display:grid;grid-template-columns:.7fr 1.3fr;gap:7vw;border-top:1px solid var(--line);padding-top:44px}
+.board-intro h2{font-size:40px}
+.board-directory{grid-template-columns:1fr 1fr;gap:0 32px}
+.board-directory h3{font-size:22px}
+.about-contact{padding-block:60px;grid-template-columns:.9fr 1.1fr;align-items:center;gap:7vw}
+.about-contact h2{font-size:42px}
+.contact-photo{margin-top:24px;width:100%;height:210px;object-fit:cover;border-radius:16px}
 .about-contact p{max-width:40ch}
-@keyframes panorama-reveal{from{clip-path:inset(0 8% 0 8%);transform:scale(1.04)}to{clip-path:inset(0);transform:scale(1)}}
-@media(max-width:1000px){.about-opening{min-height:620px;padding-top:140px;padding-bottom:48px}.about-opening-copy{gap:0 32px}.about-opening h1{font-size:56px}.about-opening-copy>p{font-size:17px}.about-mission{gap:40px;padding-block:72px}.purpose-layout>img{height:460px}.team-layout{gap:40px;grid-template-columns:.85fr 1.15fr}.president h3{font-size:30px}.person{grid-template-columns:96px minmax(0,1fr);gap:20px}.person h3{font-size:25px}.board-directory{grid-template-columns:1fr 1fr}.about-section-intro{align-items:start}}
-@media(max-width:600px){.about-opening{padding:170px 22px 36px;min-height:760px}.about-opening-copy{grid-template-columns:1fr;gap:0}.breadcrumb{margin-bottom:24px}.about-opening h1{font-size:48px;max-width:14ch;grid-row:auto}.about-opening-copy>p{margin-top:24px}.about-button{margin-top:24px}.about-tall-photo img{object-position:57% center}.about-local{padding:12px 22px;gap:8px 14px}.about-local a{font-size:14px}.about-mission{grid-template-columns:1fr;padding-block:52px;gap:28px}.about-mission h2{max-width:none;font-size:42px}.about-mission .about-lead{font-size:28px}.about-purpose{padding-block:44px}.purpose-layout{display:flex;flex-direction:column-reverse;gap:32px}.purpose-layout>img{height:260px}.purpose-layout h2{font-size:44px}.purpose-layout li{font-size:17px}.about-team{padding-block:52px}.about-section-intro{margin-bottom:32px}.team-layout{grid-template-columns:1fr;gap:40px}.president{position:static}.president>img{aspect-ratio:1.15}.person{grid-template-columns:100px minmax(0,1fr);gap:20px;padding-block:24px}.person h3{font-size:25px}.person summary{font-size:15px}.person details p{grid-column:1/-1}.board-intro{display:block;margin-bottom:28px}.board-intro p{margin-top:20px}.about-board{padding-block:52px}.board-directory{grid-template-columns:1fr}.about-contact{grid-template-columns:1fr;padding-block:52px;gap:32px}.contact-photo{height:200px}.contact-email{font-size:19px}}
-@media(prefers-reduced-motion:reduce){.about-tall-photo{animation:none;transform:none;clip-path:none}.president{position:static}}
+@keyframes story-aperture{from{clip-path:inset(0 0 12% 0 round 16px);transform:translateY(12px)}to{clip-path:inset(0 round 16px);transform:translateY(0)}}
+@media(max-width:1000px){.story-title{gap:36px;grid-template-columns:1.15fr 1fr}.story-page h1{font-size:56px}.story-photographs{gap:24px;margin-top:40px}.story-town{height:300px}.story-coast{height:260px;margin-top:64px}.story-reading{gap:32px;padding-top:54px}.story-essay{padding-left:0}.story-place{gap:40px;margin-top:64px}.story-place>img{height:430px}.story-place h2{font-size:38px}.team-layout{gap:36px}.person{grid-template-columns:96px minmax(0,1fr);gap:18px}.person h3{font-size:24px}.board-layout{gap:32px}}
+@media(max-width:600px){.story-opening{padding-top:28px}.breadcrumb{margin-bottom:24px}.story-title{grid-template-columns:1fr;gap:24px}.story-page h1{font-size:48px;max-width:15ch}.story-title p{font-size:17px}.story-photographs{grid-template-columns:1.25fr 1fr;gap:14px;margin-top:24px}.story-town{height:230px}.story-coast{height:190px;margin-top:48px}.story-reading{grid-template-columns:1fr;gap:28px;padding-top:38px;padding-bottom:20px}.story-essay h2{font-size:38px;margin-bottom:22px}.story-essay .story-lead{font-size:23px}.story-margin{max-width:none;margin-top:0}.story-place{grid-column:auto;grid-template-columns:1fr;gap:28px;margin-top:12px}.story-place>img{height:250px}.story-place h2{font-size:38px}.story-place ul{font-size:17px}.about-team{padding-top:30px;padding-bottom:32px}.about-section-intro h2{font-size:38px}.team-layout{grid-template-columns:1fr;gap:36px}.president{position:static}.president h3{font-size:30px}.person{grid-template-columns:96px minmax(0,1fr);gap:18px}.person h3{font-size:25px}.person summary{font-size:15px}.board-layout{grid-template-columns:1fr;gap:24px;padding-top:30px}.board-directory{grid-template-columns:1fr}.about-board{padding-block:16px}.about-contact{grid-template-columns:1fr;padding-block:40px;gap:28px}.contact-photo{height:180px}.contact-email{font-size:19px}.about-contact h2{font-size:38px}}
+@media(prefers-reduced-motion:reduce){.story-town{animation:none;transform:none;clip-path:none}.president{position:static}}
