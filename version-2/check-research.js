@@ -5,7 +5,7 @@ const path = require('node:path');
 const vm = require('node:vm');
 const root = __dirname;
 const items = JSON.parse(fs.readFileSync(path.join(root, '../content/research.json'))).items;
-const pages = ['research', 'research-alternative'].map(dir => fs.readFileSync(path.join(root, dir, 'index.html'), 'utf8'));
+const pages = ['research', 'research-alternative', 'research-top-filters'].map(dir => fs.readFileSync(path.join(root, dir, 'index.html'), 'utf8'));
 for (const html of pages) {
   assert.equal((html.match(/class="publication"/g) || []).length, 7);
   for (const item of items) assert.ok(html.includes(item.url), item.title);
@@ -35,4 +35,4 @@ for (const withSelect of [true, false]) {
   query.value='SCHOLARSHIP';handlers['query-input']();assert.equal(count.textContent,'1 publication');
   query.value='pension guardrails';handlers['query-input']();assert.equal(count.textContent,'1 publication');
 }
-console.log('Pass: identical seven sources, unique IDs, topic and keyword intersection, empty state and reset on both layouts.');
+console.log('Pass: identical seven sources, unique IDs, topic and keyword intersection, empty state and reset on all layouts.');
