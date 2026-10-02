@@ -22,3 +22,7 @@ FIRST VIEWPORT: Quiet breadcrumb, a large left-aligned mission headline with a s
 FORM: An illustrated long-form reading spine, margin independence note, offset Hartford photo alongside practical aims, an open people directory and quiet stewardship/contact ending. Existing verified content retained. One 900ms photograph aperture with static reduced-motion fallback. User-directed code-led replacement, no additional decision round.
 
 FINISH: Fresh independent review SHIP for local design review at 375/768/1440. DESIGN.md records the continuous story revision; existing source photography retains provenance. Client selection and publication remain pending.
+
+## October 2 amendment
+
+User requests equal treatment for the president and the existing homepage newsletter in place of the contact ending. All seven staff now share portrait, role and native biography rows. Reuse exact homepage signup component and destination. Address and email stay available in the shared footer. Original About unchanged.
