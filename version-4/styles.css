@@ -1,6 +1,2 @@
-/* Contained comparison: reuse the source concept and its interactions. */
-@media(min-width:1281px){
- html{background:#e9eeeb}
- body{width:calc(100% - 80px);max-width:1320px;margin-inline:auto;--pad:48px;box-shadow:0 0 0 1px #102d430c}
- .welcome-hero,.welcome-mission-grid,.welcome-research,.welcome-toolkit,.welcome-signup,.possibility-mission,.possibility-action,.possibility-newsletter{column-gap:48px}
-}
+/* Constrain content after the banner, keeping all backgrounds full width. */
+.welcome-wrap,.welcome-research,.footer{padding-inline:max(var(--pad),calc((100% - 1200px)/2))}
