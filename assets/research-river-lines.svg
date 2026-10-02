@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 480" fill="none">
+  <!-- Decorative flowing linework, inspired by Connecticut's river landscape. -->
+  <g stroke="#fff" stroke-opacity=".065" stroke-width="1.25">
+    <path d="M-120 390C170 520 300 180 570 250S920 530 1560 90"/>
+    <path d="M-120 358C170 488 300 148 570 218S920 498 1560 58"/>
+    <path d="M-120 326C170 456 300 116 570 186S920 466 1560 26"/>
+    <path d="M-120 294C170 424 300 84 570 154S920 434 1560-6"/>
+    <path d="M-120 262C170 392 300 52 570 122S920 402 1560-38"/>
+    <path d="M-120 230C170 360 300 20 570 90S920 370 1560-70"/>
+    <path d="M-120 422C170 552 300 212 570 282S920 562 1560 122"/>
+    <path d="M-120 454C170 584 300 244 570 314S920 594 1560 154"/>
+  </g>
+</svg>

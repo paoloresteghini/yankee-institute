@@ -1,5 +1,5 @@
 /* Horizontal discovery controls, shared Edition typography and source content. */
- .research-banner{background:var(--ink);color:white}
+.research-banner{background:var(--ink) url("../../assets/research-river-lines.svg") center / cover no-repeat;color:white}
 .top-filters .research-intro{display:grid;grid-template-columns:1fr 1.1fr;gap:56px;align-items:center;padding-block:36px}
 .top-filters .research-breadcrumb{margin-bottom:18px;color:#e0e9ee}
 .banner-copy h1{font-size:clamp(48px,4.6vw,66px);line-height:1.08}
