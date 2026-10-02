@@ -31,6 +31,8 @@ Connecticut Edition (version-2) is the selected design style. The homepage and A
 
 Two Research discovery options are available at version-2/research/index.html (publication library) and version-2/research-alternative/index.html (topic guide). They use the same seven selected publications in content/research.json, with native search/topic controls and original publication destinations. A third comparison at version-2/research-top-filters/index.html places search and policy topics above the photographic publication list. Run node version-2/check-research.js to check source parity and filtering across all three.
 
+Two News options are available at version-2/news/index.html (featured stories) and version-2/news-alternative/index.html (chronological archive). Both use the same 17 selected analyses with native search/topic filters. Their lead story opens the corresponding article prototype at version-2/article/index.html (white reading page) or version-2/article-alternative/index.html (split navy opening). Both retain the complete sourced article and original links. Run python3 version-2/check-reading-pages.py for content parity, and node version-2/check-research.js for shared discovery controls.
+
 Research and content/content.json preserve the original public-source research. Private screenshots and review notes remain excluded. These vanilla prototypes precede Elementor implementation and are not a WordPress deployment.
 
 ## Public review demo

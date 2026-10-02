@@ -15,7 +15,9 @@
       publication.hidden = !(terms.every(term => text.includes(term)) && (topic === 'All research' || publication.dataset.topics.split('|').includes(topic)));
       if (!publication.hidden) count++;
     });
-    document.getElementById('research-count').textContent = `${count} ${count === 1 ? 'publication' : 'publications'}`;
+    const singular = form.dataset?.itemLabel || 'publication';
+    const plural = form.dataset?.itemPlural || singular + 's';
+    document.getElementById('research-count').textContent = `${count} ${count === 1 ? singular : plural}`;
     document.querySelector('.research-empty').hidden = count !== 0;
     topics.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.topic === topic)));
   }
