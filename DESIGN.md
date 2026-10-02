@@ -131,3 +131,5 @@ Version 3 hero refinement: warm cream-to-blue gradient with faint static contour
 ## Contained comparisons, October 1
 
 Versions 4 and 5 preserve Versions 1 and 3 as direct comparisons. Above 1280px, the page shell is centered at a maximum 1320px, with 40px minimum outside space, 48px internal gutters and calmer 48px column gaps. Neutral outer canvas frames the complete page. Header and footer align to the same shell, with square boundaries. At smaller widths the existing original responsive system applies. No new content, fonts, color roles, motion or JS behavior.
+
+October 2: Version 3 green accent removed at Paolo’s request. Hero and newsletter headings use the established navy, as do faint contour lines. Gradient ends in a cool blue neutral. Version 5 inherits the same palette change from shared Version 3 CSS. Version 1 remains unchanged.

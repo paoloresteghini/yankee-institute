@@ -1,6 +1,6 @@
 /* Connecticut Possibilities: a centered welcome, a photographic band and a
    commitment mosaic. Edition supplies the shared fonts, navigation and footer. */
-.possibility-page{background:white;--possibility-blue:#e6eef1;--possibility-green:#305d55;--possibility-space:clamp(48px,6vw,88px)}
+.possibility-page{background:white;--possibility-blue:#e6eef1;--possibility-space:clamp(48px,6vw,88px)}
 .possibility-page main h1,.possibility-page main h2{font:600 clamp(36px,3.8vw,56px)/1.1 SourceSerif,Georgia,serif;letter-spacing:-.025em;text-wrap:balance}
 .possibility-page h3{font-family:Manrope,Arial,sans-serif;line-height:1.35;font-weight:650;text-wrap:pretty}
 .possibility-wrap{padding:var(--possibility-space) var(--pad)}
@@ -11,11 +11,11 @@
 .possibility-button>span,.possibility-link>span{font-size:24px;transition:transform 240ms var(--ease)}.possibility-link:hover>span{transform:translate(3px,-3px)}
 /* A broad, sunny opening with three different photographic rhythms. */
 .possibility-opening{padding:48px var(--pad) 64px;overflow:hidden;
-  background-color:#f8faf7;
-  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 960' fill='none' stroke='%23305d55' stroke-opacity='.10'%3E%3Cpath d='M-180 630C140 270 250 950 760 690S1120 110 1610 350M-180 666C140 306 250 986 760 726S1120 146 1610 386M-180 702C140 342 250 1022 760 762S1120 182 1610 422M-180 738C140 378 250 1058 760 798S1120 218 1610 458'/%3E%3C/svg%3E"),radial-gradient(ellipse at 8% 4%,#f2e2c9 0,transparent 54%),radial-gradient(ellipse at 96% 82%,#d6e8ec 0,transparent 64%),linear-gradient(145deg,#fbfaf5,#edf4f1);
+  background-color:#f8fafb;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 960' fill='none' stroke='%23102d43' stroke-opacity='.10'%3E%3Cpath d='M-180 630C140 270 250 950 760 690S1120 110 1610 350M-180 666C140 306 250 986 760 726S1120 146 1610 386M-180 702C140 342 250 1022 760 762S1120 182 1610 422M-180 738C140 378 250 1058 760 798S1120 218 1610 458'/%3E%3C/svg%3E"),radial-gradient(ellipse at 8% 4%,#f2e2c9 0,transparent 54%),radial-gradient(ellipse at 96% 82%,#d6e8ec 0,transparent 64%),linear-gradient(145deg,#fbfaf5,#edf4f7);
   background-size:cover;background-repeat:no-repeat;
 }
-.possibility-opening-copy{text-align:center;max-width:920px;margin:auto}.possibility-opening-copy h1{font-size:clamp(48px,5.3vw,76px);line-height:1.05;max-width:24ch;margin:auto}.possibility-opening-copy h1 span{color:var(--possibility-green)}
+.possibility-opening-copy{text-align:center;max-width:920px;margin:auto}.possibility-opening-copy h1{font-size:clamp(48px,5.3vw,76px);line-height:1.05;max-width:24ch;margin:auto}.possibility-opening-copy h1 span{color:var(--ink)}
 .possibility-opening-copy>p:not(.possibility-label){font-size:18px;line-height:1.65;max-width:53ch;margin:24px auto}.possibility-opening-copy .possibility-button{margin-top:0}
 .possibility-photo-band{display:grid;grid-template-columns:.85fr 1.4fr 1fr;gap:24px;margin-top:48px;align-items:start}.possibility-photo-band figure{position:relative;border-radius:16px;overflow:hidden;background:var(--ink)}.possibility-photo-band img{width:100%;height:100%;object-fit:cover;display:block}
 .possibility-town{height:250px;margin-top:48px}.possibility-people{height:350px}.possibility-coast{height:250px;margin-top:80px}.possibility-coast img{object-position:70% center}.possibility-people img{object-position:65% center}
@@ -37,7 +37,7 @@
 /* Latest is a compact list of photographic reading paths. */
 .possibility-latest{background:var(--paper)}.possibility-updates{display:grid;grid-template-columns:1fr;gap:0}.possibility-update{border-top:1px solid var(--line);padding:24px 0}.possibility-update:last-child{padding-bottom:0}
 .possibility-update a{display:grid;grid-template-columns:220px 1fr;gap:40px;align-items:center}.possibility-update img{width:220px;height:145px;object-fit:cover;border-radius:14px}.possibility-update a>div{position:relative;padding-right:56px;min-width:0}.possibility-update time,.possibility-update p{font-size:14px;color:var(--muted)}.possibility-update h3{font-size:clamp(23px,2.2vw,30px);max-width:42ch;margin:10px 0 12px}.possibility-update a>div>span{position:absolute;right:0;top:50%;font-size:30px;transform:translateY(-50%)}.possibility-update a:hover{text-decoration:none}.possibility-update a:hover h3{text-decoration:underline;text-underline-offset:5px}
-.possibility-newsletter{display:grid;grid-template-columns:1fr .9fr;gap:8vw;align-items:center;background:white}.possibility-newsletter h2{font-size:clamp(36px,3.5vw,50px)}.possibility-newsletter h2>span{color:var(--possibility-green)}.possibility-newsletter>div>p:not(.possibility-label){font-size:18px;max-width:40ch;margin-top:24px}.possibility-newsletter .newsletter-signup{margin:0}.possibility-newsletter .newsletter-email-row{display:flex;flex-direction:row;gap:12px}.possibility-newsletter .newsletter-submit{font-size:16px;border-radius:30px}.possibility-newsletter .newsletter-form-note{font-size:14px;color:var(--muted);margin-top:12px}.possibility-newsletter .possibility-link{margin-top:24px}
+.possibility-newsletter{display:grid;grid-template-columns:1fr .9fr;gap:8vw;align-items:center;background:white}.possibility-newsletter h2{font-size:clamp(36px,3.5vw,50px)}.possibility-newsletter h2>span{color:var(--ink)}.possibility-newsletter>div>p:not(.possibility-label){font-size:18px;max-width:40ch;margin-top:24px}.possibility-newsletter .newsletter-signup{margin:0}.possibility-newsletter .newsletter-email-row{display:flex;flex-direction:row;gap:12px}.possibility-newsletter .newsletter-submit{font-size:16px;border-radius:30px}.possibility-newsletter .newsletter-form-note{font-size:14px;color:var(--muted);margin-top:12px}.possibility-newsletter .possibility-link{margin-top:24px}
 /* One signature entrance: the photographs gather into a single composition. */
 @media(prefers-reduced-motion:no-preference){.possibility-photo-band figure{animation:possibility-arrive 950ms var(--ease) both}.possibility-people{animation-delay:120ms!important}.possibility-coast{animation-delay:240ms!important}}
 @keyframes possibility-arrive{from{opacity:.25;clip-path:inset(18% 0 0 round 16px);transform:translateY(28px)}to{opacity:1;clip-path:inset(0 round 16px);transform:translateY(0)}}
