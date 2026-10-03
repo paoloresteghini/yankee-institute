@@ -316,7 +316,9 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 @media(prefers-reduced-motion:reduce),(hover:none){.policy-pillars .core-details{position:static;height:auto;padding:0;opacity:1;visibility:visible;transform:none}.policy-pillars h3{transform:none!important;margin-bottom:18px}.policy-pillars .core-card{min-height:300px}.policy-pillars{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:none;grid-auto-rows:minmax(300px,auto)}.policy-pillars .core-card:nth-child(n){grid-row:auto;grid-column:auto}}
 @media(max-width:600px){.policy-pillars{grid-template-columns:1fr}}
 
-/* Participation has three distinct photographic reading paths. */
+/* A quiet connection motif sits behind the photographic participation paths. */
+.participation-redesign{background-color:#fff;background-image:url("../assets/participation-pattern.svg");background-size:640px 640px;background-position:50% 0}
+
 .involvement-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;align-items:start}
 .involvement-card{min-width:0}
 .involvement-photo{overflow:hidden;border-radius:var(--radius-photo)}
