@@ -24,6 +24,12 @@
       "title": "Government Labor-Management",
       "summary": "Supporting sustainable labor agreements, open negotiations and reliable public services for Connecticut communities.",
       "url": "labor/index.html"
+    },
+    {
+      "title": "Sixth policy pillar",
+      "summary": "Placeholder: pillar name and policy description to be confirmed.",
+      "placeholder": true,
+      "url": null
     }
   ]
 }
