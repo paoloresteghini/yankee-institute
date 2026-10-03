@@ -21,6 +21,11 @@ for route in ['donate','donate-alternative']:
  for line in source['mail']:assert line in html
  assert 'tel:+18604266344' in p.links
  assert p.details==3 and not p.form
+ assert 'class="giving-form"' in html and 'data-continue' in html
+ assert 'giving-submit" type="submit" disabled' in html
+ assert 'name="amount"' in html and 'name="frequency"' in html
+ assert 'name="email"' in html and 'name="street"' in html
+ assert 'name="card-number"' not in html
  assert '\u2014' not in html
  for im in p.images:
   assert all(x in im for x in ['width','height','src','alt'])
