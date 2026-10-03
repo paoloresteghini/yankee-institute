@@ -1,0 +1,29 @@
+{
+  "pillars": [
+    {
+      "title": "Fiscal Compact",
+      "summary": "Protecting fiscal guardrails, transparent budgets and responsible stewardship of Connecticut’s pension obligations.",
+      "url": "https://www.yankeeinstitute.org/category/taxes/"
+    },
+    {
+      "title": "Local Control & Home Rule",
+      "summary": "Keeping decisions close to the communities they affect, with room for local solutions and priorities.",
+      "url": "https://www.yankeeinstitute.org/category/localmunicipal/"
+    },
+    {
+      "title": "Energy Affordability & Reliability",
+      "summary": "Advancing transparent energy bills and practical policies that put affordability and dependable power first.",
+      "url": "https://www.yankeeinstitute.org/category/energy/"
+    },
+    {
+      "title": "Educational Access & Opportunity",
+      "summary": "Expanding educational options and helping Connecticut families find the opportunities that fit their children.",
+      "url": "https://www.yankeeinstitute.org/category/education/"
+    },
+    {
+      "title": "Government Labor-Management",
+      "summary": "Supporting sustainable labor agreements, open negotiations and reliable public services for Connecticut communities.",
+      "url": "labor/index.html"
+    }
+  ]
+}
