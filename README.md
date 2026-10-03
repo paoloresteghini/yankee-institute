@@ -33,6 +33,8 @@ Two Research discovery options are available at version-2/research/index.html (p
 
 Two News options are available at version-2/news/index.html (featured stories) and version-2/news-alternative/index.html (chronological archive). Both use the same 17 selected analyses with native search/topic filters. Their lead story opens the corresponding article prototype at version-2/article/index.html (white reading page) or version-2/article-alternative/index.html (split navy opening). Both retain the complete sourced article and original links. Run python3 version-2/check-reading-pages.py for content parity, and node version-2/check-research.js for shared discovery controls.
 
+Two Public Resources options are available at version-2/public-resources/index.html (continuous photographic directory) and version-2/public-resources-alternative/index.html (question-led resource finder). Both retain the same four existing resources and state transparency link. The finder uses native buttons and displays all resources without JavaScript. Run python3 version-2/check-public-resources.py for source, destination, asset and structure checks. Local prototypes await layout selection and publication.
+
 Research and content/content.json preserve the original public-source research. Private screenshots and review notes remain excluded. These vanilla prototypes precede Elementor implementation and are not a WordPress deployment.
 
 ## Public review demo
