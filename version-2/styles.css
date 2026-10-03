@@ -344,3 +344,11 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 @media(max-width:1100px){.involvement-grid{gap:24px;grid-template-columns:repeat(2,minmax(0,1fr))}.involvement-grassroots .involvement-photo{height:360px}.involvement-labor{margin-top:40px}.involvement-journalism{grid-column:1/-1;max-width:calc(50% - 12px);padding-top:16px}.involvement-journalism .involvement-photo{height:360px;margin:0}.participation-redesign .involvement-copy h3{font-size:34px}}
 @media(max-width:600px){.involvement-grid{grid-template-columns:1fr;gap:40px}.involvement-grassroots .involvement-photo{height:330px}.involvement-grassroots .involvement-copy{margin-top:-36px;padding-top:22px}.involvement-labor{margin-top:0}.involvement-labor .involvement-photo{height:270px}.involvement-labor .involvement-copy{padding:26px}.involvement-journalism{grid-column:auto;max-width:none;padding-top:0}.involvement-journalism .involvement-photo{height:330px;margin-top:0}.involvement-journalism .involvement-copy{margin-top:-36px;padding-top:22px}.participation-redesign .involvement-copy h3{font-size:36px}}
 @media(prefers-reduced-motion:reduce){.involvement-photo img{transition:none}.involvement-card:hover .involvement-photo img,.involvement-card:focus-within .involvement-photo img{transform:none}}
+
+/* Donation is another direct way to participate. */
+.participation-donate{display:inline-flex;align-items:center;justify-content:space-between;gap:32px;flex-shrink:0;padding:17px 24px;min-height:56px;margin-bottom:8px;border-radius:999px;background:var(--gold);color:var(--ink);font-size:16px;font-weight:650;text-decoration:none}
+.participation-donate svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.3;transition:transform 250ms var(--ease)}
+.participation-donate:hover{text-decoration:none;background:var(--ink);color:white}
+.participation-donate:hover svg{transform:translate(2px,-2px)}
+@media(max-width:600px){.participation-donate{margin-top:24px;margin-bottom:0;padding:15px 20px;gap:24px;font-size:15px}}
+@media(prefers-reduced-motion:reduce){.participation-donate svg{transition:none}.participation-donate:hover svg{transform:none}}
