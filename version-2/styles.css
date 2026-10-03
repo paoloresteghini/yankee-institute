@@ -315,3 +315,29 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 @media(max-width:600px){.policy-pillars{grid-template-columns:1fr;grid-template-rows:none;grid-auto-rows:auto}.policy-pillars .core-card{min-height:340px}.policy-pillars .pillar-placeholder{min-height:220px}.policy-pillars h3{font-size:26px;transform:none!important;margin-bottom:18px}.policy-pillars .core-details{height:auto;padding:0;opacity:1;visibility:visible;transform:none}.policy-pillars .core-solution{font-size:16px}.policy-pillars .core-card-copy>a{margin-top:16px}}
 @media(prefers-reduced-motion:reduce),(hover:none){.policy-pillars .core-details{position:static;height:auto;padding:0;opacity:1;visibility:visible;transform:none}.policy-pillars h3{transform:none!important;margin-bottom:18px}.policy-pillars .core-card{min-height:300px}.policy-pillars{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:none;grid-auto-rows:minmax(300px,auto)}.policy-pillars .core-card:nth-child(n){grid-row:auto;grid-column:auto}}
 @media(max-width:600px){.policy-pillars{grid-template-columns:1fr}}
+
+/* Participation has three distinct photographic reading paths. */
+.involvement-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;align-items:start}
+.involvement-card{min-width:0}
+.involvement-photo{overflow:hidden;border-radius:var(--radius-photo)}
+.involvement-photo img{width:100%;height:100%;object-fit:cover;transition:transform 650ms var(--ease)}
+.involvement-card:hover .involvement-photo img,.involvement-card:focus-within .involvement-photo img{transform:scale(1.035)}
+.involvement-copy{position:relative}
+.participation-redesign .involvement-copy h3{font-size:clamp(32px,3vw,42px);line-height:1.12;letter-spacing:-.025em}
+.participation-redesign article p{font-size:16px;line-height:1.7;margin-top:18px;max-width:36ch}
+.participation-redesign .text-link{font-size:14px;line-height:1.5;gap:20px;min-height:44px;margin-top:22px}
+.involvement-card svg{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:1.3;flex:none}
+.involvement-grassroots .involvement-photo{height:390px}
+.involvement-grassroots .involvement-photo img{object-position:38% center}
+.involvement-grassroots .involvement-copy{margin-top:-48px;padding:24px 20px 0 0;background:white;width:calc(100% - 24px)}
+.involvement-labor{margin-top:56px;background:var(--ink);color:white;border-radius:var(--radius-photo);overflow:hidden}
+.involvement-labor .involvement-photo{height:290px;border-radius:0}
+.involvement-labor .involvement-copy{padding:28px}
+.involvement-labor .text-link{color:var(--gold);border-color:var(--gold)}
+.involvement-journalism{padding-top:16px}
+.participation-redesign .involvement-journalism h3{font-family:"Source Serif 4",Georgia,serif;font-weight:600;font-size:clamp(38px,3.6vw,50px)}
+.involvement-journalism .involvement-photo{height:280px;margin-top:28px}
+.involvement-journalism .involvement-photo img{object-position:40% center}
+@media(max-width:1100px){.involvement-grid{gap:24px;grid-template-columns:repeat(2,minmax(0,1fr))}.involvement-grassroots .involvement-photo{height:360px}.involvement-labor{margin-top:40px}.involvement-journalism{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;column-gap:32px;align-items:center;padding-top:24px}.involvement-journalism .involvement-photo{grid-column:2;grid-row:1/3;height:290px;margin:0}.involvement-journalism>.text-link{grid-column:1;justify-self:start;margin-top:18px}.participation-redesign .involvement-copy h3{font-size:34px}}
+@media(max-width:600px){.involvement-grid{grid-template-columns:1fr;gap:40px}.involvement-grassroots .involvement-photo{height:330px}.involvement-grassroots .involvement-copy{margin-top:-36px;padding-top:22px}.involvement-labor{margin-top:0}.involvement-labor .involvement-photo{height:270px}.involvement-labor .involvement-copy{padding:26px}.involvement-journalism{grid-column:auto;display:block;padding-top:0}.involvement-journalism .involvement-photo{height:280px;margin-top:24px}.participation-redesign .involvement-copy h3{font-size:36px}.participation-redesign .involvement-journalism h3{font-size:44px}.involvement-journalism>.text-link{margin-top:20px}}
+@media(prefers-reduced-motion:reduce){.involvement-photo img{transition:none}.involvement-card:hover .involvement-photo img,.involvement-card:focus-within .involvement-photo img{transform:none}}
