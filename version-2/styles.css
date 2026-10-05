@@ -389,3 +389,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 @media(min-width:701px) and (max-width:1000px){.pillar-index{grid-template-columns:minmax(0,.4fr) minmax(0,.6fr);gap:32px}.pillar-index-list h3{font-size:20px}.pillar-index-photo figcaption{font-size:30px;left:24px;right:24px}}
 @media(max-width:700px){.pillar-index{grid-template-columns:1fr;gap:28px}.pillar-index-photo{min-height:280px}.pillar-index-photo figcaption{font-size:32px;left:24px;right:24px;bottom:24px}.pillar-index-list a,.pillar-index-list .pillar-pending{min-height:78px;padding:20px 0}.pillar-index-list h3{font-size:21px}}
 @media(prefers-reduced-motion:reduce){.pillar-index-list a,.pillar-index-list svg{transition:none}.pillar-index-list a:hover svg{transform:none}}
+
+/* Participation titles remain subordinate to their section heading. */
+.edition-home .participation-redesign .involvement-copy h3{font-size:32px;font-weight:650;line-height:1.25;letter-spacing:-.02em}
+@media(max-width:600px){.edition-home .participation-redesign .involvement-copy h3{font-size:28px}}
