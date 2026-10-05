@@ -303,3 +303,7 @@ The third About preview preserves A’s mission, team, board and contact section
 ### Public Resources option C, October 5
 
 The public-resources-full-hero route uses a full Hartford photographic banner with a navy overlay, medium serif white title and gold directory anchor, matching About C. Below the opening it retains the current four-resource directory and all source destinations. Shared gutters, footer, navigation, scroll arrivals and page jumper remain in use.
+
+### Labor option C, October 5
+
+The labor-full-hero route uses a full South Norwalk photographic banner, navy overlay, medium white serif title and gold issue anchor, matching About and Resources C. The policy, research, image-led reporting, training and newsletter content below is identical to Labor A. Shared contained content and navigation remain in use.
