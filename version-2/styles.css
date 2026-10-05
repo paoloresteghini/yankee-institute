@@ -479,3 +479,12 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 @media(prefers-reduced-motion:reduce){:is(button,input[type="submit"],.hero-actions a,.support-link,.support-cta,.newsletter-submit,.newsletter-cta,.participation-donate,.about-button,.research-button,.resource-open,.resource-action,.state-data,.donate-primary,.donate-text-link,.text-link,.alert-link,.profile-email,.profile-return,.contact-email,.giving-frequency span,.giving-amounts span):not(:disabled):not([aria-disabled="true"]){transition:none}:is(button,input[type="submit"],.hero-actions a,.support-link,.support-cta,.newsletter-submit,.newsletter-cta,.participation-donate,.about-button,.research-button,.resource-open,.resource-action,.state-data,.donate-primary,.donate-text-link,.text-link,.alert-link,.profile-email,.profile-return,.contact-email,.giving-frequency span,.giving-amounts span):not(:disabled):not([aria-disabled="true"]):hover{transform:none}}
 
 :is(button,input[type="submit"]):disabled:hover,[aria-disabled="true"]:hover{transform:none;transition:none}
+
+/* Shared newsletter form, identical across every repeated invitation. */
+.newsletter .newsletter-email-row{flex-direction:column;gap:12px}
+.newsletter .newsletter-email-row>input{flex:auto;width:100%;min-width:0;min-height:52px;font-size:16px;line-height:1.5;padding:12px 14px;border:1px solid var(--muted);border-radius:8px;background:white;color:var(--ink);caret-color:var(--ink)}
+.newsletter .newsletter-email-row>input::placeholder{color:var(--muted);opacity:1}
+.newsletter .newsletter-email-row>input:user-invalid{border:2px solid #9d382f;padding:11px 13px}
+.newsletter .newsletter-email-row .newsletter-submit{display:inline-flex;align-items:center;justify-content:center;gap:20px;width:100%;min-height:52px;max-width:100%;padding:14px 24px;border:1px solid transparent;border-radius:8px;font-size:16px;font-weight:650;line-height:1.375;background:var(--ink);color:white}
+.newsletter .newsletter-email-row .newsletter-submit:hover{background:#21465e;color:white}
+.newsletter .action-icon{width:20px;height:20px;flex:0 0 20px;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}

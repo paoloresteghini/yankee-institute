@@ -259,3 +259,5 @@ Labor/article font references now use the actual registered SourceSerif family. 
 ### Shared action motion, October5
 
 Enabled buttons and button-style/action links lift2px on hover,180ms with existing ease-out. Hover motion requires a fine pointer with hover capability. Reduced-motion preference disables the lift and transitions; disabled controls do not move. Keep colors and keyboard focus behavior intact.
+
+Repeated newsletter forms now share the homepage stacked field/button roles globally:52px height,8px corners,12px gap,16px650 signup text and20px diagonal SVG. Destinations and native email validation remain unchanged.
