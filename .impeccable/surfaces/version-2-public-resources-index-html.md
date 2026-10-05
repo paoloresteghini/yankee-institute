@@ -18,3 +18,5 @@ Code-led incumbent Edition reference: shared lighter display typography, Manrope
 ## Verification
 
 All four original descriptions, questions and destinations retained, including state transparency data. Four widths fit without overflow. Enter shortcut changes hash; next Tab has visible solid focus. No new JavaScript. Independent visual review found no material defects; its documentation corrections are recorded here and in DESIGN.md. External availability and WordPress implementation remain separate.
+
+October5 user refinement: hero now aligns with About A pale-blue ground, taller670px desktop opening and shared heading/image scale. This supersedes the compact opening sizing in the prior contract, directory structure preserved.1440/768/375 checks pass.

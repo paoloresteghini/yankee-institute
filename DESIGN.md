@@ -283,3 +283,7 @@ Header contents now align to the current page content container: the homepage120
 This note supersedes the October 2 description of A as a full-height sticky photographic split directory. A now uses a compact cool-paper opening with a rounded landscape, native resource shortcuts and four image-led full-width directory rails. Each rail exposes the original question, description and direct action. Below 1100px, actions move beneath the description; below 700px, a small photo/title pair precedes full-width description and actions. Existing SourceSerif500 display, Manrope reading, navy/gold identity and rounded photographs remain intact. Option B retains its question-led finder. These surface choices do not become a required layout for other pages.
 
 Evidence: version-2/resource-desk.css and version-2/public-resources/index.html, with complete375/768/1440/1818px captures in .impeccable/review/public-a/. Original resource copy and links preserved; no new integration or production release. Historical frontmatter and sidecar remain unchanged.
+
+## Public Resources A hero alignment, October 5, 2026
+
+At Paolo’s request, A’s opening now follows About A’s pale-blue ground (#e6eef1), 670px desktop height, equal columns, 54px/64px vertical padding and 48-72px display scale. Image height follows510px desktop,450px tablet and320px phone. This supersedes the compact opening dimensions above; directory rails remain intact.
