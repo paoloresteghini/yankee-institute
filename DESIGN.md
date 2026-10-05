@@ -265,3 +265,7 @@ Repeated newsletter forms now share the homepage stacked field/button roles glob
 ## Shared serif weight refinement, October 5, 2026
 
 Paolo rejected the heavy display weight across the previews. All Edition serif display headings and captions now use the real Source Serif 4 medium (500) font from the shared stylesheet. This supersedes the600 heading-weight references above, while retaining established type sizes, line heights, content and layout. Manrope roles and control weights remain as previously defined. Both page variants receive this shared correction.
+
+## Scroll arrival motion, October 5, 2026
+
+The shared Edition script introduces below-fold topic headings, images and card groups once as they enter view. Arrivals use16px of vertical translation with a480ms deceleration; siblings stagger60ms up to120ms. Above-fold banners and long article/profile reading text retain their existing behavior. Content is visible by default, with no hidden waiting state or JavaScript dependency for reading. Reduced motion skips arrivals and cancels running effects when enabled. Keyboard focus immediately completes the relevant arrival. No scroll listener, animation library or repeating effect is introduced.
