@@ -430,3 +430,10 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 .edition-home .work-copy .text-link{align-self:flex-start;margin-top:auto;padding-top:22px}
 @media(max-width:1000px){.edition-home .work-intro{grid-template-columns:1fr 1fr;gap:32px}.edition-home .work-grid{gap:24px}.edition-home .work-example>img{height:155px}}
 @media(max-width:700px){.edition-home .work-action{--home-research-title:1.375rem}.edition-home .work-intro{grid-template-columns:1fr;gap:20px;margin-bottom:28px}.edition-home .work-grid{grid-template-columns:1fr;gap:24px}.edition-home .work-example>img{height:170px}}
+
+/* Keep research introduction together, with the archive action to its right. */
+.edition-home .work-intro{grid-template-columns:minmax(0,1fr) auto;align-items:end;gap:40px}
+.edition-home .work-overview h2{max-width:22ch;margin:0}
+.edition-home .work-overview p{max-width:65ch;margin-top:18px}
+.edition-home .work-intro>.text-link{justify-self:end;white-space:nowrap;margin:0 0 4px}
+@media(max-width:700px){.edition-home .work-intro{grid-template-columns:1fr;gap:18px}.edition-home .work-intro>.text-link{justify-self:end}.edition-home .work-overview p{margin-top:16px}}
