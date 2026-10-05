@@ -38,3 +38,9 @@ __pycache__/
 /wp-content/uploads/
 /wp-content/cache/
 *.log
+
+# Private design review evidence and detailed audits
+/design/reviews/
+/design/newsletter-audit.md
+/version-2/homepage-audit.md
+/version-2/self-review.md
