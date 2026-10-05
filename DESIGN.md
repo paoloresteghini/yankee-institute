@@ -247,3 +247,5 @@ Homepage CTAs use Manrope 16px/22px at650, 52px minimum height, 14px by24px padd
 Fields use16px/1.5, 52px minimum height, 8px radius and #4b626f border/placeholder. Validation border #9d382f only appears after user interaction. Focus uses3px #b47b14 with4px offset. Focus contrast exceeds3:1 on white and navy. Labels remain separate and forms retain native required/email validation. On phones the email field and signup stack. These rules are scoped to edition-home before rollout to other pages.
 
 Homepage newsletter exception: email and signup button stack full width, share8px corners and52px height, with12px gap. Standalone CTAs remain pills.
+
+Homepage action arrow trial: horizontal right arrow in32x24 viewBox,28x20 rendered, stroke1.4. Down-scroll cue and disclosure chevrons retain their directions.
