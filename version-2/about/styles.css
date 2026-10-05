@@ -1,0 +1,68 @@
+/* About extends the approved Connecticut Edition system. */
+.about-page{background:white}
+.about-container{max-width:1440px;padding-inline:var(--pad);margin-inline:auto}
+.about-page h1,.about-page h2{font-family:SourceSerif,Georgia,serif;font-weight:600;letter-spacing:-.025em;text-wrap:balance}
+.about-page h2{font-size:clamp(38px,4vw,56px);line-height:1.08}
+.about-page p{font-size:18px;line-height:1.75;text-wrap:pretty}
+.about-page section[id]{scroll-margin-top:120px}
+.about-opening{background:#e6eef1;display:grid;grid-template-columns:1fr 1fr;gap:6vw;padding:54px var(--pad) 64px;min-height:670px;align-items:center}
+.breadcrumb{display:flex;gap:14px;font-size:14px;margin-bottom:36px}
+.breadcrumb a{text-decoration:underline;text-underline-offset:5px}
+.about-opening h1{font-size:clamp(48px,4.8vw,72px);line-height:1.04;max-width:12ch}
+.about-opening-copy>p{max-width:46ch;margin-top:28px}
+.about-button{display:inline-flex;justify-content:space-between;gap:40px;align-items:center;background:var(--ink);color:white;border-radius:30px;min-height:52px;padding:12px 24px;margin-top:30px;font-weight:700}
+.about-button:hover{background:#254f63}
+.about-opening-images{position:relative;padding:0 0 56px 44px;min-width:0}
+.about-tall-photo{height:510px;overflow:hidden;border-radius:16px;animation:about-aperture .9s cubic-bezier(.16,1,.3,1) both}
+.about-tall-photo img{width:100%;height:100%;object-fit:cover;object-position:52% center}
+.about-coast-photo{position:absolute;left:0;bottom:0;width:47%;height:210px;object-fit:cover;border-radius:16px;border:8px solid #e6eef1}
+@keyframes about-aperture{from{clip-path:inset(0 0 15% 0 round 16px)}to{clip-path:inset(0 round 16px)}}
+.about-local{display:flex;justify-content:center;gap:56px;padding:18px var(--pad);border-bottom:1px solid var(--line);background:white;flex-wrap:wrap}
+.about-local a{min-height:44px;display:inline-flex;align-items:center;font-size:16px;font-weight:700}
+.about-local a:hover{text-decoration:underline;text-underline-offset:6px}
+.about-mission{display:grid;grid-template-columns:.9fr 1.1fr;gap:9vw;padding-block:88px}
+.about-mission .about-lead{font-size:26px;line-height:1.5;margin-bottom:24px}
+.about-mission .about-independence{font-size:16px;padding-top:24px;margin-top:24px;border-top:1px solid var(--line);color:var(--muted)}
+.about-mission .text-link{margin-top:24px}
+.about-purpose{background:var(--ink);color:white;padding-block:72px}
+.purpose-layout{display:grid;grid-template-columns:1.05fr 1fr;align-items:center;gap:7vw}
+.purpose-layout>img{width:100%;height:500px;object-fit:cover;border-radius:16px}
+.purpose-layout h2{font-size:clamp(44px,4.4vw,64px)}
+.purpose-layout p{margin-top:24px;max-width:42ch}
+.purpose-layout ul{list-style:none;padding:0;margin:24px 0}
+.purpose-layout li{font-size:17px;line-height:1.65;padding:13px 0;border-top:1px solid #ffffff38}
+.purpose-layout .text-link{color:var(--gold);border-color:var(--gold)}
+.about-team{padding-block:88px}
+.about-section-intro{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:48px}
+.about-section-intro>p{max-width:30ch}
+.president{display:grid;grid-template-columns:.85fr 1.15fr;gap:6vw;align-items:center;background:#e6eef1;padding:32px;border-radius:16px;margin-bottom:56px}
+.president>img{height:370px;width:100%;object-fit:cover;border-radius:12px}
+.president h3{font-size:clamp(30px,3vw,42px);line-height:1.15;margin:12px 0 20px}
+.president p:not(.person-role){max-width:48ch}
+.president .text-link{margin-top:18px;margin-right:26px}
+.about-page .person-role{font-size:14px;line-height:1.6;font-weight:600;color:var(--muted);margin:10px 0}
+.people-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:48px 32px}
+.person{min-width:0}
+.person>img{width:100%;aspect-ratio:1.2;object-fit:cover;object-position:center 30%;border-radius:16px}
+.person-copy{padding-top:20px}
+.person h3{font-size:26px;line-height:1.25}
+.person details{margin-top:12px;border-top:1px solid var(--line)}
+.person summary{cursor:pointer;font-size:16px;font-weight:700;padding:14px 0;min-height:48px;list-style-position:inside}
+.person details p{font-size:16px;margin:4px 0 16px}
+.person details .text-link{font-size:14px}
+.about-board{background:#f4f6f6;padding-block:80px}
+.board-layout{display:grid;grid-template-columns:.65fr 1.35fr;gap:8vw}
+.board-intro p{margin:24px 0;max-width:30ch}
+.board-directory{display:grid;grid-template-columns:1fr 1fr;gap:0 40px}
+.board-directory article{border-top:1px solid var(--line);padding:24px 0}
+.board-directory h3{font-size:23px;line-height:1.3}
+.board-directory p:last-child{font-size:16px;line-height:1.65}
+.about-contact{display:grid;grid-template-columns:.9fr 1.1fr;gap:9vw;padding-block:80px}
+.about-contact p{max-width:50ch}
+.contact-email{display:inline-flex;gap:24px;align-items:center;font-size:clamp(18px,2vw,28px);font-weight:700;padding-block:20px;min-height:44px;text-decoration:underline;text-underline-offset:8px;overflow-wrap:anywhere}
+.about-contact .text-link{margin-top:20px}
+::selection{background:var(--gold);color:var(--ink)}
+summary:focus-visible{outline:3px solid var(--gold);outline-offset:4px}
+@media(max-width:1000px){.about-opening{gap:28px;min-height:600px;padding-block:40px}.about-opening h1{font-size:52px}.about-opening-images{padding:0 0 40px 16px}.about-tall-photo{height:450px}.about-coast-photo{width:65%;height:170px}.about-page p{font-size:17px}.about-mission,.board-layout{gap:40px}.purpose-layout{gap:40px}.purpose-layout>img{height:450px}.people-grid{grid-template-columns:1fr 1fr}.president{gap:32px}.president>img{height:320px}.about-local{gap:28px}}
+@media(max-width:600px){.about-container{padding-inline:22px}.about-opening{grid-template-columns:1fr;padding:28px 22px 40px;gap:32px}.breadcrumb{margin-bottom:24px}.about-opening h1{font-size:48px;max-width:13ch}.about-opening-copy>p{margin-top:20px}.about-opening-images{padding-left:30px;padding-bottom:36px}.about-tall-photo{height:320px}.about-coast-photo{width:48%;height:145px;border-width:6px}.about-local{justify-content:space-between;gap:8px 20px;padding:12px 22px}.about-local a{font-size:14px}.about-mission,.purpose-layout,.board-layout,.about-contact{grid-template-columns:1fr;gap:28px}.about-mission,.about-team,.about-contact{padding-block:52px}.about-mission .about-lead{font-size:23px}.about-purpose,.about-board{padding-block:52px}.purpose-layout>img{height:320px}.about-section-intro{display:block;margin-bottom:30px}.about-section-intro>p{margin-top:20px}.president{grid-template-columns:1fr;padding:20px;gap:24px;margin-bottom:36px}.president>img{height:auto;aspect-ratio:1}.president .text-link{margin-right:0}.people-grid{gap:30px 18px}.person>img{aspect-ratio:.9}.person h3{font-size:21px}.about-page .person-role{font-size:14px}.person summary{font-size:14px}.board-directory{grid-template-columns:1fr;gap:0}.contact-email{font-size:20px;gap:12px}}
+@media(prefers-reduced-motion:reduce){.about-tall-photo{animation:none;clip-path:none}}

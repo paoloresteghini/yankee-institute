@@ -1,0 +1,33 @@
+{
+  "source": "https://www.yankeeinstitute.org/donate/",
+  "verified": "2026-10-02",
+  "donation_url": "https://www.yankeeinstitute.org/donate/",
+  "legacy_url": "https://www.yankeeinstitute.org/acorn-legacy-society",
+  "phone": "860-426-6344",
+  "tax_id": "52-1358144",
+  "mail": [
+    "Yankee Institute for Public Policy",
+    "PO Box 290935",
+    "Wethersfield, CT 06129"
+  ],
+  "frequencies": [
+    "One time",
+    "Monthly",
+    "Annually"
+  ],
+  "tax_copy": "Yankee Institute is a 501(c)(3) research and citizen education organization. Your gift is tax-deductible to the full extent allowed by law.",
+  "support_copy": "Support research, citizen education and a more prosperous Connecticut.",
+  "form_note": "Design preview. Payments are not enabled.",
+  "proposed_brand_copy": true,
+  "gravity_form_id": 63,
+  "gift_amounts": [
+    25,
+    50,
+    100,
+    250,
+    500,
+    1000
+  ],
+  "minimum_gift": 3,
+  "inline_form_status": "Interactive design preview, not connected to payment processing"
+}

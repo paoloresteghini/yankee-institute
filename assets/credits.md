@@ -30,3 +30,11 @@ All photographs are contextual illustrations, not depictions of specific reporte
 ## Issue navigation icons
 
 Phosphor Icons, regular weight, from https://github.com/phosphor-icons/core. Local originals in assets/phosphor; used inline for inherited color. MIT license retained in assets/phosphor/LICENSE.
+
+## Participation photography, October 3
+
+These are illustrative stock photographs, not Yankee Institute staff, actual programs or identified Connecticut participants. All downloaded locally under the free Unsplash License.
+
+- Community conversation: MD Duran, https://unsplash.com/photos/group-of-people-having-a-conversation-in-a-circle-E0ylfF52C6M. Files community-*.webp.
+- Workplace conversation: phyo min, caption credits Thant Zin, https://unsplash.com/photos/two-men-sitting-at-a-table-talking-to-each-other-CLhULgqR-xg. Files conversation-*.webp.
+- Newspaper reader: Adeolu Eletu, https://unsplash.com/photos/person-sitting-near-table-holding-newspaper-rFUFqjEKzfY. Files news-reading-*.webp.

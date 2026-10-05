@@ -1,0 +1,125 @@
+{
+  "issue": "Labor",
+  "draft": true,
+  "draft_note": "Design preview: policy framing reflects the supplied government labor-management pillar. Final page copy and training destination are pending.",
+  "source": "https://www.yankeeinstitute.org/category/labor/",
+  "intro": "Sustainable agreements. Accountable government. Reliable public services.",
+  "position": "Yankee Institute advocates sustainable government labor agreements, transparent negotiations and a clear accounting of long-term costs.",
+  "context": "Government labor-management policy shapes public services, pension obligations and the financial choices available to Connecticut communities. Local leaders need the flexibility to respond to local fiscal conditions.",
+  "questions": [
+    {
+      "title": "How should government serve residents?",
+      "text": "Yankee Institute supports open negotiations and sustainable agreements that balance workforce needs, reliable services and the fiscal capacity of Connecticut communities.",
+      "url": "https://www.yankeeinstitute.org/category/labor/",
+      "link": "Read our position"
+    },
+    {
+      "title": "What do employment numbers tell us?",
+      "text": "Connecticut’s payroll job count and estimates of employed residents are moving in different directions. Portfolio explains the surveys’ differences and the warning signs obscured by the record payroll figure.",
+      "url": "https://www.yankeeinstitute.org/2026/09/29/connecticuts-labor-market-is-sending-two-very-different-signals/",
+      "link": "Read the analysis"
+    },
+    {
+      "title": "Who pays for pension promises?",
+      "text": "The State Police overtime study examines how overtime practices affect pension obligations, and calls for extending reforms to employees covered by older rules.",
+      "url": "https://www.yankeeinstitute.org/2025/09/30/overtime-spiking-in-the-state-police/",
+      "link": "Explore the research"
+    }
+  ],
+  "research": [
+    {
+      "id": "research-0",
+      "title": "Overtime Spiking in the State Police",
+      "author": "Yankee Staff",
+      "date": "2025-09-30",
+      "url": "https://www.yankeeinstitute.org/2025/09/30/overtime-spiking-in-the-state-police/",
+      "dek": "A study of overtime practices within the Connecticut State Police and their effect on pension obligations.",
+      "type": "research-report",
+      "placeholder": false,
+      "verified_at": "2026-10-02",
+      "verification": "Individual publication page and policy reports archive.",
+      "topics": [
+        "Labor",
+        "Pensions"
+      ],
+      "image": "norwalk"
+    },
+    {
+      "id": "research-2",
+      "title": "Overtime Spiking in Connecticut",
+      "author": "Yankee Staff",
+      "date": "2025-03-04",
+      "url": "https://www.yankeeinstitute.org/2025/03/04/overtime-spiking-in-connecticut/",
+      "dek": "Research into how overtime contributes to state employee compensation and future pension costs.",
+      "type": "research-report",
+      "placeholder": false,
+      "verified_at": "2026-10-02",
+      "verification": "Individual publication page and policy reports archive.",
+      "topics": [
+        "Labor",
+        "Pensions"
+      ],
+      "image": "norwalk"
+    }
+  ],
+  "stories": [
+    {
+      "title": "Court Victory Vindicates Union Members and Exposes Years of Government Neglect",
+      "author": "Frank Ricci",
+      "date": "2026-09-08",
+      "topic": "Government & labor",
+      "topics": [
+        "Government & labor"
+      ],
+      "source_categories": "Labor",
+      "type": "analysis",
+      "url": "https://www.yankeeinstitute.org/2026/09/08/court-victory-vindicates-union-members-and-exposes-years-of-government-neglect/",
+      "dek": "Frank Ricci describes a court victory involving union financial disclosures and argues that Connecticut must enforce transparency obligations already established in state law.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-007"
+    },
+    {
+      "title": "A Record Jobs Number Masks a Weaker Labor Market",
+      "author": "Meghan Portfolio",
+      "date": "2026-08-24",
+      "topic": "Economy & jobs",
+      "topics": [
+        "Economy & jobs"
+      ],
+      "source_categories": "Labor",
+      "type": "analysis",
+      "url": "https://www.yankeeinstitute.org/2026/08/24/a-record-jobs-number-hides-a-weaker-labor-market/",
+      "dek": "Portfolio contrasts a record payroll count with weaker household employment estimates and explains why the two surveys can tell different stories about Connecticut’s economy.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-009"
+    },
+    {
+      "title": "The Endorsement Is Done. The Next SEBAC Fight Has Already Started",
+      "author": "Meghan Portfolio",
+      "date": "2026-07-20",
+      "topic": "Government & labor",
+      "topics": [
+        "Government & labor",
+        "Taxes & state finances"
+      ],
+      "source_categories": "Labor",
+      "type": "analysis",
+      "url": "https://www.yankeeinstitute.org/2026/07/20/the-endorsement-is-done-the-next-sebac-fight-has-already-started/",
+      "dek": "Portfolio examines union organizing ahead of the next SEBAC negotiations, with attention to pension tiers, healthcare, telework and potential taxpayer costs.",
+      "placeholder": false,
+      "verified_at": "2026-10-01",
+      "verification": "Visible article heading, byline, date and body checked in live HTML.",
+      "id": "yi-013"
+    }
+  ],
+  "program": {
+    "title": "Labor & Management Strategies",
+    "text": "Training for Connecticut state and municipal leaders on collective bargaining and negotiating strategies.",
+    "url": "mailto:info@yankeeinstitute.org?subject=Labor%20and%20Management%20Strategies",
+    "source": "https://www.yankeeinstitute.org/category/labor/"
+  }
+}

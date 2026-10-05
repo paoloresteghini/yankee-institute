@@ -1,0 +1,51 @@
+{
+  "source": "https://www.yankeeinstitute.org/public-resources/",
+  "verified": "2026-10-02",
+  "resources": [
+    {
+      "id": "contracts",
+      "title": "CT Union Contracts",
+      "question": "What does my town’s contract say?",
+      "summary": "Find downloadable public union agreements at the state and municipal level.",
+      "detail": "Search by town, school district, job title or bargaining unit.",
+      "url": "https://www.yankeeinstitute.org/contracts/",
+      "action": "Search the contracts",
+      "image": "yale-street",
+      "alt": "A Connecticut town street at sunset"
+    },
+    {
+      "id": "taxes",
+      "title": "CT Wheel of Taxes",
+      "question": "Which taxes affect Connecticut?",
+      "summary": "Explore taxes considered or implemented by Connecticut’s legislature.",
+      "detail": "A reference for understanding the range of state taxes and proposals.",
+      "url": "https://www.yankeeinstitute.org/ct-wheel-of-taxes",
+      "action": "Explore the taxes",
+      "image": "norwalk",
+      "alt": "Norwalk storefronts at dusk"
+    },
+    {
+      "id": "work",
+      "title": "CT Can Work",
+      "question": "How can we make it easier to work?",
+      "summary": "Explore Yankee’s proposed reforms to make hiring and working in Connecticut easier.",
+      "detail": "A toolbox of reforms aimed at removing barriers to work.",
+      "url": "https://www.connecticutcanwork.org/",
+      "action": "Explore the reforms",
+      "image": "hartford",
+      "alt": "Hartford skyline beside the Connecticut River"
+    },
+    {
+      "id": "sunlight",
+      "title": "CT Sunlight Project",
+      "question": "Where does public money go?",
+      "summary": "Find public employee salaries, pension benefits and state spending information.",
+      "detail": "Yankee’s resource page directs readers to Connecticut’s state transparency data.",
+      "url": "https://ctsunlight.org/",
+      "action": "Visit CT Sunlight",
+      "image": "new-london",
+      "alt": "New London Ledge Light on the Connecticut coast",
+      "data_url": "https://transparency.ct.gov/"
+    }
+  ]
+}
