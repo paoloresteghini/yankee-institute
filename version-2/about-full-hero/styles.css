@@ -1,0 +1,10 @@
+/* About C keeps the Edition content with a photographic opening. */
+.about-full-hero .about-opening{display:flex;align-items:center;min-height:700px;padding-block:60px 72px;background:linear-gradient(90deg,#071e35eb 0%,#071e35b3 42%,#071e3533 100%),url('../../assets/new-haven-1200.webp') center 52%/cover no-repeat;color:white}
+.about-full-hero .about-opening-copy{max-width:760px}
+.about-full-hero .about-opening h1{font-size:clamp(48px,4.8vw,72px);max-width:16ch;line-height:1.06;color:white}
+.about-full-hero .breadcrumb{color:#e5edf1}
+.about-full-hero .about-opening-copy>p{max-width:49ch;color:#f1f5f7;margin-top:28px}
+.about-full-hero .about-button{background:var(--gold);color:var(--ink);font-weight:650}
+.about-full-hero .about-button:hover{background:#f0d79f}
+@media(max-width:1000px){.about-full-hero .about-opening{min-height:640px;padding-block:44px 56px}.about-full-hero .about-opening h1{font-size:52px}.about-full-hero .about-opening-copy{max-width:650px}}
+@media(max-width:600px){.about-full-hero .about-opening{min-height:640px;padding-block:32px 44px;background-position:center,62% center;background-image:linear-gradient(90deg,#071e35e8,#071e35b3),url('../../assets/new-haven-1200.webp')}.about-full-hero .about-opening h1{font-size:48px;max-width:13ch}.about-full-hero .about-opening-copy>p{margin-top:24px}}
