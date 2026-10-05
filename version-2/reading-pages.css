@@ -11,7 +11,7 @@
 .news-page .news-lead h2{font:700 clamp(28px,2.6vw,38px)/1.3 Manrope,Arial,sans-serif;letter-spacing:-.025em;margin-block:10px 16px}
 .story-topic{font-size:14px!important;font-weight:700;margin-bottom:10px}
 .story-dek{font-size:17px!important;color:var(--muted);margin-top:16px}
-.story-meta{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:18px;font-size:14px!important;color:var(--muted);font-variant-numeric:tabular-nums}
+.story-meta{display:flex;flex-wrap:wrap;align-items:center;gap:8px 18px;margin-top:18px;font-size:14px!important;color:var(--muted);font-variant-numeric:tabular-nums}
 .story-meta a{display:inline-flex;align-items:center;min-height:32px}
 .news-lead .text-link{margin-top:18px}
 .news-support{background:var(--paper);padding:30px;align-self:start;border-radius:14px}
