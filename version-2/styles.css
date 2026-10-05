@@ -488,3 +488,10 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 .newsletter .newsletter-email-row .newsletter-submit{display:inline-flex;align-items:center;justify-content:center;gap:20px;width:100%;min-height:52px;max-width:100%;padding:14px 24px;border:1px solid transparent;border-radius:8px;font-size:16px;font-weight:650;line-height:1.375;background:var(--ink);color:white}
 .newsletter .newsletter-email-row .newsletter-submit:hover{background:#21465e;color:white}
 .newsletter .action-icon{width:20px;height:20px;flex:0 0 20px;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}
+
+/* Only successfully initialized, offscreen arrivals receive a pending state. */
+[data-scroll-reveal="ready"]{opacity:0;translate:0 16px}
+[data-scroll-reveal="complete"]{opacity:1;translate:0 0;transition:opacity 550ms var(--ease) var(--arrival-delay,0ms),translate 550ms var(--ease) var(--arrival-delay,0ms)}
+[data-scroll-immediate="true"],[data-scroll-reveal]:focus-within{opacity:1;translate:none;transition:none}
+@media(prefers-reduced-motion:reduce){[data-scroll-reveal]{opacity:1;translate:none;transition:none}}
+@media print{[data-scroll-reveal]{opacity:1;translate:none;transition:none}}
