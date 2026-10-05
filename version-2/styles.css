@@ -352,3 +352,13 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 .participation-donate:hover svg{transform:translate(2px,-2px)}
 @media(max-width:600px){.participation-donate{margin-top:24px;margin-bottom:0;padding:15px 20px;gap:24px;font-size:15px}}
 @media(prefers-reduced-motion:reduce){.participation-donate svg{transition:none}.participation-donate:hover svg{transform:none}}
+
+/* Latest supporting stories use one image-first reading column. */
+.latest-support .latest-story,.latest-support .latest-story:first-child{grid-template-columns:180px minmax(0,1fr);grid-template-areas:"photo headline" "photo category" "photo byline";gap:12px 24px;padding:24px 0 0;border-top:1px solid var(--line);align-content:start}
+.latest-support .story-photo{grid-area:photo;margin:0}
+.latest-support .story-photo>div{height:180px}
+.latest-support .latest-story h3{grid-area:headline;font-size:24px;line-height:1.35}
+.latest-support .latest-story .category{grid-area:category;margin:0}
+.latest-support .latest-story .byline{grid-area:byline;margin:0;gap:8px 16px;font-size:14px}
+@media(min-width:701px) and (max-width:1000px){.latest-support .latest-story,.latest-support .latest-story:first-child{grid-template-columns:180px minmax(0,1fr)}}
+@media(max-width:700px){.latest-support .latest-story,.latest-support .latest-story:first-child{grid-template-columns:100px minmax(0,1fr);gap:10px 16px;padding-top:22px}.latest-support .story-photo>div{height:140px}.latest-support .latest-story h3{font-size:20px}.latest-support .latest-story .byline{font-size:14px;gap:4px 12px}}
