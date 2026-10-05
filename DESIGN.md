@@ -255,3 +255,7 @@ The22 Edition inner previews load typography.css after page-specific styles. Sou
 Page titles use48-72px responsive serif, with narrower-layout exceptions: Research guide56px maximum, person64px maximum and44px phone, article56px maximum and36px phone (split article32px below420px). These are role exceptions for copy and available width, not a different identity. Body is16px/1.75; introductions18px/1.65; article/profile prose18px/1.8 with66ch maximum. Metadata14px/1.6 and tabular dates. Authored editorial lead statements, pullquotes and resource questions retain their distinct narrative purpose.
 
 Labor/article font references now use the actual registered SourceSerif family. Text and content stay unchanged. Button shape/behavior rollout is separate from this typography pass.
+
+### Shared action motion, October5
+
+Enabled buttons and button-style/action links lift2px on hover,180ms with existing ease-out. Hover motion requires a fine pointer with hover capability. Reduced-motion preference disables the lift and transitions; disabled controls do not move. Keep colors and keyboard focus behavior intact.
