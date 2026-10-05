@@ -437,3 +437,9 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 .edition-home .work-overview p{max-width:65ch;margin-top:18px}
 .edition-home .work-intro>.text-link{justify-self:end;white-space:nowrap;margin:0 0 4px}
 @media(max-width:700px){.edition-home .work-intro{grid-template-columns:1fr;gap:18px}.edition-home .work-intro>.text-link{justify-self:end}.edition-home .work-overview p{margin-top:16px}}
+
+/* Give the central hero message room above and below. */
+.edition-home .opening{height:auto;min-height:790px}
+.edition-home .opening-brand{margin-block:104px 88px}
+@media(max-width:1000px){.edition-home .opening{min-height:760px}.edition-home .opening-brand{margin-block:88px 72px}}
+@media(max-width:600px){.edition-home .opening{min-height:820px}.edition-home .opening-brand{margin-block:56px 52px}}
