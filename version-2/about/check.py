@@ -27,9 +27,20 @@ for link in page.links:
     if u.fragment and not u.path: assert u.fragment in page.ids,link
 for name in ['Carol Platt Liebau','Matthew Fox','Tim Anop','Meghan Portfolio','Frank Ricci','Terrie Wood','Gail Lavielle','J. David Kelsey','Ken Boudreau','Gerald Gunderson','Themis Klarides','David Tohir','Penny Young','Tom Lasersohn']:
     assert name in s,name
-assert s.count('<details>')==6
+assert s.count('<details>')==0
+assert s.count('person/')==7
 assert 'src="../script.js?v=20261002"' in s
 assert 'href="../index.html" aria-label="Yankee Institute home"' in s
 assert s.count('<h1 ')==1
 assert '\u2014' not in s
-print('Pass: About roster, native biographies, local navigation, assets, image metadata and shared script.')
+print('Pass: About roster, dedicated person profiles, local navigation, assets, image metadata and shared script.')
+
+for person_page in (root.parent/'person').glob('*/index.html'):
+    check=Page(); check.feed(person_page.read_text())
+    for asset in check.assets:
+        assert (person_page.parent/urlsplit(asset).path).exists(),asset
+    for link in check.links:
+        u=urlsplit(link)
+        if u.scheme or u.netloc or not u.path: continue
+        assert (person_page.parent/u.path).exists(),link
+print('Pass: all person profile assets and local destinations exist.')

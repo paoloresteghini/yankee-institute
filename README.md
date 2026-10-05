@@ -27,7 +27,7 @@ Use `design/` for future review concepts. Serve only the intended public preview
 
 ## Approved design and prototypes
 
-Connecticut Edition (version-2) is the selected design style. The homepage and About prototype share Source Serif 4, Manrope, photography, navy and restrained gold. The root preview is a client-facing review index linking all 16 current page variations, grouped by page type with option labels and short descriptions. The selected homepage remains at version-2/index.html; About links to version-2/about/index.html. A continuous illustrated-story About alternative is available at version-2/about-alternative/index.html for comparison, preserving the original. Other homepage variants have been retired at Paolo’s request. Their tracked source remains recoverable from Git history.
+Connecticut Edition (version-2) is the selected design style. The homepage and About prototype share Source Serif 4, Manrope, photography, navy and restrained gold. The root preview is a client-facing review index linking all current page variations, grouped by page type with option labels and short descriptions. The selected homepage remains at version-2/index.html; About links to version-2/about/index.html. A continuous illustrated-story About alternative is available at version-2/about-alternative/index.html for comparison, preserving the original. Other homepage variants have been retired at Paolo’s request. Their tracked source remains recoverable from Git history.
 
 Two Research discovery options are available at version-2/research/index.html (publication library) and version-2/research-alternative/index.html (topic guide). They use the same seven selected publications in content/research.json, with native search/topic controls and original publication destinations. A third comparison at version-2/research-top-filters/index.html places search and policy topics above the photographic publication list. Run node version-2/check-research.js to check source parity and filtering across all three.
 
@@ -42,3 +42,5 @@ Research and content/content.json preserve the original public-source research. 
 ## Public review demo
 
 The existing GitHub Pages demo remains at https://paoloresteghini.github.io/yankee-institute/. Local changes require a deliberate publication refresh; files deleted locally may still exist in the previously published demo. Publish only the intended public files, never private records or backups.
+
+Dedicated profiles for the seven listed staff and fellows are available under version-2/person/. Both About options use View profile links instead of expandable biography controls. Matthew’s page is the review-index example; the other profiles retain the existing short biography copy pending fuller editorial treatment. Shared Edition navigation, newsletter and footer remain intact.

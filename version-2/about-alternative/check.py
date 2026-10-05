@@ -27,7 +27,8 @@ for link in page.links:
     if u.fragment and not u.path: assert u.fragment in page.ids,link
 for name in ['Carol Platt Liebau','Matthew Fox','Tim Anop','Meghan Portfolio','Frank Ricci','Terrie Wood','Gail Lavielle','J. David Kelsey','Ken Boudreau','Gerald Gunderson','Themis Klarides','David Tohir','Penny Young','Tom Lasersohn']:
     assert name in s,name
-assert s.count('<details>')==7
+assert s.count('<details>')==0
+assert s.count('person/')==7
 assert 'src="../script.js?v=20261002"' in s
 assert 'href="../index.html" aria-label="Yankee Institute home"' in s
 assert s.count('<h1 ')==1
