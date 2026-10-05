@@ -299,3 +299,7 @@ Shared inner-page content bounds now use the1440px outer cap and fluid gutters c
 ## About C photographic hero, October 5, 2026
 
 The third About preview preserves A’s mission, team, board and contact sections. Its opening uses the existing New Haven image as a full-width background, a navy gradient behind white SourceSerif500 copy and a gold team action. Desktop height700px, tablet/phone640px minimum; text remains within shared gutters. Added to review index and page jumper as C. No new identity or editorial copy.
+
+### Public Resources option C, October 5
+
+The public-resources-full-hero route uses a full Hartford photographic banner with a navy overlay, medium serif white title and gold directory anchor, matching About C. Below the opening it retains the current four-resource directory and all source destinations. Shared gutters, footer, navigation, scroll arrivals and page jumper remain in use.

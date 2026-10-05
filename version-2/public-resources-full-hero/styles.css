@@ -1,0 +1,15 @@
+/* Public Resources C pairs the Edition banner with the resource directory. */
+.resources-full-hero .desk-opening{display:flex;align-items:center;min-height:700px;padding-block:60px 72px;background:linear-gradient(90deg,#071e35eb 0%,#071e35b3 42%,#071e3533 100%),url('../../assets/hartford-1200.webp') center 52%/cover no-repeat;color:white}
+.resources-full-hero .desk-opening:before{content:none}
+.resources-full-hero .desk-hero{display:block;min-height:0;width:100%}
+.resources-full-hero .desk-intro{max-width:760px}
+.resources-full-hero .desk-breadcrumb{color:#e5edf1}
+.edition-inner .resources-full-hero h1{color:white;max-width:16ch;line-height:1.06}
+.edition-inner .resources-full-hero .desk-intro-text{color:#f1f5f7;max-width:48ch}
+.banner-button{display:inline-flex;align-items:center;gap:28px;background:var(--gold);color:var(--ink);font-size:16px;font-weight:650;border-radius:999px;min-height:52px;padding:14px 24px;margin-top:30px;transition:translate 180ms var(--ease),background 180ms var(--ease)}
+.banner-button svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.4;flex:none}
+#resource-directory{scroll-margin-top:112px}
+@media(hover:hover) and (pointer:fine){.banner-button:hover{translate:0 -2px;background:#f0d79f}}
+@media(max-width:1000px){.resources-full-hero .desk-opening{min-height:640px;padding-block:44px 56px}}
+@media(max-width:600px){.resources-full-hero .desk-opening{min-height:640px;padding-block:32px 44px;background-position:center,62% center;background-image:linear-gradient(90deg,#071e35e8,#071e35b3),url('../../assets/hartford-1200.webp')}.edition-inner .resources-full-hero h1{font-size:48px;max-width:13ch}}
+@media(prefers-reduced-motion:reduce){.banner-button{transition:none}.banner-button:hover{translate:none}}
