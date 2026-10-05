@@ -273,3 +273,7 @@ The shared Edition script introduces below-fold topic headings, images and card 
 ## Scroll transition correction, October 5, 2026
 
 The initial scroll implementation could snap visible content back to its animation start. The corrected shared behavior initializes only elements entirely below the viewport, then starts a550ms CSS opacity/individual-translation transition48px before entry, with sibling delays capped100ms. Only JavaScript-initialized offscreen elements get the pending state; no-JavaScript content remains visible. Focus, reduced motion, print and restored navigation immediately reveal content. This supersedes the prior visible-waiting-state implementation and timing.
+
+## Navigation container alignment, October 5, 2026
+
+Header contents now align to the current page content container: the homepage1200px inner width, and inner pages1440px outer cap including fluid gutters. Navy header background remains full width. Desktop dropdown panels share those horizontal bounds; mobile retains its existing disclosure layout with consistent content gutters.
