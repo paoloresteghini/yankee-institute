@@ -239,3 +239,9 @@ Donate inline refinement: the letter grid uses a content-sized opening row so it
 ## Edition homepage heading scale, October 5
 
 Homepage-only role tokens under `.edition-home`: section headings48px desktop/42px tablet/36px phone, Source Serif600 at1.12 leading. Lead titles32/30/28px; research32/30/26px; supporting stories24/20px; participation and signup32/28px; pillars22/20px; footer invitation36/32/30px. Manrope titles use650 weight and-.02em tracking, article/research leading1.3 and short feature leading1.25. Hero scale is retained. Footer directory labels remain16px700. Inner-page typography is unchanged.
+
+### Edition homepage controls, October 5
+
+Homepage CTAs use Manrope 16px/22px at650, 52px minimum height, 14px by24px padding, 1px transparent border and pill corners. Header Support is the compact48px exception. Diagonal action arrows are authored20px SVGs, currentColor stroke1.4. Text actions use14px/1.5 at650, underline borders and44px targets. Gold buttons use navy text; hero support is solid white with navy text. Gold hover is #f0d79f; navy signup hover is #21465e.
+
+Fields use16px/1.5, 52px minimum height, 8px radius and #4b626f border/placeholder. Validation border #9d382f only appears after user interaction. Focus uses3px #b47b14 with4px offset. Focus contrast exceeds3:1 on white and navy. Labels remain separate and forms retain native required/email validation. On phones the email field and signup stack. These rules are scoped to edition-home before rollout to other pages.
