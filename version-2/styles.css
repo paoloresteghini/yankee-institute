@@ -367,4 +367,4 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 .core-issues .mission-intro,.core-issues .policy-pillars{max-width:1200px;margin-inline:auto}
 
 /* Center homepage content while section backgrounds remain full width. */
-@media(min-width:601px){.edition-home .section-pad{padding-inline:max(var(--pad),calc((100% - 1200px)/2))}}
+@media(min-width:601px){.edition-home .section-pad,.edition-home .opening{padding-inline:max(var(--pad),calc((100% - 1200px)/2))}}
