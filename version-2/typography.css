@@ -29,3 +29,9 @@
 
 .edition-inner .research-page .guide-results-title{font-size:var(--type-label);font-weight:650;line-height:1.3;letter-spacing:-.02em}
 .edition-inner .donate-page .donate-understory h2{font-size:var(--type-section);line-height:1.12}
+
+/* Labor A uses the lighter editorial weight approved on article detail. */
+.edition-inner .issue-landing :is(h1,h2){font-weight:500}
+.edition-inner .issue-landing :is(h3,h4){font-weight:600}
+.edition-inner .issue-landing .issue-hero-photo figcaption{font-weight:500}
+.edition-inner .issue-landing .issue-questions summary{font-weight:600}
