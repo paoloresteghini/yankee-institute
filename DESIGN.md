@@ -295,3 +295,7 @@ The shared footer follows the navigation gutter: homepage1200px inner width and 
 ## Site content container audit, October 5, 2026
 
 Shared inner-page content bounds now use the1440px outer cap and fluid gutters consistently, including Research, Resources B, both Donate layouts, About A opening and newsletter sections. Resource help strips preserve full-width backgrounds while their text/actions follow header/footer gutters. Profile and article reading columns remain deliberately narrower. Decorative photo fields can bleed to the viewport with clipped image overflow. New content-containers.css supplies scoped corrections without changing homepage1200px content or editorial copy. All23 Edition previews checked at1818/768/375px; three initial tablet exceptions corrected and retested.
+
+## About C photographic hero, October 5, 2026
+
+The third About preview preserves A’s mission, team, board and contact sections. Its opening uses the existing New Haven image as a full-width background, a navy gradient behind white SourceSerif500 copy and a gold team action. Desktop height700px, tablet/phone640px minimum; text remains within shared gutters. Added to review index and page jumper as C. No new identity or editorial copy.
