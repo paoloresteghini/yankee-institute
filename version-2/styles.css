@@ -500,3 +500,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 .masthead{--nav-gutter:max(var(--pad),calc((100% - 1440px)/2 + var(--pad)));padding-inline:var(--nav-gutter)}
 .edition-home .masthead{--nav-gutter:max(var(--pad),calc((100% - 1200px)/2))}
 @media(min-width:1101px){.masthead .mega-menu,.masthead #policy-mega{left:var(--nav-gutter);right:var(--nav-gutter)}}
+
+/* Footer follows the shared page and navigation container. */
+.footer{padding-inline:max(var(--pad),calc((100% - 1440px)/2 + var(--pad)))}
+.edition-home .footer{padding-inline:max(var(--pad),calc((100% - 1200px)/2))}
