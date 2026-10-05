@@ -1,7 +1,7 @@
 /* Inner-page type roles extend the approved Edition homepage scale. */
 .edition-inner{--type-section:3rem;--type-feature:2rem;--type-story:1.5rem;--type-label:1.375rem;--type-footer:2.25rem;--type-page:clamp(3rem,4.8vw,4.5rem)}
-.edition-inner main h1{font-family:SourceSerif,Georgia,serif;font-size:var(--type-page);font-weight:600;line-height:1.12;letter-spacing:-.025em;text-wrap:balance}
-.edition-inner main h2{font-family:SourceSerif,Georgia,serif;font-size:var(--type-section);font-weight:600;line-height:1.12;letter-spacing:-.025em}
+.edition-inner main h1{font-family:SourceSerif,Georgia,serif;font-size:var(--type-page);font-weight:500;line-height:1.12;letter-spacing:-.025em;text-wrap:balance}
+.edition-inner main h2{font-family:SourceSerif,Georgia,serif;font-size:var(--type-section);font-weight:500;line-height:1.12;letter-spacing:-.025em}
 .edition-inner main h3{font-family:Manrope,Arial,sans-serif;font-size:var(--type-story);font-weight:650;line-height:1.3;letter-spacing:-.02em}
 .edition-inner main h4{font-family:Manrope,Arial,sans-serif;font-size:1.125rem;font-weight:650;line-height:1.4;letter-spacing:0}
 .edition-inner main p{font-size:1rem;line-height:1.75}
@@ -21,7 +21,7 @@
 .edition-inner :is(.person-role,.story-topic,.collection-note,.research-count,.collection-scope,.giving-preview,.giving-payment-note,.donate-tax-id,.newsletter-form-note,.newsletter-alerts p,.resource-finder-note,.article-author p){font-size:.875rem;line-height:1.6}
 .edition-inner :is(.newsletter-scene-copy h2){font-size:var(--type-section)}
 .edition-inner .newsletter-invitation h3{font-size:var(--type-feature);line-height:1.25}
-.edition-inner .footer .footer-support h2{font-size:var(--type-footer);font-weight:600;line-height:1.12;letter-spacing:-.025em}
+.edition-inner .footer .footer-support h2{font-size:var(--type-footer);font-weight:500;line-height:1.12;letter-spacing:-.025em}
 .edition-inner .footer h3{font-family:Manrope,Arial,sans-serif;font-size:1rem;font-weight:700;line-height:1.5;letter-spacing:0}
 @media(max-width:1000px){.edition-inner{--type-section:2.625rem;--type-feature:1.875rem;--type-footer:2rem}}
 @media(max-width:600px){.edition-inner{--type-section:2.25rem;--type-feature:1.75rem;--type-story:1.25rem;--type-label:1.25rem;--type-footer:1.875rem;--type-page:3rem}.edition-inner .article-page h1{font-size:2.25rem}.edition-inner .guide-spine h1{font-size:3rem}.edition-inner .profile-page h1{font-size:2.75rem}}

@@ -1,7 +1,7 @@
 /* About extends the approved Connecticut Edition system. */
 .about-page{background:white}
 .about-container{max-width:1440px;padding-inline:var(--pad);margin-inline:auto}
-.about-page h1,.about-page h2{font-family:SourceSerif,Georgia,serif;font-weight:600;letter-spacing:-.025em;text-wrap:balance}
+.about-page h1,.about-page h2{font-family:SourceSerif,Georgia,serif;font-weight:500;letter-spacing:-.025em;text-wrap:balance}
 .about-page h2{font-size:clamp(38px,4vw,56px);line-height:1.08}
 .about-page p{font-size:18px;line-height:1.75;text-wrap:pretty}
 .about-page section[id]{scroll-margin-top:120px}
