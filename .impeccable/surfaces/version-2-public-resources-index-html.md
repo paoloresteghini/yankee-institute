@@ -1,10 +1,20 @@
-# Public Resources, two Edition compositions
+# Public Resources A, replacement directory, October 5, 2026
 
-Mode: Read. Ordinary extension of the selected Connecticut Edition world. Code-led.
+Ordinary code-led extension of the selected Edition identity. The user directly requested complete replacement of rejected A, within the incumbent visual world. This instruction authorizes implementation without another identity workshop or concept approval round. No approved comp is claimed. B retains its question-led finder.
 
-THESIS: Give Connecticut residents a direct route to four real public resources, with the care and distinctiveness of the selected homepage.
-OWN-WORLD: Existing navy #102d43, white and cool paper; SourceSerif display and Manrope reading. Local Connecticut photography, existing global navigation/footer. No new branding, simulated data or decorative tool dashboards.
-STORY: Both pages retain CT Union Contracts, CT Wheel of Taxes, CT Can Work and CT Sunlight Project, including the state transparency link. A is a continuous photographic split directory. B is an intent-led chooser with a single photographic tool display, not stacked homepage sections.
-FIRST VIEWPORT: A pairs an immersive left photograph/title with the beginning of the right resource directory. B puts a clear public resources title above four visitor questions and a large selected-tool showcase. Both communicate what to do next without scrolling through unrelated stories.
-FORM: Surface seed ae63775e recorded. User explicitly requested two built variations inside the selected world and delegated creativity, rather than another three-option approval round. Grounded structures considered: editorial index, reading guide, photographic directory, nested disclosures, topic shelves, question chooser, side-by-side public desk. Chosen two differ in topology and task flow. The user-pinned two-variation brief takes precedence over the roll's three-choice presentation.
-FINISH: Source parity, accessible external links, native keyboard controls, usable no-JS fallback for B, all three widths with complete banner/footer captures. No integration submission. Reduced motion renders all images and selected-tool content with no entrance animation. No claim of final client copy or third-party availability.
+## Direction contract
+
+THESIS: Put all four public resources in view as a useful directory, replacing the oversized sticky-photo split.
+OWN-WORLD: Preserve Edition navy, gold, white and cool paper, true SourceSerif500 display, Manrope reading, contained navigation and rounded real Connecticut photography.
+STORY: Read the purpose, jump to a named tool, compare its question and description, follow its direct action. Preserve all original resource copy and destinations.
+FIRST VIEWPORT: Compact paper opening with title and introduction left, rounded landscape right. Native tool shortcuts lead into full-width image-led resource rails with question, description and action columns. Phone reflows to image/title followed by description/action.
+FORM: Open resource desk. Current exploration seed 6e184637 dealt positions 6,5,1; recorded as exploration, not fabricated user selection. The direct redesign request governs the build. Original seed ae63775e documents superseded A/B creation, not this replacement.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+
+## QUALITY BAR
+
+Code-led incumbent Edition reference: shared lighter display typography, Manrope reading, contained navigation, navy/gold/paper and rounded genuine photography. Specific devices: compact two-column opening, readable four-column directory rails, explicit direct actions, native shortcuts and deliberate phone order. No approved comp. Full-page built-output evidence at375/768/1440/1818px is in .impeccable/review/public-a/{mobile,tablet,desktop,user-1818}.png. All captures include complete banner/footer, loaded images and completed scroll arrivals.
+
+## Verification
+
+All four original descriptions, questions and destinations retained, including state transparency data. Four widths fit without overflow. Enter shortcut changes hash; next Tab has visible solid focus. No new JavaScript. Independent visual review found no material defects; its documentation corrections are recorded here and in DESIGN.md. External availability and WordPress implementation remain separate.

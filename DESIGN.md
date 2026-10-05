@@ -277,3 +277,9 @@ The initial scroll implementation could snap visible content back to its animati
 ## Navigation container alignment, October 5, 2026
 
 Header contents now align to the current page content container: the homepage1200px inner width, and inner pages1440px outer cap including fluid gutters. Navy header background remains full width. Desktop dropdown panels share those horizontal bounds; mobile retains its existing disclosure layout with consistent content gutters.
+
+## Public Resources A replacement, October 5, 2026
+
+This note supersedes the October 2 description of A as a full-height sticky photographic split directory. A now uses a compact cool-paper opening with a rounded landscape, native resource shortcuts and four image-led full-width directory rails. Each rail exposes the original question, description and direct action. Below 1100px, actions move beneath the description; below 700px, a small photo/title pair precedes full-width description and actions. Existing SourceSerif500 display, Manrope reading, navy/gold identity and rounded photographs remain intact. Option B retains its question-led finder. These surface choices do not become a required layout for other pages.
+
+Evidence: version-2/resource-desk.css and version-2/public-resources/index.html, with complete375/768/1440/1818px captures in .impeccable/review/public-a/. Original resource copy and links preserved; no new integration or production release. Historical frontmatter and sidecar remain unchanged.
