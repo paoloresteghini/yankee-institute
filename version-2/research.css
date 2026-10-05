@@ -51,7 +51,7 @@
 .research-topics button[aria-pressed=true] span{opacity:1}
 .research-topics button:hover:not([aria-pressed=true]){background:var(--paper)}
 .guide-spine>.text-link{margin-top:20px}
-.guide-results-title{font:700 20px/1.4 Manrope,Arial,sans-serif!important;margin:4px 0 8px}
+.guide-results-title{font:700 20px/1.4 Manrope,Arial,sans-serif;margin:4px 0 8px}
 .guide-results>.publication{padding-block:32px;display:grid;grid-template-columns:180px 1fr;gap:28px}
 .publication-photo{border-radius:16px;overflow:hidden;background:var(--paper)}
 .publication-photo img{height:100%;min-height:210px;object-fit:cover}

@@ -1,0 +1,31 @@
+/* Inner-page type roles extend the approved Edition homepage scale. */
+.edition-inner{--type-section:3rem;--type-feature:2rem;--type-story:1.5rem;--type-label:1.375rem;--type-footer:2.25rem;--type-page:clamp(3rem,4.8vw,4.5rem)}
+.edition-inner main h1{font-family:SourceSerif,Georgia,serif;font-size:var(--type-page);font-weight:600;line-height:1.12;letter-spacing:-.025em;text-wrap:balance}
+.edition-inner main h2{font-family:SourceSerif,Georgia,serif;font-size:var(--type-section);font-weight:600;line-height:1.12;letter-spacing:-.025em}
+.edition-inner main h3{font-family:Manrope,Arial,sans-serif;font-size:var(--type-story);font-weight:650;line-height:1.3;letter-spacing:-.02em}
+.edition-inner main h4{font-family:Manrope,Arial,sans-serif;font-size:1.125rem;font-weight:650;line-height:1.4;letter-spacing:0}
+.edition-inner main p{font-size:1rem;line-height:1.75}
+.edition-inner :is(.about-opening-copy>p,.story-title>p,.research-opening p,.banner-copy>p,.resource-intro,.resource-finder-title>p,.donate-photo-copy>p,.profile-role){font-size:1.125rem;line-height:1.65}
+.edition-inner :is(.feature-copy h2,.news-lead h2,.resource-entry h2,.resource-tool-copy h2){font-family:Manrope,Arial,sans-serif;font-size:var(--type-feature);font-weight:650;line-height:1.3;letter-spacing:-.02em}
+.edition-inner .news-support h2{font-family:Manrope,Arial,sans-serif;font-size:var(--type-story);font-weight:650;line-height:1.3;letter-spacing:-.02em}
+.edition-inner :is(.person h3,.president h3,.publication h3,.guide-results>.publication:first-of-type h3,.archive-results>.publication:first-of-type h3,.news-results h3,.related-stories h3){font-family:Manrope,Arial,sans-serif;font-size:var(--type-story);font-weight:650;line-height:1.3;letter-spacing:-.02em}
+.edition-inner .board-directory h3{font-size:var(--type-label)}
+.edition-inner :is(.guide-results>h2,.archive-results>h2,.resource-questions>h2,.giving-step h3){font-family:Manrope,Arial,sans-serif;font-size:var(--type-label);font-weight:650;line-height:1.3;letter-spacing:-.02em}
+.edition-inner .article-author h2{font-family:Manrope,Arial,sans-serif;font-size:1.125rem;font-weight:650;line-height:1.4;letter-spacing:0}
+.edition-inner .article-page h1{font-size:clamp(2.25rem,4vw,3.5rem);line-height:1.15}
+.edition-inner .guide-spine h1{font-size:clamp(3rem,4vw,3.5rem)}
+.edition-inner .profile-page h1{font-size:clamp(2.75rem,4.6vw,4rem)}
+.edition-inner .article-page .article-body p,.edition-inner .profile-bio p{font-size:1.125rem;line-height:1.8;max-width:66ch}
+.edition-inner :is(.story-essay,.about-mission,.mission-copy,.profile-bio) p{max-width:66ch}
+.edition-inner :is(.publication-meta,.story-meta){font-size:.875rem!important;line-height:1.6;font-variant-numeric:tabular-nums}
+.edition-inner :is(.person-role,.story-topic,.collection-note,.research-count,.collection-scope,.giving-preview,.giving-payment-note,.donate-tax-id,.newsletter-form-note,.newsletter-alerts p,.resource-finder-note,.article-author p){font-size:.875rem;line-height:1.6}
+.edition-inner :is(.newsletter-scene-copy h2){font-size:var(--type-section)}
+.edition-inner .newsletter-invitation h3{font-size:var(--type-feature);line-height:1.25}
+.edition-inner .footer .footer-support h2{font-size:var(--type-footer);font-weight:600;line-height:1.12;letter-spacing:-.025em}
+.edition-inner .footer h3{font-family:Manrope,Arial,sans-serif;font-size:1rem;font-weight:700;line-height:1.5;letter-spacing:0}
+@media(max-width:1000px){.edition-inner{--type-section:2.625rem;--type-feature:1.875rem;--type-footer:2rem}}
+@media(max-width:600px){.edition-inner{--type-section:2.25rem;--type-feature:1.75rem;--type-story:1.25rem;--type-label:1.25rem;--type-footer:1.875rem;--type-page:3rem}.edition-inner .article-page h1{font-size:2.25rem}.edition-inner .guide-spine h1{font-size:3rem}.edition-inner .profile-page h1{font-size:2.75rem}}
+@media(max-width:420px){.edition-inner .article-split h1{font-size:2rem}}
+
+.edition-inner .research-page .guide-results-title{font-size:var(--type-label);font-weight:650;line-height:1.3;letter-spacing:-.02em}
+.edition-inner .donate-page .donate-understory h2{font-size:var(--type-section);line-height:1.12}

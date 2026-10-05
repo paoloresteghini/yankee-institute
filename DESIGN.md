@@ -247,3 +247,11 @@ Homepage CTAs use Manrope 16px/22px at650, 52px minimum height, 14px by24px padd
 Fields use16px/1.5, 52px minimum height, 8px radius and #4b626f border/placeholder. Validation border #9d382f only appears after user interaction. Focus uses3px #b47b14 with4px offset. Focus contrast exceeds3:1 on white and navy. Labels remain separate and forms retain native required/email validation. On phones the email field and signup stack. These rules are scoped to edition-home before rollout to other pages.
 
 Homepage newsletter exception: email and signup button stack full width, share8px corners and52px height, with12px gap. Standalone CTAs remain pills.
+
+### Inner-page typography, October5
+
+The22 Edition inner previews load typography.css after page-specific styles. SourceSerif600 remains the display/section voice, Manrope650 is the content-title voice. Section h2 matches homepage48px desktop,42px tablet and36px phone at1.12. Story/staff h3 uses24px desktop/tablet and20px phone at1.3. Featured story/resource titles use32/30/28px, Manrope650. Compact result labels and board names use22/20px. Footer support matches36/32/30px; footer group headings remain16px700.
+
+Page titles use48-72px responsive serif, with narrower-layout exceptions: Research guide56px maximum, person64px maximum and44px phone, article56px maximum and36px phone (split article32px below420px). These are role exceptions for copy and available width, not a different identity. Body is16px/1.75; introductions18px/1.65; article/profile prose18px/1.8 with66ch maximum. Metadata14px/1.6 and tabular dates. Authored editorial lead statements, pullquotes and resource questions retain their distinct narrative purpose.
+
+Labor/article font references now use the actual registered SourceSerif family. Text and content stay unchanged. Button shape/behavior rollout is separate from this typography pass.
