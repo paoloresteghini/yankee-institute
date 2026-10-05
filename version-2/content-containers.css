@@ -1,0 +1,14 @@
+/* Shared content bounds, with full-width section backgrounds and photo fields. */
+.edition-inner{--content-gutter:max(var(--pad),calc((100% - 1440px)/2 + var(--pad)))}
+.edition-inner .research-container,.edition-inner .resource-finder-wrap,.edition-inner .donate-letter-layout{max-width:1440px}
+.edition-inner .about-opening,.edition-inner .newsletter,.edition-inner .resource-help{padding-inline:var(--content-gutter)}
+.edition-inner .donate-photo-opening{max-width:none;padding-inline:var(--content-gutter)}
+.edition-inner .donate-photo-field{margin-inline:calc(-1 * var(--content-gutter))}
+.edition-inner .donate-photo-copy{padding-inline:var(--content-gutter)}
+.edition-inner .donate-photo-opening>.donate-understory{padding-left:0}
+@media(max-width:650px){
+  .edition-inner .donate-invite-white{margin-inline:0}
+  .edition-inner .donate-photo-opening>.donate-understory{padding-inline:0}
+}
+.edition-inner .resource-finder-wrap,.edition-inner .donate-letter-layout{padding-inline:var(--pad)}
+.edition-inner .donate-photo-opening{overflow:clip}

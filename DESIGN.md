@@ -291,3 +291,7 @@ At Paolo’s request, A’s opening now follows About A’s pale-blue ground (#e
 ## Footer container alignment, October 5, 2026
 
 The shared footer follows the navigation gutter: homepage1200px inner width and inner-page1440px outer cap with fluid padding. Navy remains full width. All23 previews verified at1818/375px with matching header/footer logo alignment and no overflow.
+
+## Site content container audit, October 5, 2026
+
+Shared inner-page content bounds now use the1440px outer cap and fluid gutters consistently, including Research, Resources B, both Donate layouts, About A opening and newsletter sections. Resource help strips preserve full-width backgrounds while their text/actions follow header/footer gutters. Profile and article reading columns remain deliberately narrower. Decorative photo fields can bleed to the viewport with clipped image overflow. New content-containers.css supplies scoped corrections without changing homepage1200px content or editorial copy. All23 Edition previews checked at1818/768/375px; three initial tablet exceptions corrected and retested.
