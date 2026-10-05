@@ -467,3 +467,8 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 
 .edition-home .mega-feature-cta{display:inline-flex;align-items:center;gap:12px;min-height:44px;font-size:14px;font-weight:650}
 .edition-home .read-arrow{display:inline-flex;vertical-align:middle}
+
+/* Signup is a paired form control rather than a standalone pill CTA. */
+.edition-home .newsletter-email-row{flex-direction:column;gap:12px}
+.edition-home .newsletter-email-row>input{flex:auto}
+.edition-home .newsletter-email-row .newsletter-submit{width:100%;border-radius:8px}
