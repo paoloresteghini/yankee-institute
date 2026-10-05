@@ -417,7 +417,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 @media(max-width:600px){.edition-home{--home-section-title:2.25rem;--home-lead-title:1.75rem;--home-research-title:1.625rem;--home-feature-title:1.75rem;--home-story-title:1.25rem;--home-pillar-title:1.25rem;--home-footer-title:1.875rem}}
 
 /* Compact landscape research pair with unified rounded card surfaces. */
-.edition-home .work-action{display:block;--home-research-title:1.5rem}
+.edition-home .work-action{display:block;--home-research-title:1.5rem;background-image:url("../assets/participation-pattern.svg");background-size:640px 640px;background-position:50% 0}
 .edition-home .work-intro{position:static;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,350px);gap:48px;align-items:end;max-width:none;padding:0;margin-bottom:30px}
 .edition-home .work-overview p{font-size:16px;line-height:1.65;max-width:36ch;margin:0}
 .edition-home .work-overview .text-link{margin-top:14px}
