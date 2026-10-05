@@ -269,3 +269,7 @@ Paolo rejected the heavy display weight across the previews. All Edition serif d
 ## Scroll arrival motion, October 5, 2026
 
 The shared Edition script introduces below-fold topic headings, images and card groups once as they enter view. Arrivals use16px of vertical translation with a480ms deceleration; siblings stagger60ms up to120ms. Above-fold banners and long article/profile reading text retain their existing behavior. Content is visible by default, with no hidden waiting state or JavaScript dependency for reading. Reduced motion skips arrivals and cancels running effects when enabled. Keyboard focus immediately completes the relevant arrival. No scroll listener, animation library or repeating effect is introduced.
+
+## Scroll transition correction, October 5, 2026
+
+The initial scroll implementation could snap visible content back to its animation start. The corrected shared behavior initializes only elements entirely below the viewport, then starts a550ms CSS opacity/individual-translation transition48px before entry, with sibling delays capped100ms. Only JavaScript-initialized offscreen elements get the pending state; no-JavaScript content remains visible. Focus, reduced motion, print and restored navigation immediately reveal content. This supersedes the prior visible-waiting-state implementation and timing.

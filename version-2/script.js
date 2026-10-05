@@ -47,12 +47,11 @@
   });
 })();
 
-/* Scroll arrivals introduce the next topic and its supporting content together. */
+/* Scroll arrivals begin offscreen so visible content never snaps to a start frame. */
 (() => {
   const main = document.querySelector('main');
   const preference = matchMedia('(prefers-reduced-motion: reduce)');
-  if (!main || preference.matches || !('IntersectionObserver' in window) || !Element.prototype.animate) return;
-
+  if (!main || preference.matches || !('IntersectionObserver' in window)) return;
   const selectors = [
     'h2', '.archive-heading', '.issue-section-heading', 'figure', 'article',
     '.person', '.pillar-index-row', '.work-example', '.involvement-card',
@@ -60,7 +59,7 @@
   ].join(',');
   const candidates = [...main.querySelectorAll(selectors), ...document.querySelectorAll('footer h2')].filter(element =>
     !element.closest('.article-body, .profile-bio, .issue-hero, .article-opening, .opening') &&
-    element.getBoundingClientRect().top >= innerHeight * .9
+    element.getBoundingClientRect().top >= innerHeight + 48
   );
   const selected = new Set(candidates);
   const targets = candidates.filter(element => {
@@ -69,40 +68,42 @@
     }
     return true;
   });
-  const active = new Map();
+  const reveal = (element, immediate = false) => {
+    observer.unobserve(element);
+    if (immediate) element.dataset.scrollImmediate = 'true';
+    element.dataset.scrollReveal = 'complete';
+  };
   const observer = new IntersectionObserver(entries => {
     let stagger = 0;
     entries.forEach(entry => {
       if (!entry.isIntersecting) return;
       const element = entry.target;
-      observer.unobserve(element);
-      element.dataset.scrollReveal = 'complete';
-      if (preference.matches || element.contains(document.activeElement)) return;
-      const animation = element.animate([
-        { opacity: .35, translate: '0 16px' },
-        { opacity: 1, translate: '0 0' }
-      ], { duration: 480, delay: Math.min(stagger++ * 60, 120), easing: 'cubic-bezier(.16,1,.3,1)' });
-      active.set(element, animation);
-      animation.finished.then(() => active.delete(element), () => active.delete(element));
+      element.style.setProperty('--arrival-delay', `${Math.min(stagger++ * 50, 100)}ms`);
+      reveal(element, preference.matches || element.contains(document.activeElement));
     });
-  }, { threshold: .08, rootMargin: '0px 0px -24px 0px' });
-  targets.forEach(element => {
-    element.dataset.scrollReveal = 'ready';
-    observer.observe(element);
-  });
+  }, { threshold: 0, rootMargin: '0px 0px 48px 0px' });
+  const finishAll = () => {
+    observer.disconnect();
+    targets.forEach(element => reveal(element, true));
+  };
+  try {
+    targets.forEach(element => {
+      element.dataset.scrollReveal = 'ready';
+      observer.observe(element);
+    });
+  } catch {
+    finishAll();
+  }
   document.addEventListener('focusin', event => {
     targets.forEach(element => {
-      if (!element.contains(event.target)) return;
-      observer.unobserve(element);
-      active.get(element)?.cancel();
-      element.dataset.scrollReveal = 'complete';
+      if (element.contains(event.target)) reveal(element, true);
     });
   });
   preference.addEventListener('change', event => {
-    if (!event.matches) return;
-    observer.disconnect();
-    active.forEach(animation => animation.cancel());
-    active.clear();
-    targets.forEach(element => { element.dataset.scrollReveal = 'complete'; });
+    if (event.matches) finishAll();
+  });
+  window.addEventListener('beforeprint', finishAll);
+  window.addEventListener('pageshow', event => {
+    if (event.persisted) finishAll();
   });
 })();
