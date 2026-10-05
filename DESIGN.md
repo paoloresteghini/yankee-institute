@@ -287,3 +287,7 @@ Evidence: version-2/resource-desk.css and version-2/public-resources/index.html,
 ## Public Resources A hero alignment, October 5, 2026
 
 At Paolo’s request, A’s opening now follows About A’s pale-blue ground (#e6eef1), 670px desktop height, equal columns, 54px/64px vertical padding and 48-72px display scale. Image height follows510px desktop,450px tablet and320px phone. This supersedes the compact opening dimensions above; directory rails remain intact.
+
+## Footer container alignment, October 5, 2026
+
+The shared footer follows the navigation gutter: homepage1200px inner width and inner-page1440px outer cap with fluid padding. Navy remains full width. All23 previews verified at1818/375px with matching header/footer logo alignment and no overflow.
