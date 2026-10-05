@@ -235,3 +235,7 @@ One masked photo entrance remains per composition (1100ms, shared ease). Reduced
 Current evidence: `version-2/donate.css`, `version-2/donate.js`, both Donate HTML files and `content/donate.json`. Eighteen opening/full/details captures at 375px, 768px and 1440px were inspected in `audits/donate-inline-2026-10-02/`; extraction and evidence limits are recorded in its `documentation.md`. Details captures show the scrolled sticky header and visible skip link, which are capture-state artifacts rather than new composition rules. Historical frontmatter/sidecar drift and superseded contract wording remain separate. This documentation does not establish client selection, public publication, Elementor implementation or production deployment.
 
 Donate inline refinement: the letter grid uses a content-sized opening row so its introductory and body copy remain adjacent when the donor step expands. Phone order remains introduction, giving form, body and alternative giving methods.
+
+## Edition homepage heading scale, October 5
+
+Homepage-only role tokens under `.edition-home`: section headings48px desktop/42px tablet/36px phone, Source Serif600 at1.12 leading. Lead titles32/30/28px; research32/30/26px; supporting stories24/20px; participation and signup32/28px; pillars22/20px; footer invitation36/32/30px. Manrope titles use650 weight and-.02em tracking, article/research leading1.3 and short feature leading1.25. Hero scale is retained. Footer directory labels remain16px700. Inner-page typography is unchanged.
