@@ -327,3 +327,11 @@ Contact and speaker forms prepare explicitly labeled email drafts. Newsletter re
 ## Contact B form panel correction, October6
 
 Contact B now inherits the inset form treatment:24-40px responsive padding,16px rounded border and natural content height. Removed the zero-side-padding override and grid stretch that left labels/fields flush against the white panel. Both Contact options verified at1818/768/375px with no overflow and all fields inside the panel. Content and email handoff unchanged.
+
+## New-page imagery refresh, October6
+
+All36 newoptions reevaluated.33routes enhanced with relevant photographs in openings andreading introductions. Existing mediumserif/Manrope/navy-gold identity, sharedcontainers, roundedphoto treatment, banners, A/Borganization andbehavior retained.
+
+Energy uses electricity lines atsunset andresidentialsolar context rather thanlandmark-only imagery. Education uses classrooms andfamilies, LocalControl communityconversation, FiscalCompact familycontext. Publication overview illustrateseducation implications. Engagement openings pairpurpose-led photography with existingpatterned surfaces; archiveA splitphotos andB fullphotobanners retain sourcedfeaturedgraphics andcontext thumbnails. Campaigns now connect work/participation/support withreaders, community andfamilies acrossbodysections.
+
+PrivacyA/B remain quiet toprotectliteralpolicy readability.404B retains itsalreadyphotographic coastalrecovery. Newstockphotos andexistingpeople images areillustrative, neveridentifiedConnecticutresidents, staff, programs oractualreportedincidents. Provenance assets/policy-imagery-credits.md plusexistingassets/credits.md. Originalcopy/links/formattributes preserved apart fromexplicitillustrativecontext notes. All36routes checkedat1440/768/375,72desktop/phone fullcaptures and108metrics pass. Independentreview ship atsampledscope; noWordPress/integration deployment.
