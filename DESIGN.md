@@ -311,3 +311,7 @@ The labor-full-hero route uses a full South Norwalk photographic banner, navy ov
 ## Approved page options, October 6
 
 About B, Research B, News A, Article B, Labor A, Public Resources B and Donate B are signed off per Paolo. The review index marks exactly these seven options with a green boundary and explicit Signed off badge. News A includes a Tips button linking to the existing Yankee contact form; dedicated newsroom intake remains an implementation decision.
+
+## News tip popup, October 6
+
+News A now opens an accessible native dialog from Submit a Tip. Optional name, required email and tip fields prepare a mailto draft to the existing public info address. The action explicitly says Continue in email, preserving user review/send and avoiding an unconnected success claim. Direct form-service submission remains separate.

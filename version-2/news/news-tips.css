@@ -1,5 +1,26 @@
-/* News tips use the existing public contact form. */
+/* News tips use an accessible popup with an explicit email handoff. */
 .news-tip-button{display:inline-flex;align-items:center;gap:24px;min-height:52px;padding:13px 24px;border-radius:999px;background:var(--gold);color:var(--ink);font-size:16px;font-weight:650;margin-top:24px;transition:translate 180ms var(--ease),background 180ms var(--ease)}
 .news-tip-button svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.4;flex:none}
 @media(hover:hover) and (pointer:fine){.news-tip-button:hover{translate:0 -2px;background:#f0d79f}}
 @media(prefers-reduced-motion:reduce){.news-tip-button{transition:none}.news-tip-button:hover{translate:none}}
+
+.tip-dialog{position:fixed;inset:0;margin:auto;height:fit-content;width:min(560px,calc(100% - 32px));max-height:calc(100dvh - 32px);padding:36px;border:0;border-radius:18px;background:white;color:var(--ink);overflow-y:auto;box-shadow:0 24px 80px #071e3533}
+.tip-dialog::backdrop{background:#071e35b3}
+.tip-dialog h2{font:500 36px/1.15 SourceSerif,Georgia,serif;margin:0 44px 16px 0}
+.tip-dialog p{font-size:16px;line-height:1.6}
+.tip-close{position:absolute;top:16px;right:16px;display:grid;place-items:center;width:44px;height:44px;border:0;border-radius:999px;background:var(--paper);color:var(--ink);font-size:28px;cursor:pointer}
+.tip-dialog form{margin-top:24px}
+.tip-dialog label{display:block;font-size:14px;font-weight:650;margin:18px 0 8px}
+.tip-dialog label span{font-weight:400;color:var(--muted)}
+.tip-dialog input,.tip-dialog textarea{display:block;width:100%;border:1px solid var(--muted);border-radius:8px;padding:12px;font:400 16px/1.5 Manrope,Arial,sans-serif;background:white;color:var(--ink)}
+.tip-dialog textarea{resize:vertical;min-height:130px}
+.tip-dialog :is(input,textarea,button,a):focus-visible{outline:3px solid #b47b14;outline-offset:3px}
+.tip-dialog .tip-handoff{font-size:14px;color:var(--muted);margin:18px 0}
+.tip-send{display:inline-flex;align-items:center;gap:24px;min-height:52px;padding:14px 22px;background:var(--ink);color:white;border:0;border-radius:999px;font:650 16px/1.5 Manrope,Arial,sans-serif;cursor:pointer;transition:translate 180ms var(--ease)}
+.tip-send svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.4}
+.tip-contact{display:flex;width:fit-content;min-height:44px;align-items:center;margin-top:10px;font-size:14px;text-decoration:underline;text-underline-offset:4px}
+.tip-dialog .tip-status{font-size:14px;margin-top:14px;color:var(--muted)}
+.tip-status:empty{display:none}
+@media(hover:hover) and (pointer:fine){.tip-send:hover{translate:0 -2px}}
+@media(max-width:600px){.tip-dialog{padding:28px 22px}.tip-dialog h2{font-size:32px}}
+@media(prefers-reduced-motion:reduce){.tip-send{transition:none}.tip-send:hover{translate:none}}
