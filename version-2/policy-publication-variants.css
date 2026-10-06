@@ -83,3 +83,13 @@
 
 .publication-title-panel .policy-button+.text-link{margin-left:20px}
 @media(max-width:600px){.publication-title-panel .policy-button+.text-link{display:flex;width:fit-content;margin-left:0}.edition-inner .publication-title-panel h1{font-size:32px}.edition-inner .publication-opening h1{font-size:32px}}
+
+/* Subject photography connects the policy introduction to daily life. */
+.policy-context-photo{margin:28px 0 24px;aspect-ratio:16/10;overflow:hidden;border-radius:16px}
+.policy-context-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+.policy-guide-intro .policy-context-photo{aspect-ratio:16/9;margin-block:32px 12px}
+.publication-essay .policy-context-photo{aspect-ratio:16/9;margin-block:30px 0}
+.policy-solar-photo img{object-position:center 78%}
+.policy-page .issue-hero-photo img[src*="policy-power-grid"]{object-position:65% center}
+.policy-page .issue-hero-photo img[src*="policy-classroom"]{object-position:42% center}
+@media(max-width:600px){.policy-context-photo{margin-block:24px;aspect-ratio:4/3}.policy-guide-intro .policy-context-photo,.publication-essay .policy-context-photo{aspect-ratio:4/3}.policy-page .issue-hero-photo img[src*="policy-power-grid"]{object-position:65% center}}

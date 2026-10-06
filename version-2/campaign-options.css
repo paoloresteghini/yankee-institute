@@ -56,3 +56,9 @@
 @media(max-width:650px){.campaign-opening{padding-block:32px 44px;min-height:0}.campaign-opening-inner,.campaign-section,.campaign-letter,.campaign-evidence,.campaign-work{grid-template-columns:1fr}.campaign-opening-copy h1{margin-top:28px}.campaign-photo{height:300px}.campaign-banner{min-height:640px;background-position:center,60% center}.campaign-banner.new-haven{background-position:center,62% center}.campaign-section,.campaign-letter,.campaign-evidence{gap:36px;padding-block:56px}.campaign-giving{gap:16px}.campaign-work-list{padding-block:32px}.campaign-work-list .campaign-work:nth-child(even) .campaign-photo{order:0}.campaign-work-grid>div{grid-template-columns:1fr;gap:40px}.campaign-work-grid .campaign-photo{height:240px}.campaign-work-grid{padding-block:56px}.campaign-help{gap:24px}.campaign-help .campaign-link{width:100%;max-width:320px}.campaign-work h3{font-size:28px!important}}
 @media(prefers-reduced-motion:reduce){.campaign-button,.campaign-link{transition:none;transform:none!important}}
 .campaign-page .action-icon{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.3;flex:none}
+
+/* Human context complements the sourced work, without depicting actual Yankee programs. */
+.campaign-banner.hartford{background-image:linear-gradient(90deg,#071e35ed,#071e35b3 50%,#071e3555),url('../assets/family-1440.webp');background-position:center,70% 42%}
+.campaign-banner.new-haven{background-image:linear-gradient(90deg,#071e35ed,#071e35b3 50%,#071e3555),url('../assets/community-1200.webp');background-position:center,65% center}
+.campaign-intro-photo{height:auto;aspect-ratio:4/3;margin-top:32px}
+@media(max-width:650px){.campaign-intro-photo{aspect-ratio:3/2}.campaign-banner.hartford{background-position:center,65% center}}
