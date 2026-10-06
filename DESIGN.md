@@ -307,3 +307,7 @@ The public-resources-full-hero route uses a full Hartford photographic banner wi
 ### Labor option C, October 5
 
 The labor-full-hero route uses a full South Norwalk photographic banner, navy overlay, medium white serif title and gold issue anchor, matching About and Resources C. The policy, research, image-led reporting, training and newsletter content below is identical to Labor A. Shared contained content and navigation remain in use.
+
+## Approved page options, October 6
+
+About B, Research B, News A, Article B, Labor A, Public Resources B and Donate B are signed off per Paolo. The review index marks exactly these seven options with a green boundary and explicit Signed off badge. News A includes a Tips button linking to the existing Yankee contact form; dedicated newsroom intake remains an implementation decision.
