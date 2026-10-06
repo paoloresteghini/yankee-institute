@@ -1,0 +1,5 @@
+/* News tips use the existing public contact form. */
+.news-tip-button{display:inline-flex;align-items:center;gap:24px;min-height:52px;padding:13px 24px;border-radius:999px;background:var(--gold);color:var(--ink);font-size:16px;font-weight:650;margin-top:24px;transition:translate 180ms var(--ease),background 180ms var(--ease)}
+.news-tip-button svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.4;flex:none}
+@media(hover:hover) and (pointer:fine){.news-tip-button:hover{translate:0 -2px;background:#f0d79f}}
+@media(prefers-reduced-motion:reduce){.news-tip-button{transition:none}.news-tip-button:hover{translate:none}}
