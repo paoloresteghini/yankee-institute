@@ -1,0 +1,58 @@
+
+.campaign-page{--campaign-gap:clamp(32px,5vw,72px)}
+.campaign-container{width:100%;max-width:1440px;margin-inline:auto;padding-inline:var(--pad)}
+.campaign-opening{background:#e6eef1 url('../assets/participation-pattern.svg') center/cover;padding-block:48px 72px;min-height:670px;display:flex;align-items:center}
+.campaign-opening-inner{display:grid;grid-template-columns:1fr 1fr;gap:var(--campaign-gap);align-items:center}
+.campaign-opening-copy h1{margin:38px 0 24px;max-width:15ch}
+.campaign-opening-copy>p{font-size:1.125rem;line-height:1.75;max-width:48ch;margin-bottom:30px}
+.campaign-breadcrumb{display:flex;align-items:center;flex-wrap:wrap;gap:14px;color:#4b626f;font-size:14px}
+.campaign-breadcrumb a{text-decoration:none}
+.campaign-photo{width:100%;height:510px;object-fit:cover;border-radius:16px;display:block}
+.campaign-banner{min-height:700px;color:white;background:linear-gradient(90deg,#071e35ed,#071e35b3 50%,#071e3555),url('../assets/hartford-1200.webp') center/cover}
+.campaign-banner.new-haven{background-image:linear-gradient(90deg,#071e35ed,#071e35b3 50%,#071e3555),url('../assets/new-haven-1200.webp')}
+.campaign-banner .campaign-opening-inner{display:block}
+.campaign-banner .campaign-opening-copy{max-width:760px}
+.campaign-banner h1{color:white}
+.campaign-banner .campaign-breadcrumb{color:#e5edf1}
+.campaign-banner .campaign-opening-copy>p{color:#f1f5f7;max-width:54ch}
+.campaign-button,.campaign-link{display:inline-flex;align-items:center;justify-content:space-between;gap:24px;color:var(--ink);font-weight:650;text-decoration:none;transition:transform .2s ease}
+.campaign-button{background:var(--gold);border-radius:30px;padding:14px 24px;min-height:52px}
+.campaign-link{min-height:44px;border-bottom:1px solid;padding-block:8px}
+.campaign-button:hover,.campaign-link:hover{transform:translateY(-2px)}
+.campaign-page a:focus-visible{outline:3px solid #b47b14;outline-offset:5px}
+.campaign-section,.campaign-letter,.campaign-evidence{display:grid;grid-template-columns:1fr 1.3fr;gap:var(--campaign-gap);padding-block:88px}
+.campaign-section-title h2,.campaign-letter h2,.campaign-evidence h2{margin:0 0 24px}
+.campaign-section-title p,.campaign-letter p,.campaign-evidence p{max-width:62ch;color:#4b626f}
+.campaign-initiatives article{padding-block:24px;border-top:1px solid #becbd2}
+.campaign-initiatives article:first-child{padding-top:0;border-top:0}
+.campaign-initiatives h3{margin:0 0 8px}
+.campaign-initiatives p{margin:0;color:#4b626f;max-width:60ch}
+.campaign-giving{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+.campaign-giving article{border-top:1px solid #becbd2;padding-block:24px}
+.campaign-giving h3{margin:0 0 20px}
+.campaign-giving .campaign-price{font-family:SourceSerif,Georgia,serif;font-size:38px;font-weight:500;margin-block:12px}
+.campaign-price span{font-family:Manrope,Arial,sans-serif;font-size:16px}
+.campaign-giving p{color:#4b626f}
+.campaign-paper{background:#f3f5f5}
+.campaign-help{display:flex;align-items:center;gap:32px;flex-wrap:wrap;padding-block:56px}
+.campaign-help h2{font-size:32px!important;margin:0;flex-basis:100%}
+.campaign-help p{margin:0;max-width:45ch;margin-right:auto}
+.campaign-letter{grid-template-columns:1fr 1fr}
+.campaign-letter .campaign-photo{height:300px;margin-top:32px}
+.campaign-work-list{padding-block:72px}
+.campaign-work{display:grid;grid-template-columns:1fr 1fr;gap:var(--campaign-gap);align-items:center;padding-block:32px}
+.campaign-work h3{font-size:32px!important;margin:0 0 20px}
+.campaign-work p{max-width:55ch;color:#4b626f}
+.campaign-work .campaign-photo{height:320px}
+.campaign-work-list .campaign-work:nth-child(even) .campaign-photo{order:2}
+.campaign-meta{font-size:14px!important}
+.campaign-work-grid{padding-block:80px}
+.campaign-work-grid>h2{margin:0 0 40px}
+.campaign-work-grid>div{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
+.campaign-work-grid .campaign-work{display:block;padding:0}
+.campaign-work-grid .campaign-photo{height:230px;margin-bottom:28px}
+.campaign-work-grid .campaign-work h3{font-size:24px!important}
+@media(max-width:1000px){.campaign-opening{min-height:640px}.campaign-photo{height:420px}.campaign-giving{grid-template-columns:1fr}.campaign-section,.campaign-letter,.campaign-evidence{padding-block:64px}.campaign-work-grid>div{gap:24px}.campaign-work-grid .campaign-photo{height:180px}}
+@media(max-width:650px){.campaign-opening{padding-block:32px 44px;min-height:0}.campaign-opening-inner,.campaign-section,.campaign-letter,.campaign-evidence,.campaign-work{grid-template-columns:1fr}.campaign-opening-copy h1{margin-top:28px}.campaign-photo{height:300px}.campaign-banner{min-height:640px;background-position:center,60% center}.campaign-banner.new-haven{background-position:center,62% center}.campaign-section,.campaign-letter,.campaign-evidence{gap:36px;padding-block:56px}.campaign-giving{gap:16px}.campaign-work-list{padding-block:32px}.campaign-work-list .campaign-work:nth-child(even) .campaign-photo{order:0}.campaign-work-grid>div{grid-template-columns:1fr;gap:40px}.campaign-work-grid .campaign-photo{height:240px}.campaign-work-grid{padding-block:56px}.campaign-help{gap:24px}.campaign-help .campaign-link{width:100%;max-width:320px}.campaign-work h3{font-size:28px!important}}
+@media(prefers-reduced-motion:reduce){.campaign-button,.campaign-link{transition:none;transform:none!important}}
+.campaign-page .action-icon{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.3;flex:none}

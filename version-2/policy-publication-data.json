@@ -1,0 +1,141 @@
+{
+  "pillars": [
+    {
+      "slug": "fiscal-compact",
+      "title": "Fiscal Compact",
+      "intro": "A promise worth keeping.",
+      "summary": "Protecting fiscal guardrails, transparent budgets and responsible stewardship of Connecticut’s pension obligations.",
+      "image": "hartford",
+      "alt": "Hartford skyline and river at sunset",
+      "archive": "taxes",
+      "topic": "Taxes & state finances",
+      "why": "Honest budgets give Connecticut room to plan for its future. Fiscal rules work when spending is visible, reserves are protected and existing promises are funded. Yankee Institute advocates a compact that keeps today’s decisions from becoming tomorrow’s crisis.",
+      "principles": [
+        [
+          "Restore the caps. Close the loopholes.",
+          "Restore the purpose of spending, volatility and bonding caps. Close workarounds that shift spending outside the budget or redefine what counts toward the limits."
+        ],
+        [
+          "Protect the rainy-day fund.",
+          "Maintain strong reserves for emergencies and rebuild them after a downturn. One-time reserves should not become a source of funding for recurring expenses."
+        ],
+        [
+          "Put public spending in public view.",
+          "Spending by agencies, special funds and bonding authorities should be visible in the budget process, with scrutiny of where public money goes."
+        ],
+        [
+          "Fund the promises already made.",
+          "Meet actuarially determined pension contributions consistently. Honest accounting should show the long-term cost of commitments before Connecticut makes new ones."
+        ]
+      ]
+    },
+    {
+      "slug": "local-control",
+      "title": "Local Control & Home Rule",
+      "intro": "Decisions close to home.",
+      "summary": "Keeping decisions close to the communities they affect, with room for local solutions and priorities.",
+      "image": "norwalk",
+      "alt": "Norwalk downtown streets at sunset",
+      "archive": "localmunicipal",
+      "topic": "Local communities",
+      "why": "Connecticut’s communities have different housing needs, infrastructure and local priorities. Yankee Institute supports community-led solutions and a state role that equips towns to solve problems without displacing the people who live with the results.",
+      "principles": [
+        [
+          "Protect home rule.",
+          "Safeguard municipal authority over land use, zoning and local governance. Decisions should remain accountable to the residents affected by them."
+        ],
+        [
+          "Make room for local differences.",
+          "Recognize differences in fiscal capacity, geography and infrastructure. A uniform mandate can miss the conditions that make a local solution work."
+        ],
+        [
+          "Give towns tools, not unfunded mandates.",
+          "Support flexibility and resources for municipalities. New requirements should not quietly shift costs to local taxpayers."
+        ],
+        [
+          "Build housing solutions with communities.",
+          "Address affordability through locally informed decisions. Residents and local officials should help shape development and infrastructure choices."
+        ]
+      ]
+    },
+    {
+      "slug": "energy",
+      "title": "Energy Affordability & Reliability",
+      "intro": "The power to thrive.",
+      "summary": "Advancing transparent energy bills and practical policies that put affordability and dependable power first.",
+      "image": "new-london",
+      "alt": "New London coastal lighthouse and harbor",
+      "archive": "energy",
+      "topic": "Energy & affordability",
+      "why": "Energy policy reaches into family budgets and business decisions. Yankee Institute advocates practical choices that make costs easier to understand, measure programs by their results and keep dependable power central to Connecticut’s future.",
+      "principles": [
+        [
+          "Make every charge clear.",
+          "Ratepayers should be able to understand the energy charges, public benefits charges and other surcharges on their bills, and what those charges fund."
+        ],
+        [
+          "Evaluate mandates on cost and performance.",
+          "Review energy programs against clear standards for cost and intended results. Ratepayers deserve an honest account of what a mandate achieves."
+        ],
+        [
+          "Keep affordability and reliability together.",
+          "Build dependable power and manageable costs into energy policy from the start. Families and businesses need a grid they can count on."
+        ],
+        [
+          "Consider every carbon-free source.",
+          "Recognize nuclear power alongside other carbon-free technologies when evaluating energy policy. Judge solutions by their performance and contribution to reliable supply."
+        ]
+      ]
+    },
+    {
+      "slug": "education",
+      "title": "Educational Access & Opportunity",
+      "intro": "A school that fits. A future that opens.",
+      "summary": "Expanding educational options and helping Connecticut families find the opportunities that fit their children.",
+      "image": "new-haven",
+      "alt": "New Haven university architecture and green",
+      "archive": "education",
+      "topic": "Education & opportunity",
+      "why": "Families share the desire for an education that prepares children for a secure future. Yankee Institute supports access, information and flexibility so that opportunity reaches families across communities and circumstances.",
+      "principles": [
+        [
+          "Make room for different learners.",
+          "Children learn differently and families have different needs. A responsive education system should offer quality options that work for each child."
+        ],
+        [
+          "Expand scholarship opportunities.",
+          "Yankee Institute supports Connecticut opting into the federal tax-credit scholarship program to broaden access to educational options."
+        ],
+        [
+          "Respect family choices.",
+          "Support families who choose homeschooling for academic, personal or values-based reasons. Policy should respect the choices families are already making."
+        ],
+        [
+          "Make options easier to find.",
+          "Give every family clear, accessible information about schools, magnet programs and other educational pathways. Options should not depend on having the time and resources to search for them."
+        ]
+      ]
+    }
+  ],
+  "publication": {
+    "source": "https://www.yankeeinstitute.org/2026/05/08/connecticut-endowment-proposal-raises-pension-costs-and-undermines-fiscal-guardrails/",
+    "title": "Connecticut Endowment Proposal Raises Pension Costs and Undermines Fiscal Guardrails",
+    "summary": "Yankee Institute and Reason Foundation examine how redirecting General Fund surpluses to an early childhood endowment affects pension funding. The analysis argues that reducing supplemental pension payments slows debt reduction and increases long-term costs.",
+    "findings": [
+      [
+        "Pension funding",
+        "The study compares continued supplemental pension contributions with revenue diverted to the endowment."
+      ],
+      [
+        "Long-term costs",
+        "It projects higher pension costs under diversion scenarios, with results dependent on investment returns and economic conditions."
+      ],
+      [
+        "Fiscal guardrails",
+        "The authors argue that spending outside the budget cap weakens the discipline of Connecticut’s fiscal reforms."
+      ]
+    ],
+    "verified": "2026-10-06",
+    "access_note": "Original page includes an embedded report viewer. No direct PDF download was available in the inspected rendered source; preserve original publication destination."
+  }
+}
