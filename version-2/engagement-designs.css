@@ -1,0 +1,53 @@
+/* Engagement pages extend the Edition layout and interaction system. */
+.engagement-page{--eng-border:#b8c9d2;--eng-muted:#3f5c70}
+.eng-container{width:100%;max-width:1440px;margin-inline:auto;padding-inline:var(--pad)}
+.eng-section{padding-block:72px}
+.engagement-page main h1,.engagement-page main h2{font-family:SourceSerif,Georgia,serif;font-weight:500;letter-spacing:-.025em;line-height:1.12;text-wrap:balance}
+.engagement-page main h1{font-size:clamp(44px,4.8vw,72px);max-width:17ch;margin:30px 0 24px}
+.engagement-page main h2{font-size:clamp(32px,2.8vw,44px);margin:0 0 24px}
+.engagement-page main h3{font-size:22px;letter-spacing:-.025em;line-height:1.3;margin:0 0 12px;font-weight:650}
+.engagement-page main p{max-width:64ch;line-height:1.75;margin:0 0 24px}
+.eng-breadcrumb{display:flex;gap:14px;align-items:center;font-size:14px;color:var(--eng-muted)}
+.eng-breadcrumb a{text-decoration:none}.eng-breadcrumb a:hover{text-decoration:underline}
+.eng-hero{min-height:430px;padding-block:48px 64px;display:flex;align-items:center}
+.eng-pattern-hero{background:#e6eef1 url('../assets/participation-pattern.svg') 50% 0/640px 640px}
+.eng-hero p,.eng-lead{font-size:22px;max-width:49ch;line-height:1.55!important}
+.eng-button{display:inline-flex;align-items:center;justify-content:space-between;gap:30px;padding:16px 24px;border-radius:999px;background:var(--gold);color:var(--ink);font:650 16px/1.4 Manrope,sans-serif;min-height:52px;text-decoration:none;border:0;cursor:pointer;transition:transform .2s ease,background-color .2s ease}
+.eng-button:hover{transform:translateY(-2px);background:#efd69b}.eng-button:focus-visible{outline:3px solid #98702a;outline-offset:4px}
+.engagement-page .text-link{display:inline-flex;align-items:center;gap:24px;font-size:15px;font-weight:650;padding-block:12px;border-bottom:1px solid currentColor;text-decoration:none}
+.eng-action-paths{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:42px}
+.eng-action-paths article{padding-top:30px;border-top:1px solid var(--eng-border)}
+.eng-action-paths h2{font-size:34px}.eng-action-paths .eng-button{background:var(--navy,#112f43);color:white}
+.eng-pale{background:#f3f5f5}.eng-support{display:grid;grid-template-columns:1.2fr 1.2fr 1fr 1fr;gap:32px;align-items:center;padding-block:44px}.eng-support h2,.eng-support p{margin:0}.eng-support h2{font-size:30px}
+.eng-photo-hero{min-height:640px;color:white;background:linear-gradient(90deg,#071e35eb 0%,#071e35b3 42%,#071e3533 100%),url('../assets/hartford-1200.webp') center 52%/cover no-repeat}
+.eng-photo-hero h1{color:white}.eng-photo-hero .eng-breadcrumb{color:#e5edf1}
+.eng-action-desk{display:grid;grid-template-columns:1fr 1.2fr;gap:72px}.eng-action-desk .eng-action-paths{display:block}.eng-action-desk .eng-action-paths article{padding-block:28px}.eng-action-desk .eng-action-paths article:first-child{padding-top:0;border-top:0}
+.eng-image{display:block;width:100%;height:auto;aspect-ratio:1.5;object-fit:cover;border-radius:16px;margin-top:36px}
+.eng-contact-grid,.eng-sub-grid{display:grid;grid-template-columns:1fr 1fr;gap:88px;align-items:start}
+.eng-form{background:#f3f5f5;padding:40px;border-radius:16px;min-width:0}
+.eng-form label{font-size:14px;font-weight:650;display:block;margin:20px 0 8px}
+.eng-form input,.eng-form textarea{display:block;width:100%;min-height:52px;border:1px solid #5e7686;border-radius:8px;background:white;padding:13px 16px;color:var(--ink);font:16px/1.5 Manrope,sans-serif;caret-color:var(--ink)}
+.eng-form textarea{resize:vertical}.eng-form input:focus,.eng-form textarea:focus{outline:2px solid #98702a;outline-offset:3px}
+.eng-form .eng-button{margin-top:24px;background:var(--navy,#112f43);color:white}.eng-form .eng-button:hover{background:#1e435b}
+.eng-form .eng-note{font-size:14px;color:var(--eng-muted);margin-top:18px;line-height:1.6}
+.eng-field-pair{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.eng-contact-info dl{margin:32px 0}.eng-contact-info dt{font-weight:650;font-size:14px;margin-top:24px}.eng-contact-info dd{margin:8px 0;line-height:1.7}.eng-contact-info a{overflow-wrap:anywhere}
+.eng-contact-letter{display:grid;grid-template-columns:1fr 1fr;gap:88px}.eng-contact-letter .eng-form{background:white;border-top:1px solid var(--eng-border);border-radius:0;padding:32px 0}.contact-alternative main{background:#f3f5f5}.eng-contact-letter .eng-image{aspect-ratio:2}
+.eng-sub-extras .eng-lined{border-top:1px solid var(--eng-border);padding-top:24px;margin-top:28px}
+.eng-sub-photo{background:linear-gradient(90deg,#071e35d9,#071e3599),url('../assets/new-london-1200.webp') center/cover;padding-block:64px;min-height:650px;display:flex;align-items:center}.eng-sub-photo-copy{color:white;padding-block:36px}.eng-sub-photo-copy h1{color:white}.eng-sub-photo-copy .eng-breadcrumb{color:#e5edf1}.eng-sub-photo .eng-form{background:white}
+.subscribe-alternative .eng-sub-extras{display:grid;grid-template-columns:1fr 1fr;gap:0 80px}.subscribe-alternative .eng-sub-extras>h2{grid-row:span 3}.subscribe-alternative .eng-sub-extras>p{grid-column:2}
+.eng-press-details{display:grid;grid-template-columns:1fr 1fr;gap:88px}.eng-press-details article{border-top:1px solid var(--eng-border);padding-top:30px}
+.eng-source-links{display:grid;grid-template-columns:1fr 1fr;gap:0 64px}.eng-source-links>a{display:flex;gap:30px;align-items:center;justify-content:space-between;padding:24px 0;border-bottom:1px solid var(--eng-border);text-decoration:none}.eng-source-links strong{display:block;font-size:22px;font-weight:650;margin-bottom:8px}.eng-source-links span span{color:var(--eng-muted);font-size:15px}.eng-source-links>a:hover strong{text-decoration:underline}
+.eng-press-desk{display:grid;grid-template-columns:1fr 1fr;gap:88px}.eng-press-desk .eng-press-details{display:block}.eng-press-desk .eng-press-details article{padding-block:32px}.eng-press-desk .eng-press-details article:first-child{border:0;padding-top:0}
+@media(max-width:1000px){.eng-section{padding-block:56px}.eng-contact-grid,.eng-sub-grid,.eng-contact-letter,.eng-press-desk,.eng-press-details,.eng-action-desk{gap:40px}.eng-form{padding:28px}.eng-action-paths{gap:24px}.eng-action-paths h2{font-size:28px}.eng-action-paths .eng-button{padding:14px 18px;gap:16px}.eng-support{grid-template-columns:1fr 1fr}.eng-sub-photo{min-height:640px}}
+@media(max-width:700px){.eng-hero{min-height:400px;padding-block:32px 44px}.eng-hero p,.eng-lead{font-size:19px}.eng-photo-hero{min-height:600px;background-image:linear-gradient(90deg,#071e35e8,#071e35b3),url('../assets/hartford-1200.webp')}.eng-contact-grid,.eng-sub-grid,.eng-contact-letter,.eng-press-desk,.eng-press-details,.eng-action-desk,.eng-action-paths,.eng-source-links,.eng-support,.subscribe-alternative .eng-sub-extras{grid-template-columns:1fr;gap:36px}.eng-section{padding-block:44px}.eng-form{padding:24px}.eng-field-pair{grid-template-columns:1fr;gap:0}.engagement-page main h1{font-size:44px}.eng-sub-photo{padding-block:32px}.eng-sub-photo-copy{padding-block:0}.subscribe-alternative .eng-sub-extras>p{grid-column:auto}.eng-source-links{gap:0}.eng-button{max-width:100%}.eng-action-desk .eng-action-paths article{padding-block:28px}.eng-action-desk .eng-image{aspect-ratio:1.8}.eng-press-desk .eng-image{aspect-ratio:1.8}.eng-contact-letter .eng-form{padding:30px 0}.eng-support h2{font-size:32px}}
+@media(prefers-reduced-motion:reduce){.eng-button{transition:none}.eng-button:hover{transform:none}}
+.engagement-page main{background:white}
+.engagement-page.contact-alternative main{background:#f3f5f5}
+.engagement-page main .action-icon{width:22px;height:22px;min-width:22px;flex:0 0 22px;fill:none;stroke:currentColor;stroke-width:1.35;stroke-linecap:round;stroke-linejoin:round}
+
+.engagement-page main h3{font-family:Manrope,Arial,sans-serif}
+.eng-speaker-section{display:grid;grid-template-columns:1fr 1fr;gap:88px;border-top:1px solid var(--eng-border)}
+.press-resources-alternative .eng-speaker-section{grid-template-columns:1fr 1.4fr}.press-resources-alternative .eng-speaker-section .eng-form{background:white;padding-top:0}
+@media(max-width:1000px){.eng-speaker-section{gap:40px}}
+@media(max-width:700px){.eng-speaker-section,.press-resources-alternative .eng-speaker-section{grid-template-columns:1fr;gap:32px}.press-resources-alternative .eng-speaker-section .eng-form{padding:0}}

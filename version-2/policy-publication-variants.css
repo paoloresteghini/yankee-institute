@@ -1,0 +1,85 @@
+/* New policy and publication routes inherit the approved Edition foundations. */
+.policy-page :is(h1,h2),.publication-detail :is(h1,h2){font-weight:500;text-wrap:balance}
+.policy-page .issue-hero{padding-top:20px;padding-bottom:64px;gap:64px;grid-template-columns:1.05fr 1fr}
+.policy-page .issue-hero h1{font-size:clamp(44px,4.3vw,64px);line-height:1.1}
+.policy-page .issue-hero-photo{height:470px}
+.policy-page .issue-hero .issue-intro{font-size:clamp(24px,2.3vw,30px);max-width:29ch}
+.policy-page .issue-context{gap:64px;grid-template-columns:1fr 1.1fr}
+.policy-page .issue-questions summary{font-weight:600;font-size:22px}
+.policy-page .issue-questions p{max-width:58ch}
+.policy-banner{display:flex;align-items:center;min-height:680px;padding-block:48px 72px;background:linear-gradient(90deg,#071e35ed 0%,#071e35bf 45%,#071e354d 100%),var(--policy-photo) center/cover no-repeat;color:white}
+.policy-banner>.reading-container{width:100%}
+.policy-banner .research-breadcrumb{color:#e5edf1;padding:0;margin:0 0 34px}
+.policy-banner-copy{max-width:800px}
+.edition-inner .policy-banner h1{font-size:clamp(48px,4.7vw,72px);line-height:1.1;color:white;max-width:20ch}
+.policy-banner .issue-intro{font-size:30px;max-width:30ch;margin-block:24px 18px}
+.policy-banner-copy>p:not(.issue-intro){max-width:50ch;color:#f1f5f7;font-size:18px}
+.policy-button{display:inline-flex;align-items:center;gap:24px;min-height:52px;margin-top:24px;padding:14px 24px;border-radius:999px;background:var(--gold);color:var(--ink);font-size:16px;font-weight:650;text-decoration:none;transition:translate 180ms var(--ease),background 180ms var(--ease)}
+.policy-button svg{width:22px;height:22px;flex-shrink:0}
+.policy-button:focus-visible,.policy-spine a:focus-visible,.publication-sidebar a:focus-visible{outline:3px solid var(--gold);outline-offset:5px}
+@media(hover:hover) and (pointer:fine){.policy-button:hover{translate:0 -2px;background:#f0d79f}}
+.policy-guide{display:grid;grid-template-columns:260px minmax(0,780px);justify-content:space-between;gap:80px;padding-block:80px}
+.policy-spine{position:sticky;top:120px;align-self:start;display:flex;flex-direction:column;gap:2px;border-top:1px solid var(--line);padding-top:18px}
+.policy-spine p{font-size:14px!important;color:var(--muted);margin:0 0 12px}
+.policy-spine a{padding-block:12px;min-height:44px;line-height:1.5;text-decoration:none;font-size:15px;font-weight:600}
+.policy-spine a:hover{text-decoration:underline;text-underline-offset:4px}
+.policy-guide-intro p{font-size:20px!important;line-height:1.75;max-width:64ch;margin-top:24px}
+.policy-chapter{padding-block:34px;border-bottom:1px solid var(--line);scroll-margin-top:120px}
+.policy-chapter:first-of-type{margin-top:22px}
+.policy-chapter h3{max-width:36ch;font-size:26px}
+.policy-chapter p{max-width:64ch;margin-top:18px;font-size:18px!important}
+.policy-research{padding-block:64px;border-top:1px solid var(--line)}
+.policy-related{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px}
+.policy-related article{display:grid;grid-template-columns:160px minmax(0,1fr);gap:24px;align-items:start}
+.policy-related-photo{display:block;aspect-ratio:1;border-radius:14px;overflow:hidden}
+.policy-related-photo img{display:block;width:100%;height:100%;object-fit:cover;transition:transform 400ms var(--ease)}
+.policy-related h3{font-size:23px;margin:0}
+.policy-related h3 a{text-decoration:none}
+.policy-related h3 a:hover{text-decoration:underline;text-underline-offset:4px}
+.policy-related article p{margin-top:16px;max-width:55ch;font-size:16px}
+.policy-related .story-meta{display:flex;align-items:center;gap:8px 16px;flex-wrap:wrap;font-size:14px!important}
+.policy-next{background:var(--paper);padding-block:64px}
+.policy-next>.reading-container{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:64px}
+.policy-next p{margin-top:20px;color:var(--muted);max-width:40ch}
+.policy-next .reading-container>div:last-child{display:flex;flex-direction:column;align-items:flex-start;gap:20px}
+.policy-next .policy-button{margin-top:0}
+.publication-detail{background:white;color:var(--ink)}
+.publication-opening{padding-block:26px 64px;text-align:center}
+.publication-opening .research-breadcrumb{justify-content:center;margin-bottom:32px}
+.edition-inner .publication-opening h1{max-width:23ch;margin:0 auto;font-size:clamp(38px,4vw,60px);line-height:1.13}
+.publication-detail .publication-dek{font-size:20px;line-height:1.7;max-width:60ch;margin:24px auto}
+.publication-opening .story-meta{justify-content:center;margin:24px 0 40px}
+.publication-detail .story-meta{display:flex;gap:12px 24px;align-items:center;flex-wrap:wrap;font-size:14px!important}
+.publication-opening figure{max-width:1000px;aspect-ratio:16/9;margin:0 auto;overflow:hidden;border-radius:16px}
+.publication-opening img{width:100%;height:100%;object-fit:cover}
+.publication-reading{display:grid;grid-template-columns:240px minmax(0,780px);justify-content:center;gap:80px;padding-block:16px 80px}
+.publication-sidebar{align-self:start;position:sticky;top:120px;border-top:1px solid var(--line);padding-top:20px}
+.edition-inner .publication-sidebar h2{font-family:Manrope,Arial,sans-serif;font-size:17px;font-weight:650;letter-spacing:0;line-height:1.5}
+.publication-sidebar dl{margin-block:20px;font-size:14px;line-height:1.7}
+.publication-sidebar dt{color:var(--muted);margin-top:20px}
+.publication-sidebar dd{margin:6px 0 0}
+.publication-sidebar>a{display:flex;align-items:center;gap:24px;min-height:44px;font-size:15px;margin-block:8px}
+.publication-sidebar>p{font-size:14px;color:var(--muted);margin:0 0 16px}
+.publication-essay section{scroll-margin-top:120px}
+.publication-essay section+section{margin-top:48px;padding-top:40px;border-top:1px solid var(--line)}
+.edition-inner .publication-essay h2{font-size:38px;margin-bottom:24px}
+.publication-essay h3{font-size:23px;margin-top:28px;margin-bottom:12px}
+.edition-inner .publication-essay p{font-size:19px;line-height:1.8;max-width:65ch}
+.publication-access{background:var(--paper);padding:32px;border-radius:16px}
+.publication-attribution{margin-top:28px;padding-top:24px;border-top:1px solid var(--line)}
+.publication-attribution p{font-size:14px;line-height:1.7;margin:12px 0 22px}
+.publication-banner{height:400px;background:linear-gradient(90deg,#071e3599,#071e351a),url('../assets/hartford-1200.webp') center/cover no-repeat}
+.publication-b .publication-banner{background-image:linear-gradient(90deg,#071e35b3,#071e351a),url('../assets/hartford-1200.webp')}
+.publication-banner .research-breadcrumb{color:white;padding-top:32px}
+.publication-title-panel{display:grid;grid-template-columns:1.3fr 1fr;gap:64px;position:relative;margin-top:-76px;padding-top:48px;padding-bottom:64px;background:white}
+.edition-inner .publication-title-panel h1{font-size:clamp(38px,3.5vw,54px);line-height:1.14;max-width:24ch}
+.publication-title-panel .publication-dek{font-size:20px;margin:0 0 8px}
+.publication-title-panel .story-meta{margin-top:28px}
+.publication-title-panel .text-link{margin:26px 20px 0 0}
+@media(max-width:1100px){.policy-page .issue-hero,.policy-page .issue-context{gap:36px}.policy-guide{gap:40px;grid-template-columns:220px minmax(0,1fr)}.policy-related{gap:30px}.policy-related article{grid-template-columns:110px minmax(0,1fr);gap:20px}.policy-related h3{font-size:21px}.publication-reading{grid-template-columns:200px minmax(0,1fr);gap:40px}.publication-title-panel{gap:36px}}
+@media(max-width:850px){.policy-page .issue-hero{grid-template-columns:1fr 1fr}.policy-page .issue-hero h1{font-size:44px}.policy-page .issue-hero-photo{height:440px}.policy-page .issue-hero-photo figcaption{font-size:20px;padding:18px}.policy-related{grid-template-columns:1fr}.policy-related article{grid-template-columns:150px minmax(0,1fr)}.policy-banner{min-height:640px}.edition-inner .policy-banner h1{font-size:56px}.policy-guide{grid-template-columns:190px minmax(0,1fr);gap:36px}.policy-next>.reading-container{gap:36px}.publication-title-panel{grid-template-columns:1fr;gap:24px}.publication-title-panel .publication-dek{max-width:65ch;margin:0}.publication-title-panel .story-meta{margin-top:22px}}
+@media(max-width:600px){.policy-page .issue-hero,.policy-page .issue-context{grid-template-columns:1fr;gap:32px}.policy-page .issue-hero{padding-bottom:42px}.policy-page .issue-hero h1{font-size:42px}.policy-page .issue-hero-photo{height:280px}.policy-page .issue-hero .issue-intro{font-size:25px}.policy-page .issue-context{padding-block:44px}.policy-page .issue-questions summary{font-size:21px}.policy-banner{min-height:650px;padding-block:32px 48px;background-image:linear-gradient(90deg,#071e35ed,#071e35b3),var(--policy-photo)}.edition-inner .policy-banner h1{font-size:44px}.policy-banner .issue-intro{font-size:26px}.policy-banner .research-breadcrumb{font-size:13px;flex-wrap:wrap;gap:10px}.policy-guide{display:block;padding-block:42px}.policy-spine{position:static;margin-bottom:36px}.policy-spine a{padding-block:8px}.policy-chapter h3{font-size:24px}.policy-chapter p{font-size:17px!important}.policy-guide-intro p{font-size:18px!important}.policy-research{padding-block:44px}.policy-related article{grid-template-columns:100px minmax(0,1fr);gap:18px}.policy-related h3{font-size:20px}.policy-related article>div>p:not(.story-meta){font-size:15px}.policy-related .story-meta{gap:4px;display:block}.policy-related .story-meta span,.policy-related .story-meta time{display:block}.policy-next{padding-block:44px}.policy-next>.reading-container{grid-template-columns:1fr;gap:24px}.publication-opening{padding-block:16px 36px}.edition-inner .publication-opening h1{font-size:36px}.publication-opening .research-breadcrumb{margin-bottom:24px}.publication-detail .publication-dek{font-size:18px}.publication-detail .story-meta{gap:8px 16px}.publication-opening .story-meta{margin-bottom:30px}.publication-reading{display:flex;flex-direction:column;gap:36px;padding-block:0 44px}.publication-sidebar{position:static;width:100%}.publication-sidebar dl{display:grid;grid-template-columns:1fr 1fr;gap:6px 18px}.publication-sidebar dt{margin-top:8px}.publication-sidebar dd{margin-top:8px}.edition-inner .publication-essay h2{font-size:32px}.edition-inner .publication-essay p{font-size:17px}.publication-access{padding:24px}.publication-banner{height:280px}.publication-title-panel{margin-top:-36px;padding-block:30px 44px}.edition-inner .publication-title-panel h1{font-size:36px}.publication-b .publication-sidebar{display:flex;flex-wrap:wrap;gap:6px 24px}.publication-b .publication-sidebar>p,.publication-b .publication-attribution{flex-basis:100%}.publication-b .publication-sidebar>a{margin:0}.publication-b .publication-attribution{margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:8px 16px}.publication-attribution p{margin:0}.publication-attribution h2{font-size:15px}}
+@media(prefers-reduced-motion:reduce){.policy-button,.policy-related-photo img{transition:none}.policy-button:hover{translate:none}.policy-spine,.publication-sidebar{position:static}}
+
+.publication-title-panel .policy-button+.text-link{margin-left:20px}
+@media(max-width:600px){.publication-title-panel .policy-button+.text-link{display:flex;width:fit-content;margin-left:0}.edition-inner .publication-title-panel h1{font-size:32px}.edition-inner .publication-opening h1{font-size:32px}}

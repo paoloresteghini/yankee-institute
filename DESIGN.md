@@ -315,3 +315,11 @@ About B, Research B, News A, Article B, Labor A, Public Resources B and Donate B
 ## News tip popup, October 6
 
 News A now opens an accessible native dialog from Submit a Tip. Optional name, required email and tip fields prepare a mailto draft to the existing public info address. The action explicitly says Continue in email, preserving user review/send and avoiding an unconnected success claim. Direct form-service submission remains separate.
+
+## Remaining page design comparisons, October 6
+
+Two options extend Edition for each of18 page families: Take Action, Contact, Subscribe, Press Resources, four supplied non-Labor policy pillars, research publication detail, Our Impact, Build the Future, Search, Privacy/Terms,404 and four media archives. These are36 review routes, not additional design signoffs or WordPress templates. New options appear in the root index and searchable page jumper; the existing seven Signed off markers remain unchanged.
+
+The system is inherited from actual Edition styles: SourceSerif500 display, Manrope reading/UI, navy/gold/pale-blue/white surfaces, shared content gutters and navigation/footer, rounded Connecticut photography, existing subtle patterns, photographic hero gradients, diagonal SVG actions and shared reduced-motion behavior. Variants change body organization as well as opening treatment. Scoped lane styles do not replace shared system files. No new fonts, palette or animation library.
+
+Contact and speaker forms prepare explicitly labeled email drafts. Newsletter retains existing Mailchimp handoff; no delivery/receipt claim. Search demonstrates an honestly labeled local review collection with external full-site fallback. Policy copy comes from the supplied pillar brief; the sixth pillar remains missing. Research detail retains the real original report destination where no direct PDF link is exposed. Impact shows documented work and reporting, without invented outcome statistics. Build the Future retains sourced membership routes and monthly amounts. Privacy preserves the existing legal text. Historical campaigns/tools remain conditional on retention decisions.
