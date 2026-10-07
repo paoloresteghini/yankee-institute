@@ -44,7 +44,7 @@
 .campaign-work h3{font-size:32px!important;margin:0 0 20px}
 .campaign-work p{max-width:55ch;color:#4b626f}
 .campaign-work .campaign-photo{height:320px}
-.campaign-work-list .campaign-work:nth-child(even) .campaign-photo{order:2}
+.campaign-work-list .campaign-work .campaign-photo{order:0}
 .campaign-meta{font-size:14px!important}
 .campaign-work-grid{padding-block:80px}
 .campaign-work-grid>h2{margin:0 0 40px}
@@ -62,3 +62,19 @@
 .campaign-banner.new-haven{background-image:linear-gradient(90deg,#071e35ed,#071e35b3 50%,#071e3555),url('../assets/community-1200.webp');background-position:center,65% center}
 .campaign-intro-photo{height:auto;aspect-ratio:4/3;margin-top:32px}
 @media(max-width:650px){.campaign-intro-photo{aspect-ratio:3/2}.campaign-banner.hartford{background-position:center,65% center}}
+
+/* Impact overview work rows */
+.campaign-work-list>.campaign-work{background:#fff;border-radius:16px;padding:32px;margin-bottom:32px}
+.campaign-work-list>.campaign-work:last-child{margin-bottom:0}
+@media(max-width:650px){.campaign-work-list>.campaign-work{padding:24px;margin-bottom:24px}}
+
+.impact-overview main,.impact-overview .campaign-paper{background-color:#e6eef1}
+
+.impact-overview .campaign-evidence{row-gap:32px}
+.impact-overview .campaign-evidence-intro{grid-column:1;grid-row:1}
+.impact-overview .campaign-evidence>.campaign-intro-photo{grid-column:1;grid-row:2;margin-top:0}
+.impact-overview .campaign-evidence>article{grid-column:2;grid-row:2;align-self:center}
+@media(max-width:650px){.impact-overview .campaign-evidence>article{grid-column:1;grid-row:3}}
+
+.impact-overview main{background-image:url("../assets/participation-pattern.svg");background-size:1440px auto;background-repeat:repeat-y;background-position:center top}
+.impact-overview .campaign-opening,.impact-overview .campaign-paper{background:transparent}

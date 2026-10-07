@@ -1,0 +1,17 @@
+/* Shared closing callout within the Edition content container. */
+.site-cta-section{padding-block:32px 80px}
+.site-cta-container{width:100%;max-width:1440px;margin-inline:auto;padding-inline:var(--pad,32px)}
+.site-cta-panel{position:relative;isolation:isolate;overflow:hidden;background:#102f42;color:#fff;border-radius:16px;padding:64px;display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:48px;align-items:center}
+.site-cta-panel::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:url("../assets/cta-pattern.svg") center/640px 640px repeat}
+.site-cta-copy h2{font-family:SourceSerif,Georgia,serif;font-weight:500;font-size:clamp(36px,3.2vw,48px)!important;line-height:1.15;letter-spacing:-.025em;color:#fff;margin:0 0 20px}
+.site-cta-copy p{max-width:42ch;margin:0;color:#fff;font-size:18px;line-height:1.7}
+.site-cta-copy p+p{margin-top:16px;font-size:15px;color:#dce6eb}
+.site-cta-actions{display:flex;flex-direction:column;gap:16px;align-items:flex-end}
+.site-cta-actions .site-cta-button{display:inline-flex;align-items:center;justify-content:space-between;gap:24px;max-width:100%;min-height:54px;padding:14px 24px;border:1px solid transparent;border-radius:999px;background:#e8c980;color:#102f42;font-family:Manrope,Arial,sans-serif;font-size:16px;font-weight:650;line-height:1.5;text-decoration:none;transition:transform .2s ease}
+.site-cta-actions .site-cta-secondary{background:transparent;color:#fff;border-color:#fff}
+.site-cta-button svg{width:24px;height:24px;flex-shrink:0;fill:none;stroke:currentColor;stroke-width:1.25}
+.site-cta-button:hover{transform:translateY(-2px)}
+.site-cta-button:focus-visible{outline:3px solid #fff;outline-offset:5px}
+@media(max-width:1000px){.site-cta-panel{padding:40px;grid-template-columns:1fr;gap:32px}.site-cta-actions{align-items:flex-start}}
+@media(max-width:650px){.site-cta-section{padding-block:24px 48px}.site-cta-panel{padding:32px 24px}.site-cta-copy p{font-size:16px}.site-cta-actions{align-items:stretch}.site-cta-actions .site-cta-button{width:100%;font-size:14px;gap:16px;padding-inline:20px}}
+@media(prefers-reduced-motion:reduce){.site-cta-button{transition:none}.site-cta-button:hover{transform:none}}
